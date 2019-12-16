@@ -1,6 +1,5 @@
 package com.budova.everhome;
 
-import com.budova.everhome.repos.TemperatureRepo;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 

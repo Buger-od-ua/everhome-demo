@@ -14,6 +14,14 @@ public class Temperature {
     private LocalDateTime time;
     private Float value;
 
+    public Temperature() { }
+
+    public Temperature(Long id, LocalDateTime time, Float value) {
+        this.id = id;
+        this.time = time;
+        this.value = value;
+    }
+
     public Long getId() {
         return id;
     }
