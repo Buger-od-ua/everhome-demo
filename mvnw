@@ -8,15 +8,7 @@
 # "License"); you may not use this file except in compliance
 # with the License.  You may obtain a copy of the License at
 #
-#    https://www.apache.org/licenses/LICENSE-2.0
-#
-# Unless required by applicable law or agreed to in writing,
-# software distributed under the License is distributed on an
-# "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
-# KIND, either express or implied.  See the License for the
-# specific language governing permissions and limitations
-# under the License.
-# ----------------------------------------------------------------------------
+#    https://www.apache.org--------------------------------
 
 # ----------------------------------------------------------------------------
 # Maven2 Start Up Batch script
@@ -29,7 +21,15 @@
 # -----------------
 #   M2_HOME - location of maven2's installed home dir
 #   MAVEN_OPTS - parameters passed to the Java VM when running Maven
-#     e.g. to debug Maven itself, use
+#     e.g. to debug Maven itself, use/licenses/LICENSE-2.0
+                                     #
+                                     # Unless required by applicable law or agreed to in writing,
+                                     # software distributed under the License is distributed on an
+                                     # "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+                                     # KIND, either express or implied.  See the License for the
+                                     # specific language governing permissions and limitations
+                                     # under the License.
+                                     # --------------------------------------------
 #       set MAVEN_OPTS=-Xdebug -Xrunjdwp:transport=dt_socket,server=y,suspend=y,address=8000
 #   MAVEN_SKIP_RC - flag to disable loading of mavenrc files
 # ----------------------------------------------------------------------------
