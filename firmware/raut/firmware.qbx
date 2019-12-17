@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="windows-1251"?>
-<program version="400" editor="1632" descr="" guid="{F0E28764-A20A-459A-B36D-BFF103A508C2}" uid="1" width="800" height="600" archiveacc="1234" save_debug="1">
+<program version="400" editor="1632" descr="" guid="{9E5AB9F7-C9CC-4A5E-B839-734F2A5ED1B0}" uid="1" width="800" height="600" archiveacc="1234" save_debug="1">
 	<arch_setting arch_mode="1" alarms_mode="1" commands_mode="1" setpoints_mode="1"/>
 	<emails>
 		<abonent name="Абонент 1" adress=" "/>
@@ -32,22 +32,22 @@
 		<in_pin uid="76" x="340" y="456" w="60" h="16" name="AODI_0.4" type="BOOL" bold="0" digits="0" has_enum="0" enum="" enable="0" kind="0" cval="0" group="" place="" mname="" min="0" max="0" def="0" hide="0"/>
 		<in_pin uid="84" x="340" y="476" w="60" h="16" name="AODI_0.5" type="BOOL" bold="0" digits="0" has_enum="0" enum="" enable="0" kind="0" cval="0" group="" place="" mname="" min="0" max="0" def="0" hide="0"/>
 		<in_pin uid="92" x="340" y="496" w="60" h="16" name="AODI_0.6" type="BOOL" bold="0" digits="0" has_enum="0" enum="" enable="0" kind="0" cval="0" group="" place="" mname="" min="0" max="0" def="0" hide="0"/>
-		<out_pin uid="56" x="400" y="116" w="60" h="16" name="AODI_0.1" type="FLOAT" bold="0" digits="0" has_enum="0" enum="" inmenu="0" group="" place="" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="" lnk_text="" lnk_showtext="0" lnk_showline="-1"/>
-		<out_pin uid="64" x="400" y="136" w="60" h="16" name="AODI_0.2" type="FLOAT" bold="0" digits="0" has_enum="0" enum="" inmenu="0" group="" place="" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="" lnk_text="" lnk_showtext="0" lnk_showline="-1"/>
-		<out_pin uid="72" x="400" y="156" w="60" h="16" name="AODI_0.3" type="FLOAT" bold="0" digits="0" has_enum="0" enum="" inmenu="0" group="" place="" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="" lnk_text="" lnk_showtext="0" lnk_showline="-1"/>
-		<out_pin uid="80" x="400" y="176" w="60" h="16" name="AODI_0.4" type="FLOAT" bold="0" digits="0" has_enum="0" enum="" inmenu="0" group="" place="" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="" lnk_text="" lnk_showtext="0" lnk_showline="-1"/>
-		<out_pin uid="88" x="400" y="196" w="60" h="16" name="AODI_0.5" type="FLOAT" bold="0" digits="0" has_enum="0" enum="" inmenu="0" group="" place="" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="" lnk_text="" lnk_showtext="0" lnk_showline="-1"/>
-		<out_pin uid="96" x="400" y="216" w="60" h="16" name="AODI_0.6" type="FLOAT" bold="0" digits="0" has_enum="0" enum="" inmenu="0" group="" place="" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="" lnk_text="" lnk_showtext="0" lnk_showline="-1"/>
-		<out_pin uid="99" x="400" y="236" w="60" h="16" name="DO_0.1" type="BOOL" bold="0" digits="0" has_enum="0" enum="" inmenu="0" group="" place="" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="" lnk_text="" lnk_showtext="0" lnk_showline="-1"/>
-		<out_pin uid="102" x="400" y="256" w="60" h="16" name="DO_0.2" type="BOOL" bold="0" digits="0" has_enum="0" enum="" inmenu="0" group="" place="" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="" lnk_text="" lnk_showtext="0" lnk_showline="-1"/>
-		<out_pin uid="105" x="400" y="276" w="60" h="16" name="DO_0.3" type="BOOL" bold="0" digits="0" has_enum="0" enum="" inmenu="0" group="" place="" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="" lnk_text="" lnk_showtext="0" lnk_showline="-1"/>
-		<out_pin uid="108" x="400" y="296" w="60" h="16" name="DO_0.4" type="BOOL" bold="0" digits="0" has_enum="0" enum="" inmenu="0" group="" place="" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="" lnk_text="" lnk_showtext="0" lnk_showline="-1"/>
-		<out_pin uid="111" x="400" y="316" w="60" h="16" name="DO_0.5" type="BOOL" bold="0" digits="0" has_enum="0" enum="" inmenu="0" group="" place="" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="" lnk_text="" lnk_showtext="0" lnk_showline="-1"/>
-		<out_pin uid="114" x="400" y="336" w="60" h="16" name="DO_0.6" type="BOOL" bold="0" digits="0" has_enum="0" enum="" inmenu="0" group="" place="" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="" lnk_text="" lnk_showtext="0" lnk_showline="-1"/>
-		<out_pin uid="117" x="400" y="356" w="60" h="16" name="DO_0.7" type="BOOL" bold="0" digits="0" has_enum="0" enum="" inmenu="0" group="" place="" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="" lnk_text="" lnk_showtext="0" lnk_showline="-1"/>
-		<out_pin uid="120" x="400" y="376" w="60" h="16" name="DO_0.8" type="BOOL" bold="0" digits="0" has_enum="0" enum="" inmenu="0" group="" place="" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="" lnk_text="" lnk_showtext="0" lnk_showline="-1"/>
-		<out_pin uid="123" x="400" y="396" w="60" h="16" name="DO_0.9" type="BOOL" bold="0" digits="0" has_enum="0" enum="" inmenu="0" group="" place="" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="" lnk_text="" lnk_showtext="0" lnk_showline="-1"/>
-		<out_pin uid="126" x="400" y="416" w="60" h="16" name="DO_0.10" type="BOOL" bold="0" digits="0" has_enum="0" enum="" inmenu="0" group="" place="" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="" lnk_text="" lnk_showtext="0" lnk_showline="-1"/>
+		<out_pin uid="56" x="400" y="116" w="60" h="16" name="AODI_0.1" type="FLOAT" bold="0" digits="0" has_enum="0" enum="" inmenu="0" group="" place="" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="0" lnk_text="" lnk_showtext="0" lnk_showline="-1"/>
+		<out_pin uid="64" x="400" y="136" w="60" h="16" name="AODI_0.2" type="FLOAT" bold="0" digits="0" has_enum="0" enum="" inmenu="0" group="" place="" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="0" lnk_text="" lnk_showtext="0" lnk_showline="-1"/>
+		<out_pin uid="72" x="400" y="156" w="60" h="16" name="AODI_0.3" type="FLOAT" bold="0" digits="0" has_enum="0" enum="" inmenu="0" group="" place="" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="0" lnk_text="" lnk_showtext="0" lnk_showline="-1"/>
+		<out_pin uid="80" x="400" y="176" w="60" h="16" name="AODI_0.4" type="FLOAT" bold="0" digits="0" has_enum="0" enum="" inmenu="0" group="" place="" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="0" lnk_text="" lnk_showtext="0" lnk_showline="-1"/>
+		<out_pin uid="88" x="400" y="196" w="60" h="16" name="AODI_0.5" type="FLOAT" bold="0" digits="0" has_enum="0" enum="" inmenu="0" group="" place="" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="0" lnk_text="" lnk_showtext="0" lnk_showline="-1"/>
+		<out_pin uid="96" x="400" y="216" w="60" h="16" name="AODI_0.6" type="FLOAT" bold="0" digits="0" has_enum="0" enum="" inmenu="0" group="" place="" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="0" lnk_text="" lnk_showtext="0" lnk_showline="-1"/>
+		<out_pin uid="99" x="400" y="236" w="60" h="16" name="DO_0.1" type="BOOL" bold="0" digits="0" has_enum="0" enum="" inmenu="0" group="" place="" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="0" lnk_text="" lnk_showtext="0" lnk_showline="-1"/>
+		<out_pin uid="102" x="400" y="256" w="60" h="16" name="DO_0.2" type="BOOL" bold="0" digits="0" has_enum="0" enum="" inmenu="0" group="" place="" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="0" lnk_text="" lnk_showtext="0" lnk_showline="-1"/>
+		<out_pin uid="105" x="400" y="276" w="60" h="16" name="DO_0.3" type="BOOL" bold="0" digits="0" has_enum="0" enum="" inmenu="0" group="" place="" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="0" lnk_text="" lnk_showtext="0" lnk_showline="-1"/>
+		<out_pin uid="108" x="400" y="296" w="60" h="16" name="DO_0.4" type="BOOL" bold="0" digits="0" has_enum="0" enum="" inmenu="0" group="" place="" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="0" lnk_text="" lnk_showtext="0" lnk_showline="-1"/>
+		<out_pin uid="111" x="400" y="316" w="60" h="16" name="DO_0.5" type="BOOL" bold="0" digits="0" has_enum="0" enum="" inmenu="0" group="" place="" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="0" lnk_text="" lnk_showtext="0" lnk_showline="-1"/>
+		<out_pin uid="114" x="400" y="336" w="60" h="16" name="DO_0.6" type="BOOL" bold="0" digits="0" has_enum="0" enum="" inmenu="0" group="" place="" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="0" lnk_text="" lnk_showtext="0" lnk_showline="-1"/>
+		<out_pin uid="117" x="400" y="356" w="60" h="16" name="DO_0.7" type="BOOL" bold="0" digits="0" has_enum="0" enum="" inmenu="0" group="" place="" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="0" lnk_text="" lnk_showtext="0" lnk_showline="-1"/>
+		<out_pin uid="120" x="400" y="376" w="60" h="16" name="DO_0.8" type="BOOL" bold="0" digits="0" has_enum="0" enum="" inmenu="0" group="" place="" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="0" lnk_text="" lnk_showtext="0" lnk_showline="-1"/>
+		<out_pin uid="123" x="400" y="396" w="60" h="16" name="DO_0.9" type="BOOL" bold="0" digits="0" has_enum="0" enum="" inmenu="0" group="" place="" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="0" lnk_text="" lnk_showtext="0" lnk_showline="-1"/>
+		<out_pin uid="126" x="400" y="416" w="60" h="16" name="DO_0.10" type="BOOL" bold="0" digits="0" has_enum="0" enum="" inmenu="0" group="" place="" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="0" lnk_text="" lnk_showtext="0" lnk_showline="-1"/>
 		<diagram uid="2" width="1025" height="925">
 			<gui>
 				<window name="Главное окно" id="1" left="0" top="0" width="320" height="240" auto_arrange="1" access="0" hidden="0" no_esc="0" bg_color="$FFFFFFFF" title_txt_color="$FFFFFFFF" title_bg_color="$FFFFFFFF" title_line_color="$FFFFFFFF" title_font="$012E2020" stline="0" stline_txt_color="$00FFFFFF" stline_bg_color="$00FF0000" stline_line_color="$000000FF" stline_font="$0B85D250">
@@ -61,7 +61,7 @@
 							<Text_single_item text_string="Текст_0" has_link="0" window="0" has_command="0" cmd_block="0" cmd_repeat="0" cmd_hint="" switch_value="0"/>
 						</Text_items>
 					</TguiCtlText>
-					<TguiCtlText name="Текст_3" id="8" left="193" top="150" width="40" height="18" has_value="0" size="4" fill_0="0" has_selector="1" blinkUID="0" VisibleUID="0" value="382" font="$012E2020" color="16777215" bg_color="16777215" transparent="1" blink_color="0" blink_bg_color="16777215" has_blink="0" isVisible="0" version="2">
+					<TguiCtlText name="Текст_3" id="8" left="193" top="150" width="40" height="18" has_value="0" size="4" fill_0="0" has_selector="1" blinkUID="0" VisibleUID="0" value="484" font="$012E2020" color="16777215" bg_color="16777215" transparent="1" blink_color="0" blink_bg_color="16777215" has_blink="0" isVisible="0" version="2">
 						<Text_items>
 							<Text_single_item text_string="Закр." has_link="0" window="0" has_command="0" cmd_block="0" cmd_repeat="0" cmd_hint="" switch_value="0"/>
 							<Text_single_item text_string="Откр." has_link="0" window="0" has_command="0" cmd_block="0" cmd_repeat="0" cmd_hint="" switch_value="1"/>
@@ -123,7 +123,7 @@
 				</params>
 			</block>
 			<block uid="7" x="0" y="15" w="60" h="20" type="ADI" i_type="ADI" name="ADI_0.1" descr="" hint="Аналогово-дискретный вход" head="0">
-				<out_pin uid="8" x="0" y="15" w="60" h="20" name="ADI_0.1" type="FLOAT" bold="-1" digits="0" has_enum="0" enum="" inmenu="0" group="" place="8" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="0" lnk_text="" lnk_showtext="0" lnk_showline="0"/>
+				<out_pin uid="8" x="0" y="15" w="60" h="20" name="ADI_0.1" type="FLOAT" bold="-1" digits="0" has_enum="0" enum="" inmenu="0" group="" place="8" mname="" inarc="0" aname="ADI_0.1" alarm_name="" is_alarm="0" delta="0" lnk_text="" lnk_showtext="0" lnk_showline="0"/>
 				<params name="Аналогово-дискретный вход" dll="Standard.dll" static="1" single="0">
 					<output name="Y" type="FLOAT"/>
 					<par name="Тип датчика" type="INT" enum="0,ТСП(Pt)-1000 (1.385);1,ТСП(Pt)-1000 (1.391);2,ТСП(Pt)-1000 (1.375);3,Ni1000 (1.500);4,Ni1000 (1.618);5,Напряжение;6,Сопротивление;7,Дискретный;8,Ток 4-20мА;9,Ток 0-20мА;" val="0"/>
@@ -465,11 +465,11 @@
 				<out_pin uid="132" x="375" y="150" w="50" h="16" name="HR[1]" type="INT" bold="0" digits="0" has_enum="0" enum="" inmenu="0" group="" place="" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="0" lnk_text="" lnk_showtext="0" lnk_showline="-1"/>
 				<out_pin uid="178" x="375" y="170" w="50" h="16" name="HR[2]" type="INT" bold="0" digits="0" has_enum="0" enum="" inmenu="0" group="" place="" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="0" lnk_text="" lnk_showtext="0" lnk_showline="-1"/>
 				<out_pin uid="179" x="375" y="190" w="50" h="16" name="HR[3]" type="INT" bold="0" digits="0" has_enum="0" enum="" inmenu="0" group="" place="" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="0" lnk_text="" lnk_showtext="0" lnk_showline="0"/>
-				<out_pin uid="321" x="375" y="210" w="50" h="16" name="HR[4]" type="INT" bold="0" digits="0" has_enum="0" enum="" inmenu="0" group="" place="" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="" lnk_text="" lnk_showtext="0" lnk_showline="-1"/>
+				<out_pin uid="321" x="375" y="210" w="50" h="16" name="HR[4]" type="INT" bold="0" digits="0" has_enum="0" enum="" inmenu="0" group="" place="" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="0" lnk_text="" lnk_showtext="0" lnk_showline="-1"/>
 				<out_pin uid="133" x="375" y="230" w="50" h="16" name="HRi[1]" type="BOOL" bold="0" digits="0" has_enum="0" enum="" inmenu="0" group="" place="" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="0" lnk_text="" lnk_showtext="0" lnk_showline="-1"/>
 				<out_pin uid="180" x="375" y="250" w="50" h="16" name="HRi[2]" type="BOOL" bold="0" digits="0" has_enum="0" enum="" inmenu="0" group="" place="" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="0" lnk_text="" lnk_showtext="0" lnk_showline="-1"/>
 				<out_pin uid="181" x="375" y="270" w="50" h="16" name="HRi[3]" type="BOOL" bold="0" digits="0" has_enum="0" enum="" inmenu="0" group="" place="" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="0" lnk_text="" lnk_showtext="0" lnk_showline="0"/>
-				<out_pin uid="322" x="375" y="290" w="50" h="16" name="HRi[4]" type="BOOL" bold="0" digits="0" has_enum="0" enum="" inmenu="0" group="" place="" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="" lnk_text="" lnk_showtext="0" lnk_showline="-1"/>
+				<out_pin uid="322" x="375" y="290" w="50" h="16" name="HRi[4]" type="BOOL" bold="0" digits="0" has_enum="0" enum="" inmenu="0" group="" place="" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="0" lnk_text="" lnk_showtext="0" lnk_showline="-1"/>
 				<out_pin uid="134" x="375" y="310" w="50" h="16" name="HC[1]" type="INT" bold="0" digits="0" has_enum="0" enum="" inmenu="0" group="" place="" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="0" lnk_text="" lnk_showtext="0" lnk_showline="-1"/>
 				<params name="MODBUS-TCP Slave(Server)" dll="ModbusTCPSlave.dll" static="0" single="504">
 					<input name="HR" type="INTARRAY" max_size="255" def_size="#Количество HR"/>
@@ -488,13 +488,13 @@
 			</block>
 			<complex uid="207" x="120" y="34" w="100" h="89" type="Составной блок" i_type="Составной блок" name="Temperature Processor_1" descr="" hint="" head="28">
 				<in_pin uid="214" x="120" y="65" w="50" h="16" name="RawTemp" type="FLOAT" bold="0" digits="0" has_enum="0" enum="" kind="0" cval="0" group="" place="" mname="" min="0" max="0" def="0" hide="0"/>
-				<in_pin uid="242" x="120" y="85" w="50" h="16" name="Filter" type="FLOAT" bold="0" digits="0" has_enum="0" enum="" kind="1" cval="10" group="" place="" mname="" min="0" max="0" def="0" hide="0"/>
-				<in_pin uid="256" x="120" y="105" w="50" h="16" name="RegScale" type="FLOAT" bold="0" digits="0" has_enum="0" enum="" kind="1" cval="0" group="" place="" mname="" min="0" max="0" def="0" hide="0"/>
-				<out_pin uid="244" x="170" y="65" w="50" h="16" name="Temp" type="FLOAT" bold="0" digits="-1" has_enum="0" enum="" inmenu="-1" group="" place="" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="" lnk_text="" lnk_showtext="0" lnk_showline="0"/>
-				<out_pin uid="220" x="170" y="85" w="50" h="16" name="Temp" type="INT" bold="0" digits="0" has_enum="0" enum="" inmenu="0" group="" place="" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="" lnk_text="" lnk_showtext="0" lnk_showline="0"/>
+				<in_pin uid="242" x="120" y="85" w="50" h="16" name="Filter" type="FLOAT" bold="0" digits="0" has_enum="0" enum="" kind="1" cval="5" group="" place="" mname="" min="0" max="0" def="0" hide="0"/>
+				<in_pin uid="256" x="120" y="105" w="50" h="16" name="RegScale" type="FLOAT" bold="0" digits="0" has_enum="0" enum="" kind="1" cval="10" group="" place="" mname="" min="0" max="0" def="0" hide="0"/>
+				<out_pin uid="244" x="170" y="65" w="50" h="16" name="Temp" type="FLOAT" bold="0" digits="-1" has_enum="0" enum="" inmenu="-1" group="" place="" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="0" lnk_text="" lnk_showtext="0" lnk_showline="0"/>
+				<out_pin uid="220" x="170" y="85" w="50" h="16" name="Temp" type="INT" bold="0" digits="0" has_enum="0" enum="" inmenu="0" group="" place="" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="0" lnk_text="" lnk_showtext="0" lnk_showline="0"/>
 				<diagram uid="4" width="908" height="425">
 					<gui/>
-					<complex_in uid="215" x="0" y="15" w="60" h="20" name="RawTemp" type="FLOAT" bold="-1" digits="0" has_enum="0" enum="" inmenu="0" group="" place="" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="" lnk_text="" lnk_showtext="0" lnk_showline="0" pin="214"/>
+					<complex_in uid="215" x="0" y="15" w="60" h="20" name="RawTemp" type="FLOAT" bold="-1" digits="0" has_enum="0" enum="" inmenu="0" group="" place="" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="0" lnk_text="" lnk_showtext="0" lnk_showline="0" pin="214"/>
 					<complex_out uid="221" x="848" y="50" w="59" h="20" name="Temp" type="INT" bold="-1" digits="0" has_enum="0" enum="" kind="0" cval="0" group="" place="" mname="" min="0" max="0" def="0" hide="0" pin="220"/>
 					<block uid="135" x="378" y="41" w="100" h="69" type="Умножение" i_type="MULT" name="Умножение_1" descr="" hint="Умножение" head="28">
 						<in_pin uid="136" x="378" y="72" w="50" h="16" name="X[1]" type="FLOAT" bold="0" digits="0" has_enum="0" enum="" kind="0" cval="0" group="" place="" mname="" min="0" max="0" def="0" hide="0"/>
@@ -523,9 +523,9 @@
 							<output name="Y" type="INT"/>
 						</params>
 					</block>
-					<complex_in uid="243" x="0" y="50" w="60" h="20" name="Filter" type="FLOAT" bold="-1" digits="0" has_enum="0" enum="" inmenu="0" group="" place="" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="" lnk_text="" lnk_showtext="0" lnk_showline="0" pin="242"/>
+					<complex_in uid="243" x="0" y="50" w="60" h="20" name="Filter" type="FLOAT" bold="-1" digits="0" has_enum="0" enum="" inmenu="0" group="" place="" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="0" lnk_text="" lnk_showtext="0" lnk_showline="0" pin="242"/>
 					<complex_out uid="245" x="848" y="15" w="59" h="20" name="Temp" type="FLOAT" bold="-1" digits="0" has_enum="0" enum="" kind="0" cval="0" group="" place="" mname="" min="0" max="0" def="0" hide="0" pin="244"/>
-					<complex_in uid="257" x="0" y="85" w="60" h="20" name="RegScale" type="FLOAT" bold="-1" digits="0" has_enum="0" enum="" inmenu="0" group="" place="" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="" lnk_text="" lnk_showtext="0" lnk_showline="0" pin="256"/>
+					<complex_in uid="257" x="0" y="85" w="60" h="20" name="RegScale" type="FLOAT" bold="-1" digits="0" has_enum="0" enum="" inmenu="0" group="" place="" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="0" lnk_text="" lnk_showtext="0" lnk_showline="0" pin="256"/>
 					<link uid="222" x="649" y="60" w="199" h="24" src="168" sink="221">
 						<seg uid="231" x="649" y="84" w="104" h="0"/>
 						<seg uid="232" x="753" y="60" w="0" h="24"/>
@@ -540,11 +540,6 @@
 						<seg uid="251" x="60" y="60" w="75" h="0"/>
 						<seg uid="252" x="135" y="60" w="0" h="36"/>
 						<seg uid="253" x="135" y="96" w="66" h="0"/>
-					</link>
-					<link uid="246" x="478" y="25" w="370" h="55" src="138" sink="245">
-						<seg uid="247" x="478" y="80" w="189" h="0"/>
-						<seg uid="248" x="667" y="25" w="0" h="55"/>
-						<seg uid="249" x="667" y="25" w="181" h="0"/>
 					</link>
 					<link uid="162" x="301" y="70" w="77" h="16" src="152" sink="136">
 						<seg uid="163" x="301" y="76" w="55" h="0"/>
@@ -561,12 +556,17 @@
 						<seg uid="260" x="219" y="95" w="0" h="5"/>
 						<seg uid="261" x="219" y="100" w="159" h="0"/>
 					</link>
+					<link uid="494" x="301" y="25" w="547" h="51" src="152" sink="245">
+						<seg uid="495" x="301" y="76" w="273" h="0"/>
+						<seg uid="496" x="574" y="25" w="0" h="51"/>
+						<seg uid="497" x="574" y="25" w="274" h="0"/>
+					</link>
 				</diagram>
 			</complex>
 			<complex uid="262" x="116" y="151" w="100" h="89" type="Составной блок" i_type="Составной блок" name="Temperature Processor_2" descr="" hint="" head="28">
 				<in_pin uid="263" x="116" y="182" w="50" h="16" name="RawTemp" type="FLOAT" bold="0" digits="0" has_enum="0" enum="" kind="0" cval="0" group="" place="" mname="" min="0" max="0" def="0" hide="0"/>
-				<in_pin uid="264" x="116" y="202" w="50" h="16" name="Filter" type="FLOAT" bold="0" digits="0" has_enum="0" enum="" kind="1" cval="10" group="" place="" mname="" min="0" max="0" def="0" hide="0"/>
-				<in_pin uid="265" x="116" y="222" w="50" h="16" name="RegScale" type="FLOAT" bold="0" digits="0" has_enum="0" enum="" kind="1" cval="0" group="" place="" mname="" min="0" max="0" def="0" hide="0"/>
+				<in_pin uid="264" x="116" y="202" w="50" h="16" name="Filter" type="FLOAT" bold="0" digits="0" has_enum="0" enum="" kind="1" cval="5" group="" place="" mname="" min="0" max="0" def="0" hide="0"/>
+				<in_pin uid="265" x="116" y="222" w="50" h="16" name="RegScale" type="FLOAT" bold="0" digits="0" has_enum="0" enum="" kind="1" cval="10" group="" place="" mname="" min="0" max="0" def="0" hide="0"/>
 				<out_pin uid="266" x="166" y="182" w="50" h="16" name="Temp" type="FLOAT" bold="0" digits="-1" has_enum="0" enum="" inmenu="-1" group="" place="" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="0" lnk_text="" lnk_showtext="0" lnk_showline="-1"/>
 				<out_pin uid="267" x="166" y="202" w="50" h="16" name="Temp" type="INT" bold="0" digits="0" has_enum="0" enum="" inmenu="0" group="" place="" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="0" lnk_text="" lnk_showtext="0" lnk_showline="0"/>
 				<diagram uid="5" width="908" height="425">
@@ -603,25 +603,20 @@
 					<complex_in uid="281" x="0" y="50" w="60" h="20" name="Filter" type="FLOAT" bold="-1" digits="0" has_enum="0" enum="" inmenu="0" group="" place="" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="0" lnk_text="" lnk_showtext="0" lnk_showline="0" pin="264"/>
 					<complex_out uid="282" x="848" y="15" w="59" h="20" name="Temp" type="FLOAT" bold="-1" digits="0" has_enum="0" enum="" kind="0" cval="0" group="" place="" mname="" min="0" max="0" def="0" hide="0" pin="266"/>
 					<complex_in uid="283" x="0" y="85" w="60" h="20" name="RegScale" type="FLOAT" bold="-1" digits="0" has_enum="0" enum="" inmenu="0" group="" place="" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="0" lnk_text="" lnk_showtext="0" lnk_showline="0" pin="265"/>
-					<link uid="284" x="655" y="54" w="193" h="46" src="280" sink="269">
+					<link uid="284" x="655" y="60" w="193" h="34" src="280" sink="269">
 						<seg uid="285" x="655" y="94" w="98" h="0"/>
 						<seg uid="286" x="753" y="60" w="0" h="34"/>
 						<seg uid="287" x="753" y="60" w="95" h="0"/>
 					</link>
-					<link uid="288" x="60" y="19" w="141" h="63" src="268" sink="275">
+					<link uid="288" x="60" y="25" w="141" h="51" src="268" sink="275">
 						<seg uid="289" x="60" y="25" w="75" h="0"/>
 						<seg uid="290" x="135" y="25" w="0" h="51"/>
 						<seg uid="291" x="135" y="76" w="66" h="0"/>
 					</link>
-					<link uid="292" x="60" y="54" w="141" h="48" src="281" sink="276">
+					<link uid="292" x="60" y="60" w="141" h="36" src="281" sink="276">
 						<seg uid="293" x="60" y="60" w="75" h="0"/>
 						<seg uid="294" x="135" y="60" w="0" h="36"/>
 						<seg uid="295" x="135" y="96" w="66" h="0"/>
-					</link>
-					<link uid="296" x="478" y="19" w="370" h="67" src="273" sink="282">
-						<seg uid="297" x="478" y="80" w="189" h="0"/>
-						<seg uid="298" x="667" y="25" w="0" h="55"/>
-						<seg uid="299" x="667" y="25" w="181" h="0"/>
 					</link>
 					<link uid="300" x="301" y="70" w="77" h="16" src="277" sink="271">
 						<seg uid="301" x="301" y="76" w="55" h="0"/>
@@ -633,10 +628,15 @@
 						<seg uid="306" x="506" y="80" w="0" h="14"/>
 						<seg uid="307" x="506" y="94" w="49" h="0"/>
 					</link>
-					<link uid="308" x="60" y="89" w="318" h="17" src="283" sink="272">
+					<link uid="308" x="60" y="95" w="318" h="5" src="283" sink="272">
 						<seg uid="309" x="60" y="95" w="159" h="0"/>
 						<seg uid="310" x="219" y="95" w="0" h="5"/>
 						<seg uid="311" x="219" y="100" w="159" h="0"/>
+					</link>
+					<link uid="498" x="301" y="25" w="547" h="51" src="277" sink="282">
+						<seg uid="499" x="301" y="76" w="273" h="0"/>
+						<seg uid="500" x="574" y="25" w="0" h="51"/>
+						<seg uid="501" x="574" y="25" w="274" h="0"/>
 					</link>
 				</diagram>
 			</complex>
@@ -647,11 +647,11 @@
 				<in_pin uid="376" x="115" y="375" w="60" h="16" name="RegScale" type="FLOAT" bold="0" digits="0" has_enum="0" enum="" kind="1" cval="10" group="" place="" mname="" min="0" max="0" def="0" hide="0"/>
 				<in_pin uid="378" x="115" y="395" w="60" h="16" name="DeadZone" type="FLOAT" bold="0" digits="0" has_enum="0" enum="" kind="1" cval="1" group="" place="" mname="" min="0" max="0" def="0" hide="0"/>
 				<in_pin uid="380" x="115" y="415" w="60" h="16" name="Valve_NC/NO" type="BOOL" bold="0" digits="0" has_enum="0" enum="" kind="1" cval="1" group="" place="" mname="" min="0" max="0" def="0" hide="0"/>
-				<out_pin uid="382" x="175" y="315" w="60" h="16" name="ValveS" type="BOOL" bold="0" digits="0" has_enum="0" enum="" inmenu="0" group="" place="" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="" lnk_text="" lnk_showtext="0" lnk_showline="0"/>
-				<out_pin uid="448" x="175" y="335" w="60" h="16" name="ValveR" type="INT" bold="0" digits="0" has_enum="0" enum="" inmenu="0" group="" place="" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="" lnk_text="" lnk_showtext="0" lnk_showline="0"/>
-				<out_pin uid="438" x="175" y="355" w="60" h="16" name="SetTempR" type="INT" bold="0" digits="0" has_enum="0" enum="" inmenu="0" group="" place="" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="" lnk_text="" lnk_showtext="0" lnk_showline="0"/>
-				<out_pin uid="478" x="175" y="375" w="60" h="16" name="SetTemp" type="FLOAT" bold="0" digits="-1" has_enum="0" enum="" inmenu="-1" group="" place="" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="" lnk_text="" lnk_showtext="0" lnk_showline="-1"/>
-				<out_pin uid="484" x="175" y="395" w="60" h="16" name="ValvePos" type="BOOL" bold="0" digits="0" has_enum="0" enum="" inmenu="-1" group="" place="" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="" lnk_text="" lnk_showtext="0" lnk_showline="-1"/>
+				<out_pin uid="382" x="175" y="315" w="60" h="16" name="ValveS" type="BOOL" bold="0" digits="0" has_enum="0" enum="" inmenu="0" group="" place="" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="0" lnk_text="" lnk_showtext="0" lnk_showline="0"/>
+				<out_pin uid="448" x="175" y="335" w="60" h="16" name="ValveR" type="INT" bold="0" digits="0" has_enum="0" enum="" inmenu="0" group="" place="" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="0" lnk_text="" lnk_showtext="0" lnk_showline="0"/>
+				<out_pin uid="438" x="175" y="355" w="60" h="16" name="SetTempR" type="INT" bold="0" digits="0" has_enum="0" enum="" inmenu="0" group="" place="" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="0" lnk_text="" lnk_showtext="0" lnk_showline="0"/>
+				<out_pin uid="478" x="175" y="375" w="60" h="16" name="SetTemp" type="FLOAT" bold="0" digits="-1" has_enum="0" enum="" inmenu="-1" group="" place="" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="0" lnk_text="" lnk_showtext="0" lnk_showline="-1"/>
+				<out_pin uid="484" x="175" y="395" w="60" h="16" name="ValvePos" type="BOOL" bold="0" digits="0" has_enum="0" enum="" inmenu="-1" group="" place="" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="0" lnk_text="" lnk_showtext="0" lnk_showline="-1"/>
 				<diagram uid="6" width="1284" height="550">
 					<gui/>
 					<block uid="139" x="423" y="225" w="100" h="69" type="Деление" i_type="DIV" name="Деление_1" descr="" hint="Деление" head="28">
@@ -702,7 +702,7 @@
 					</block>
 					<block uid="323" x="711" y="184" w="100" h="49" type="НЕ" i_type="NOT" name="НЕ_1" descr="" hint="Логическое НЕ" head="28">
 						<in_pin uid="324" x="711" y="215" w="50" h="16" name="X" type="BOOL" bold="0" digits="0" has_enum="0" enum="" kind="0" cval="0" group="" place="" mname="" min="0" max="0" def="0" hide="0"/>
-						<out_pin uid="325" x="761" y="215" w="50" h="16" name="Y" type="BOOL" bold="0" digits="0" has_enum="0" enum="" inmenu="0" group="" place="" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="" lnk_text="" lnk_showtext="0" lnk_showline="0"/>
+						<out_pin uid="325" x="761" y="215" w="50" h="16" name="Y" type="BOOL" bold="0" digits="0" has_enum="0" enum="" inmenu="0" group="" place="" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="0" lnk_text="" lnk_showtext="0" lnk_showline="0"/>
 						<params name="Логическое НЕ" dll="Standard.dll" static="0" single="0">
 							<input name="X" type="BOOL"/>
 							<output name="Y" type="BOOL"/>
@@ -712,7 +712,7 @@
 						<in_pin uid="327" x="883" y="115" w="50" h="16" name="X1" type="BOOL" bold="0" digits="0" has_enum="0" enum="" kind="0" cval="0" group="" place="" mname="" min="0" max="0" def="0" hide="0"/>
 						<in_pin uid="328" x="883" y="135" w="50" h="16" name="X2" type="BOOL" bold="0" digits="0" has_enum="0" enum="" kind="0" cval="0" group="" place="" mname="" min="0" max="0" def="0" hide="0"/>
 						<in_pin uid="329" x="883" y="155" w="50" h="16" name="Q" type="BOOL" bold="0" digits="0" has_enum="0" enum="" kind="0" cval="0" group="" place="" mname="" min="0" max="0" def="0" hide="0"/>
-						<out_pin uid="330" x="933" y="115" w="50" h="16" name="Y" type="BOOL" bold="0" digits="0" has_enum="0" enum="" inmenu="0" group="" place="" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="" lnk_text="" lnk_showtext="0" lnk_showline="0"/>
+						<out_pin uid="330" x="933" y="115" w="50" h="16" name="Y" type="BOOL" bold="0" digits="0" has_enum="0" enum="" inmenu="0" group="" place="" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="0" lnk_text="" lnk_showtext="0" lnk_showline="0"/>
 						<params name="Двухпозиционное переключение для Логических" dll="Standard.dll" static="0" single="0">
 							<input name="X1" type="BOOL"/>
 							<input name="X2" type="BOOL"/>
@@ -720,19 +720,19 @@
 							<output name="Y" type="BOOL"/>
 						</params>
 					</block>
-					<complex_in uid="371" x="0" y="15" w="60" h="20" name="Temp" type="FLOAT" bold="-1" digits="0" has_enum="0" enum="" inmenu="0" group="" place="" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="" lnk_text="" lnk_showtext="0" lnk_showline="0" pin="370"/>
-					<complex_in uid="373" x="0" y="50" w="60" h="20" name="SetTempR" type="INT" bold="-1" digits="0" has_enum="0" enum="" inmenu="0" group="" place="" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="" lnk_text="" lnk_showtext="0" lnk_showline="0" pin="372"/>
-					<complex_in uid="375" x="0" y="85" w="60" h="20" name="SetTempW" type="BOOL" bold="-1" digits="0" has_enum="0" enum="" inmenu="0" group="" place="" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="" lnk_text="" lnk_showtext="0" lnk_showline="0" pin="374"/>
-					<complex_in uid="377" x="0" y="120" w="60" h="20" name="RegScale" type="FLOAT" bold="-1" digits="0" has_enum="0" enum="" inmenu="0" group="" place="" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="" lnk_text="" lnk_showtext="0" lnk_showline="0" pin="376"/>
-					<complex_in uid="379" x="0" y="155" w="60" h="20" name="DeadZone" type="FLOAT" bold="-1" digits="0" has_enum="0" enum="" inmenu="0" group="" place="" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="" lnk_text="" lnk_showtext="0" lnk_showline="0" pin="378"/>
-					<complex_in uid="381" x="0" y="190" w="60" h="20" name="Valve_NC/NO" type="BOOL" bold="-1" digits="0" has_enum="0" enum="" inmenu="0" group="" place="" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="" lnk_text="" lnk_showtext="0" lnk_showline="0" pin="380"/>
+					<complex_in uid="371" x="0" y="15" w="60" h="20" name="Temp" type="FLOAT" bold="-1" digits="0" has_enum="0" enum="" inmenu="0" group="" place="" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="0" lnk_text="" lnk_showtext="0" lnk_showline="0" pin="370"/>
+					<complex_in uid="373" x="0" y="50" w="60" h="20" name="SetTempR" type="INT" bold="-1" digits="0" has_enum="0" enum="" inmenu="0" group="" place="" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="0" lnk_text="" lnk_showtext="0" lnk_showline="0" pin="372"/>
+					<complex_in uid="375" x="0" y="85" w="60" h="20" name="SetTempW" type="BOOL" bold="-1" digits="0" has_enum="0" enum="" inmenu="0" group="" place="" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="0" lnk_text="" lnk_showtext="0" lnk_showline="0" pin="374"/>
+					<complex_in uid="377" x="0" y="120" w="60" h="20" name="RegScale" type="FLOAT" bold="-1" digits="0" has_enum="0" enum="" inmenu="0" group="" place="" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="0" lnk_text="" lnk_showtext="0" lnk_showline="0" pin="376"/>
+					<complex_in uid="379" x="0" y="155" w="60" h="20" name="DeadZone" type="FLOAT" bold="-1" digits="0" has_enum="0" enum="" inmenu="0" group="" place="" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="0" lnk_text="" lnk_showtext="0" lnk_showline="0" pin="378"/>
+					<complex_in uid="381" x="0" y="190" w="60" h="20" name="Valve_NC/NO" type="BOOL" bold="-1" digits="0" has_enum="0" enum="" inmenu="0" group="" place="" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="0" lnk_text="" lnk_showtext="0" lnk_showline="0" pin="380"/>
 					<complex_out uid="383" x="1224" y="15" w="59" h="20" name="ValveS" type="BOOL" bold="-1" digits="0" has_enum="0" enum="" kind="0" cval="0" group="" place="" mname="" min="0" max="0" def="0" hide="0" pin="382"/>
 					<complex_out uid="439" x="1224" y="85" w="59" h="20" name="SetTempR" type="INT" bold="-1" digits="0" has_enum="0" enum="" kind="0" cval="0" group="" place="" mname="" min="0" max="0" def="0" hide="0" pin="438"/>
 					<complex_out uid="449" x="1224" y="50" w="59" h="20" name="ValveR" type="INT" bold="-1" digits="0" has_enum="0" enum="" kind="0" cval="0" group="" place="" mname="" min="0" max="0" def="0" hide="0" pin="448"/>
 					<block uid="453" x="1071" y="111" w="100" h="69" type="Сумма" i_type="SUMI" name="Сумма_1" descr="" hint="Сумировать Инт" head="28">
 						<in_pin uid="454" x="1071" y="142" w="50" h="16" name="X1" type="INT" bold="0" digits="0" has_enum="0" enum="" kind="0" cval="0" group="" place="" mname="" min="0" max="0" def="0" hide="0"/>
 						<in_pin uid="455" x="1071" y="162" w="50" h="16" name="X2" type="INT" bold="0" digits="0" has_enum="0" enum="" kind="1" cval="1" group="" place="" mname="" min="0" max="0" def="0" hide="0"/>
-						<out_pin uid="456" x="1121" y="142" w="50" h="16" name="Y" type="INT" bold="0" digits="0" has_enum="0" enum="" inmenu="0" group="" place="" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="" lnk_text="" lnk_showtext="0" lnk_showline="0"/>
+						<out_pin uid="456" x="1121" y="142" w="50" h="16" name="Y" type="INT" bold="0" digits="0" has_enum="0" enum="" inmenu="0" group="" place="" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="0" lnk_text="" lnk_showtext="0" lnk_showline="0"/>
 						<params name="Сумировать Инт" dll="Standard.dll" static="0" single="0">
 							<input name="X1" type="INT"/>
 							<input name="X2" type="INT"/>
@@ -741,7 +741,7 @@
 					</block>
 					<block uid="457" x="959" y="190" w="100" h="49" type="Дискр в Цифр" i_type="BI" name="Дискр в Цифр_1" descr="" hint="Преобразование БУЛ-ИНТ" head="28">
 						<in_pin uid="458" x="959" y="221" w="50" h="16" name="Q" type="BOOL" bold="0" digits="0" has_enum="0" enum="" kind="0" cval="0" group="" place="" mname="" min="0" max="0" def="0" hide="0"/>
-						<out_pin uid="459" x="1009" y="221" w="50" h="16" name="Y" type="INT" bold="0" digits="0" has_enum="0" enum="" inmenu="0" group="" place="" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="" lnk_text="" lnk_showtext="0" lnk_showline="0"/>
+						<out_pin uid="459" x="1009" y="221" w="50" h="16" name="Y" type="INT" bold="0" digits="0" has_enum="0" enum="" inmenu="0" group="" place="" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="0" lnk_text="" lnk_showtext="0" lnk_showline="0"/>
 						<params name="Преобразование БУЛ-ИНТ" dll="Standard.dll" static="0" single="0">
 							<input name="Q" type="BOOL"/>
 							<output name="Y" type="INT"/>
@@ -850,10 +850,10 @@
 						<seg uid="349" x="411" y="264" w="0" h="3"/>
 						<seg uid="350" x="411" y="264" w="12" h="0"/>
 					</link>
-					<link uid="490" x="811" y="159" w="413" h="70" src="325" sink="485">
-						<seg uid="491" x="811" y="223" w="206" h="0"/>
-						<seg uid="492" x="1017" y="165" w="0" h="58"/>
-						<seg uid="493" x="1017" y="165" w="207" h="0"/>
+					<link uid="506" x="811" y="159" w="413" h="70" src="325" sink="485">
+						<seg uid="507" x="811" y="223" w="206" h="0"/>
+						<seg uid="508" x="1017" y="165" w="0" h="58"/>
+						<seg uid="509" x="1017" y="165" w="207" h="0"/>
 					</link>
 				</diagram>
 			</complex>
