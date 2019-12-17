@@ -29,3 +29,7 @@ build/
 
 ### VS Code ###
 .vscode/
+
+### RAUT_MAXICON ###
+*.mx3
+*.qbk
