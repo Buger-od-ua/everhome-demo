@@ -4,7 +4,9 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import java.time.Duration;
 import java.time.LocalDateTime;
+import java.time.Period;
 
 @Entity
 public class Temperature {
@@ -18,6 +20,11 @@ public class Temperature {
 
     public Temperature(Long id, LocalDateTime time, Float value) {
         this.id = id;
+        this.time = time;
+        this.value = value;
+    }
+
+    public Temperature(LocalDateTime time, Float value) {
         this.time = time;
         this.value = value;
     }
@@ -44,6 +51,10 @@ public class Temperature {
 
     public void setValue(Float value) {
         this.value = value;
+    }
+
+    public static boolean isModuled(Temperature t1, Temperature t2, Float module) {
+        return Math.abs(t1.value - t2.value) > module || Duration.between(t1.time, t2.time).getSeconds() > 300;
     }
 
     @Override

@@ -1,6 +1,8 @@
 package com.budova.everhome.driver;
 
+import com.budova.everhome.domain.Temperature;
 import com.budova.everhome.dto.TemperatureDto;
+import com.budova.everhome.repos.TemperatureRepo;
 import com.intelligt.modbus.jlibmodbus.Modbus;
 import com.intelligt.modbus.jlibmodbus.master.ModbusMaster;
 import com.intelligt.modbus.jlibmodbus.master.ModbusMasterFactory;
@@ -19,6 +21,9 @@ import java.time.LocalDateTime;
 @Controller
 @EnableScheduling
 public class RautControllerDriver {
+
+    @Autowired
+    private TemperatureRepo tempRepo;
 
     @Autowired
     private SimpMessagingTemplate template;
@@ -50,10 +55,13 @@ public class RautControllerDriver {
                 master.connect();
             }
             int[] regs = master.readHoldingRegisters(1, 0, 4);
-            TemperatureDto t1 = new TemperatureDto();
-            t1.setTime(LocalDateTime.now());
-            t1.setValue((float) regs[0] / 10);
-            template.convertAndSend("/topic/temperature", t1);
+            Temperature t1 = new Temperature(LocalDateTime.now(), (float) regs[0] / 10);
+            Temperature prevT1 = tempRepo.findFirstByOrderByTimeDesc();
+            if (prevT1 == null || Temperature.isModuled(t1, prevT1, 0.5F)) {
+                tempRepo.save(t1);
+            }
+            TemperatureDto t1Dto = new TemperatureDto(t1);
+            template.convertAndSend("/topic/temperature", t1Dto);
         } catch (Exception e) {
             e.printStackTrace();
         }
