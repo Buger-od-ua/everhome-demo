@@ -1,0 +1,945 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<program version="400" editor="1632" descr="" guid="{F0E28764-A20A-459A-B36D-BFF103A508C2}" uid="1" width="800" height="600" archiveacc="1234" save_debug="1">
+	<arch_setting arch_mode="1" alarms_mode="1" commands_mode="1" setpoints_mode="1"/>
+	<emails>
+		<abonent name="Абонент 1" adress=" "/>
+		<abonent name="Абонент 2" adress=" "/>
+		<abonent name="Абонент 3" adress=" "/>
+		<abonent name="Абонент 4" adress=" "/>
+		<abonent name="Абонент 5" adress=" "/>
+		<pattern pattern_body="" pattern_ID="1"/>
+		<email_settings email_server="" email_login="" email_pass="" email_port="" email_crypt="0" email_sender="" email_topic="" email_sys_mess=""/>
+	</emails>
+	<gui/>
+	<controller uid="1" x="340" y="85" w="120" h="429" type="MX2017_3" i_type="MX2017_3" name="MaxyCon Flexy-S2(v.3.xx)" descr="" hint="" head="28">
+		<in_pin uid="9" x="340" y="116" w="60" h="16" name="ADI_0.1" type="FLOAT" bold="0" digits="0" has_enum="0" enum="" kind="0" cval="0" group="" place="" mname="" min="0" max="0" def="0" hide="0"/>
+		<in_pin uid="12" x="340" y="136" w="60" h="16" name="ADI_0.2" type="FLOAT" bold="0" digits="0" has_enum="0" enum="" kind="0" cval="0" group="" place="" mname="" min="0" max="0" def="0" hide="0"/>
+		<in_pin uid="15" x="340" y="156" w="60" h="16" name="ADI_0.3" type="FLOAT" bold="0" digits="0" has_enum="0" enum="" kind="0" cval="0" group="" place="" mname="" min="0" max="0" def="0" hide="0"/>
+		<in_pin uid="18" x="340" y="176" w="60" h="16" name="ADI_0.4" type="FLOAT" bold="0" digits="0" has_enum="0" enum="" kind="0" cval="0" group="" place="" mname="" min="0" max="0" def="0" hide="0"/>
+		<in_pin uid="21" x="340" y="196" w="60" h="16" name="ADI_0.5" type="FLOAT" bold="0" digits="0" has_enum="0" enum="" kind="0" cval="0" group="" place="" mname="" min="0" max="0" def="0" hide="0"/>
+		<in_pin uid="24" x="340" y="216" w="60" h="16" name="ADI_0.6" type="FLOAT" bold="0" digits="0" has_enum="0" enum="" kind="0" cval="0" group="" place="" mname="" min="0" max="0" def="0" hide="0"/>
+		<in_pin uid="27" x="340" y="236" w="60" h="16" name="ADI_0.7" type="FLOAT" bold="0" digits="0" has_enum="0" enum="" kind="0" cval="0" group="" place="" mname="" min="0" max="0" def="0" hide="0"/>
+		<in_pin uid="30" x="340" y="256" w="60" h="16" name="ADI_0.8" type="FLOAT" bold="0" digits="0" has_enum="0" enum="" kind="0" cval="0" group="" place="" mname="" min="0" max="0" def="0" hide="0"/>
+		<in_pin uid="33" x="340" y="276" w="60" h="16" name="ADI_0.9" type="FLOAT" bold="0" digits="0" has_enum="0" enum="" kind="0" cval="0" group="" place="" mname="" min="0" max="0" def="0" hide="0"/>
+		<in_pin uid="36" x="340" y="296" w="60" h="16" name="ADI_0.10" type="FLOAT" bold="0" digits="0" has_enum="0" enum="" kind="0" cval="0" group="" place="" mname="" min="0" max="0" def="0" hide="0"/>
+		<in_pin uid="39" x="340" y="316" w="60" h="16" name="ADI_0.11" type="FLOAT" bold="0" digits="0" has_enum="0" enum="" kind="0" cval="0" group="" place="" mname="" min="0" max="0" def="0" hide="0"/>
+		<in_pin uid="42" x="340" y="336" w="60" h="16" name="ADI_0.12" type="FLOAT" bold="0" digits="0" has_enum="0" enum="" kind="0" cval="0" group="" place="" mname="" min="0" max="0" def="0" hide="0"/>
+		<in_pin uid="45" x="340" y="356" w="60" h="16" name="ADI_0.13" type="FLOAT" bold="0" digits="0" has_enum="0" enum="" kind="0" cval="0" group="" place="" mname="" min="0" max="0" def="0" hide="0"/>
+		<in_pin uid="48" x="340" y="376" w="60" h="16" name="ADI_0.14" type="FLOAT" bold="0" digits="0" has_enum="0" enum="" kind="0" cval="0" group="" place="" mname="" min="0" max="0" def="0" hide="0"/>
+		<in_pin uid="52" x="340" y="396" w="60" h="16" name="AODI_0.1" type="BOOL" bold="0" digits="0" has_enum="0" enum="" enable="0" kind="0" cval="0" group="" place="" mname="" min="0" max="0" def="0" hide="0"/>
+		<in_pin uid="60" x="340" y="416" w="60" h="16" name="AODI_0.2" type="BOOL" bold="0" digits="0" has_enum="0" enum="" enable="0" kind="0" cval="0" group="" place="" mname="" min="0" max="0" def="0" hide="0"/>
+		<in_pin uid="68" x="340" y="436" w="60" h="16" name="AODI_0.3" type="BOOL" bold="0" digits="0" has_enum="0" enum="" enable="0" kind="0" cval="0" group="" place="" mname="" min="0" max="0" def="0" hide="0"/>
+		<in_pin uid="76" x="340" y="456" w="60" h="16" name="AODI_0.4" type="BOOL" bold="0" digits="0" has_enum="0" enum="" enable="0" kind="0" cval="0" group="" place="" mname="" min="0" max="0" def="0" hide="0"/>
+		<in_pin uid="84" x="340" y="476" w="60" h="16" name="AODI_0.5" type="BOOL" bold="0" digits="0" has_enum="0" enum="" enable="0" kind="0" cval="0" group="" place="" mname="" min="0" max="0" def="0" hide="0"/>
+		<in_pin uid="92" x="340" y="496" w="60" h="16" name="AODI_0.6" type="BOOL" bold="0" digits="0" has_enum="0" enum="" enable="0" kind="0" cval="0" group="" place="" mname="" min="0" max="0" def="0" hide="0"/>
+		<out_pin uid="56" x="400" y="116" w="60" h="16" name="AODI_0.1" type="FLOAT" bold="0" digits="0" has_enum="0" enum="" inmenu="0" group="" place="" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="" lnk_text="" lnk_showtext="0" lnk_showline="-1"/>
+		<out_pin uid="64" x="400" y="136" w="60" h="16" name="AODI_0.2" type="FLOAT" bold="0" digits="0" has_enum="0" enum="" inmenu="0" group="" place="" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="" lnk_text="" lnk_showtext="0" lnk_showline="-1"/>
+		<out_pin uid="72" x="400" y="156" w="60" h="16" name="AODI_0.3" type="FLOAT" bold="0" digits="0" has_enum="0" enum="" inmenu="0" group="" place="" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="" lnk_text="" lnk_showtext="0" lnk_showline="-1"/>
+		<out_pin uid="80" x="400" y="176" w="60" h="16" name="AODI_0.4" type="FLOAT" bold="0" digits="0" has_enum="0" enum="" inmenu="0" group="" place="" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="" lnk_text="" lnk_showtext="0" lnk_showline="-1"/>
+		<out_pin uid="88" x="400" y="196" w="60" h="16" name="AODI_0.5" type="FLOAT" bold="0" digits="0" has_enum="0" enum="" inmenu="0" group="" place="" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="" lnk_text="" lnk_showtext="0" lnk_showline="-1"/>
+		<out_pin uid="96" x="400" y="216" w="60" h="16" name="AODI_0.6" type="FLOAT" bold="0" digits="0" has_enum="0" enum="" inmenu="0" group="" place="" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="" lnk_text="" lnk_showtext="0" lnk_showline="-1"/>
+		<out_pin uid="99" x="400" y="236" w="60" h="16" name="DO_0.1" type="BOOL" bold="0" digits="0" has_enum="0" enum="" inmenu="0" group="" place="" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="" lnk_text="" lnk_showtext="0" lnk_showline="-1"/>
+		<out_pin uid="102" x="400" y="256" w="60" h="16" name="DO_0.2" type="BOOL" bold="0" digits="0" has_enum="0" enum="" inmenu="0" group="" place="" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="" lnk_text="" lnk_showtext="0" lnk_showline="-1"/>
+		<out_pin uid="105" x="400" y="276" w="60" h="16" name="DO_0.3" type="BOOL" bold="0" digits="0" has_enum="0" enum="" inmenu="0" group="" place="" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="" lnk_text="" lnk_showtext="0" lnk_showline="-1"/>
+		<out_pin uid="108" x="400" y="296" w="60" h="16" name="DO_0.4" type="BOOL" bold="0" digits="0" has_enum="0" enum="" inmenu="0" group="" place="" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="" lnk_text="" lnk_showtext="0" lnk_showline="-1"/>
+		<out_pin uid="111" x="400" y="316" w="60" h="16" name="DO_0.5" type="BOOL" bold="0" digits="0" has_enum="0" enum="" inmenu="0" group="" place="" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="" lnk_text="" lnk_showtext="0" lnk_showline="-1"/>
+		<out_pin uid="114" x="400" y="336" w="60" h="16" name="DO_0.6" type="BOOL" bold="0" digits="0" has_enum="0" enum="" inmenu="0" group="" place="" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="" lnk_text="" lnk_showtext="0" lnk_showline="-1"/>
+		<out_pin uid="117" x="400" y="356" w="60" h="16" name="DO_0.7" type="BOOL" bold="0" digits="0" has_enum="0" enum="" inmenu="0" group="" place="" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="" lnk_text="" lnk_showtext="0" lnk_showline="-1"/>
+		<out_pin uid="120" x="400" y="376" w="60" h="16" name="DO_0.8" type="BOOL" bold="0" digits="0" has_enum="0" enum="" inmenu="0" group="" place="" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="" lnk_text="" lnk_showtext="0" lnk_showline="-1"/>
+		<out_pin uid="123" x="400" y="396" w="60" h="16" name="DO_0.9" type="BOOL" bold="0" digits="0" has_enum="0" enum="" inmenu="0" group="" place="" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="" lnk_text="" lnk_showtext="0" lnk_showline="-1"/>
+		<out_pin uid="126" x="400" y="416" w="60" h="16" name="DO_0.10" type="BOOL" bold="0" digits="0" has_enum="0" enum="" inmenu="0" group="" place="" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="" lnk_text="" lnk_showtext="0" lnk_showline="-1"/>
+		<diagram uid="2" width="1025" height="925">
+			<gui>
+				<window name="Главное окно" id="1" left="0" top="0" width="320" height="240" auto_arrange="1" access="0" hidden="0" no_esc="0" bg_color="$FFFFFFFF" title_txt_color="$FFFFFFFF" title_bg_color="$FFFFFFFF" title_line_color="$FFFFFFFF" title_font="$012E2020" stline="0" stline_txt_color="$00FFFFFF" stline_bg_color="$00FF0000" stline_line_color="$000000FF" stline_font="$0B85D250">
+					<TguiCtlText name="Текст_1" id="3" left="193" top="69" width="34" height="18" has_value="1" size="5" fill_0="0" has_selector="0" blinkUID="0" VisibleUID="0" value="244" font="$012E2020" color="16777215" bg_color="16777215" transparent="1" blink_color="0" blink_bg_color="16777215" has_blink="0" isVisible="0" version="2">
+						<Text_items>
+							<Text_single_item text_string="Текст_0" has_link="0" window="0" has_command="0" cmd_block="0" cmd_repeat="0" cmd_hint="" switch_value="0"/>
+						</Text_items>
+					</TguiCtlText>
+					<TguiCtlText name="Текст_2" id="6" left="193" top="96" width="34" height="18" has_value="1" size="5" fill_0="0" has_selector="0" blinkUID="0" VisibleUID="0" value="266" font="$012E2020" color="16777215" bg_color="16777215" transparent="1" blink_color="0" blink_bg_color="16777215" has_blink="0" isVisible="0" version="2">
+						<Text_items>
+							<Text_single_item text_string="Текст_0" has_link="0" window="0" has_command="0" cmd_block="0" cmd_repeat="0" cmd_hint="" switch_value="0"/>
+						</Text_items>
+					</TguiCtlText>
+					<TguiCtlText name="Текст_3" id="8" left="193" top="150" width="40" height="18" has_value="0" size="4" fill_0="0" has_selector="1" blinkUID="0" VisibleUID="0" value="382" font="$012E2020" color="16777215" bg_color="16777215" transparent="1" blink_color="0" blink_bg_color="16777215" has_blink="0" isVisible="0" version="2">
+						<Text_items>
+							<Text_single_item text_string="Закр." has_link="0" window="0" has_command="0" cmd_block="0" cmd_repeat="0" cmd_hint="" switch_value="0"/>
+							<Text_single_item text_string="Откр." has_link="0" window="0" has_command="0" cmd_block="0" cmd_repeat="0" cmd_hint="" switch_value="1"/>
+						</Text_items>
+					</TguiCtlText>
+					<TguiCtlText name="Текст_4" id="10" left="193" top="123" width="28" height="18" has_value="1" size="4" fill_0="0" has_selector="0" blinkUID="0" VisibleUID="0" value="478" font="$012E2020" color="16777215" bg_color="16777215" transparent="1" blink_color="0" blink_bg_color="16777215" has_blink="0" isVisible="0" version="2">
+						<Text_items>
+							<Text_single_item text_string="Текст_0" has_link="0" window="0" has_command="0" cmd_block="0" cmd_repeat="0" cmd_hint="" switch_value="0"/>
+						</Text_items>
+					</TguiCtlText>
+					<TguiCtlText name="Текст_5" id="12" left="81" top="69" width="103" height="18" has_value="0" size="4" fill_0="0" has_selector="0" blinkUID="0" VisibleUID="0" value="0" font="$0B85D250" color="16777215" bg_color="16777215" transparent="1" blink_color="0" blink_bg_color="16777215" has_blink="0" isVisible="0" version="2">
+						<Text_items>
+							<Text_single_item text_string="Температура 1" has_link="0" window="0" has_command="0" cmd_block="0" cmd_repeat="0" cmd_hint="" switch_value="0"/>
+						</Text_items>
+					</TguiCtlText>
+					<TguiCtlText name="Текст_6" id="15" left="80" top="96" width="104" height="18" has_value="0" size="4" fill_0="0" has_selector="0" blinkUID="0" VisibleUID="0" value="0" font="$0B85D250" color="16777215" bg_color="16777215" transparent="1" blink_color="0" blink_bg_color="16777215" has_blink="0" isVisible="0" version="2">
+						<Text_items>
+							<Text_single_item text_string="Температура 2" has_link="0" window="0" has_command="0" cmd_block="0" cmd_repeat="0" cmd_hint="" switch_value="0"/>
+						</Text_items>
+					</TguiCtlText>
+					<TguiCtlText name="Текст_7" id="17" left="120" top="123" width="64" height="18" has_value="0" size="4" fill_0="0" has_selector="0" blinkUID="0" VisibleUID="0" value="0" font="$0B85D250" color="16777215" bg_color="16777215" transparent="1" blink_color="0" blink_bg_color="16777215" has_blink="0" isVisible="0" version="2">
+						<Text_items>
+							<Text_single_item text_string="Заданная" has_link="0" window="0" has_command="0" cmd_block="0" cmd_repeat="0" cmd_hint="" switch_value="0"/>
+						</Text_items>
+					</TguiCtlText>
+					<TguiCtlText name="Текст_8" id="19" left="135" top="150" width="49" height="18" has_value="0" size="4" fill_0="0" has_selector="0" blinkUID="0" VisibleUID="0" value="0" font="$0B85D250" color="16777215" bg_color="16777215" transparent="1" blink_color="0" blink_bg_color="16777215" has_blink="0" isVisible="0" version="2">
+						<Text_items>
+							<Text_single_item text_string="Клапан" has_link="0" window="0" has_command="0" cmd_block="0" cmd_repeat="0" cmd_hint="" switch_value="0"/>
+						</Text_items>
+					</TguiCtlText>
+					<TguiCtlLine name="Линия_1" id="22" left="188" top="64" width="0" height="108" color="16777215" x1="188" y1="64" x2="188" y2="172"/>
+					<TguiCtlLine name="Линия_2" id="23" left="75" top="91" width="162" height="0" color="16777215" x1="237" y1="91" x2="75" y2="91"/>
+					<TguiCtlLine name="Линия_4" id="25" left="75" top="118" width="162" height="0" color="16777215" x1="237" y1="118" x2="75" y2="118"/>
+					<TguiCtlLine name="Линия_5" id="26" left="75" top="145" width="162" height="0" color="16777215" x1="237" y1="145" x2="75" y2="145"/>
+					<TguiCtlLine name="Линия_6" id="27" left="75" top="172" width="162" height="0" color="16777215" x1="237" y1="172" x2="75" y2="172"/>
+					<TguiCtlLine name="Линия_7" id="31" left="237" top="64" width="0" height="108" color="16777215" x1="237" y1="64" x2="237" y2="172"/>
+					<TguiCtlLine name="Линия_8" id="32" left="76" top="64" width="161" height="0" color="16777215" x1="237" y1="64" x2="76" y2="64"/>
+					<TguiCtlLine name="Линия_9" id="33" left="75" top="64" width="0" height="108" color="16777215" x1="75" y1="64" x2="75" y2="172"/>
+				</window>
+			</gui>
+			<block uid="2" x="924" y="715" w="100" h="69" type="ARCHIVE" i_type="ARCHIVE" name="Архив" descr="" hint="ARCHIVE" head="28">
+				<in_pin uid="3" x="924" y="746" w="50" h="16" name="Save" type="BOOL" bold="0" digits="0" has_enum="0" enum="" kind="0" cval="0" group="" place="" mname="" min="0" max="0" def="0" hide="0"/>
+				<in_pin uid="4" x="924" y="766" w="50" h="16" name="DISABLE" type="BOOL" bold="0" digits="0" has_enum="0" enum="" kind="0" cval="0" group="" place="" mname="" min="0" max="0" def="0" hide="0"/>
+				<params name="ARCHIVE" dll="Archive.dll" static="1" single="0">
+					<input name="Save" type="BOOL"/>
+					<input name="DISABLE" type="BOOL"/>
+					<call func="ARCHIVE_init" at="INIT"/>
+					<call func="ARCHIVE_int1sec" at="1S"/>
+					<call func="ARCHIVE_int01sec" at="100MS"/>
+				</params>
+			</block>
+			<block uid="5" x="924" y="818" w="100" h="49" type="EMAIL" i_type="EMAIL" name="Email" descr="" hint="EMAIL" head="28">
+				<in_pin uid="6" x="924" y="849" w="50" h="16" name="DISABLE" type="BOOL" bold="0" digits="0" has_enum="0" enum="" kind="0" cval="0" group="" place="" mname="" min="0" max="0" def="0" hide="0"/>
+				<params name="EMAIL" dll="email.dll" static="1" single="0">
+					<input name="DISABLE" type="BOOL"/>
+					<call func="EMAIL_init" at="INIT"/>
+					<call func="EMAIL_int1sec" at="1S"/>
+					<call func="EMAIL_int01sec" at="100MS"/>
+				</params>
+			</block>
+			<block uid="7" x="0" y="15" w="60" h="20" type="ADI" i_type="ADI" name="ADI_0.1" descr="" hint="Аналогово-дискретный вход" head="0">
+				<out_pin uid="8" x="0" y="15" w="60" h="20" name="ADI_0.1" type="FLOAT" bold="-1" digits="0" has_enum="0" enum="" inmenu="0" group="" place="8" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="0" lnk_text="" lnk_showtext="0" lnk_showline="0"/>
+				<params name="Аналогово-дискретный вход" dll="Standard.dll" static="1" single="0">
+					<output name="Y" type="FLOAT"/>
+					<par name="Тип датчика" type="INT" enum="0,ТСП(Pt)-1000 (1.385);1,ТСП(Pt)-1000 (1.391);2,ТСП(Pt)-1000 (1.375);3,Ni1000 (1.500);4,Ni1000 (1.618);5,Напряжение;6,Сопротивление;7,Дискретный;8,Ток 4-20мА;9,Ток 0-20мА;" val="0"/>
+					<par name="Номинал 0 %" type="FLOAT" enum="" val="0"/>
+					<par name="Номинал 100 %" type="FLOAT" enum="" val="10"/>
+					<call func="ADI_init" at="INIT"/>
+				</params>
+			</block>
+			<block uid="10" x="0" y="50" w="60" h="20" type="ADI" i_type="ADI" name="ADI_0.2" descr="" hint="Аналогово-дискретный вход" head="0">
+				<out_pin uid="11" x="0" y="50" w="60" h="20" name="ADI_0.2" type="FLOAT" bold="-1" digits="0" has_enum="0" enum="" inmenu="0" group="" place="8" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="0" lnk_text="" lnk_showtext="0" lnk_showline="0"/>
+				<params name="Аналогово-дискретный вход" dll="Standard.dll" static="1" single="0">
+					<output name="Y" type="FLOAT"/>
+					<par name="Тип датчика" type="INT" enum="0,ТСП(Pt)-1000 (1.385);1,ТСП(Pt)-1000 (1.391);2,ТСП(Pt)-1000 (1.375);3,Ni1000 (1.500);4,Ni1000 (1.618);5,Напряжение;6,Сопротивление;7,Дискретный;8,Ток 4-20мА;9,Ток 0-20мА;" val="0"/>
+					<par name="Номинал 0 %" type="FLOAT" enum="" val="0"/>
+					<par name="Номинал 100 %" type="FLOAT" enum="" val="10"/>
+					<call func="ADI_init" at="INIT"/>
+				</params>
+			</block>
+			<block uid="13" x="0" y="85" w="60" h="20" type="ADI" i_type="ADI" name="ADI_0.3" descr="" hint="Аналогово-дискретный вход" head="0">
+				<out_pin uid="14" x="0" y="85" w="60" h="20" name="ADI_0.3" type="FLOAT" bold="-1" digits="0" has_enum="0" enum="" inmenu="0" group="" place="8" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="0" lnk_text="" lnk_showtext="0" lnk_showline="-1"/>
+				<params name="Аналогово-дискретный вход" dll="Standard.dll" static="1" single="0">
+					<output name="Y" type="FLOAT"/>
+					<par name="Тип датчика" type="INT" enum="0,ТСП(Pt)-1000 (1.385);1,ТСП(Pt)-1000 (1.391);2,ТСП(Pt)-1000 (1.375);3,Ni1000 (1.500);4,Ni1000 (1.618);5,Напряжение;6,Сопротивление;7,Дискретный;8,Ток 4-20мА;9,Ток 0-20мА;" val="0"/>
+					<par name="Номинал 0 %" type="FLOAT" enum="" val="0"/>
+					<par name="Номинал 100 %" type="FLOAT" enum="" val="10"/>
+					<call func="ADI_init" at="INIT"/>
+				</params>
+			</block>
+			<block uid="16" x="0" y="120" w="60" h="20" type="ADI" i_type="ADI" name="ADI_0.4" descr="" hint="Аналогово-дискретный вход" head="0">
+				<out_pin uid="17" x="0" y="120" w="60" h="20" name="ADI_0.4" type="FLOAT" bold="-1" digits="0" has_enum="0" enum="" inmenu="0" group="" place="8" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="0" lnk_text="" lnk_showtext="0" lnk_showline="-1"/>
+				<params name="Аналогово-дискретный вход" dll="Standard.dll" static="1" single="0">
+					<output name="Y" type="FLOAT"/>
+					<par name="Тип датчика" type="INT" enum="0,ТСП(Pt)-1000 (1.385);1,ТСП(Pt)-1000 (1.391);2,ТСП(Pt)-1000 (1.375);3,Ni1000 (1.500);4,Ni1000 (1.618);5,Напряжение;6,Сопротивление;7,Дискретный;8,Ток 4-20мА;9,Ток 0-20мА;" val="0"/>
+					<par name="Номинал 0 %" type="FLOAT" enum="" val="0"/>
+					<par name="Номинал 100 %" type="FLOAT" enum="" val="10"/>
+					<call func="ADI_init" at="INIT"/>
+				</params>
+			</block>
+			<block uid="19" x="0" y="155" w="60" h="20" type="ADI" i_type="ADI" name="ADI_0.5" descr="" hint="Аналогово-дискретный вход" head="0">
+				<out_pin uid="20" x="0" y="155" w="60" h="20" name="ADI_0.5" type="FLOAT" bold="-1" digits="0" has_enum="0" enum="" inmenu="0" group="" place="8" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="0" lnk_text="" lnk_showtext="0" lnk_showline="-1"/>
+				<params name="Аналогово-дискретный вход" dll="Standard.dll" static="1" single="0">
+					<output name="Y" type="FLOAT"/>
+					<par name="Тип датчика" type="INT" enum="0,ТСП(Pt)-1000 (1.385);1,ТСП(Pt)-1000 (1.391);2,ТСП(Pt)-1000 (1.375);3,Ni1000 (1.500);4,Ni1000 (1.618);5,Напряжение;6,Сопротивление;7,Дискретный;8,Ток 4-20мА;9,Ток 0-20мА;" val="0"/>
+					<par name="Номинал 0 %" type="FLOAT" enum="" val="0"/>
+					<par name="Номинал 100 %" type="FLOAT" enum="" val="10"/>
+					<call func="ADI_init" at="INIT"/>
+				</params>
+			</block>
+			<block uid="22" x="0" y="190" w="60" h="20" type="ADI" i_type="ADI" name="ADI_0.6" descr="" hint="Аналогово-дискретный вход" head="0">
+				<out_pin uid="23" x="0" y="190" w="60" h="20" name="ADI_0.6" type="FLOAT" bold="-1" digits="0" has_enum="0" enum="" inmenu="0" group="" place="8" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="0" lnk_text="" lnk_showtext="0" lnk_showline="-1"/>
+				<params name="Аналогово-дискретный вход" dll="Standard.dll" static="1" single="0">
+					<output name="Y" type="FLOAT"/>
+					<par name="Тип датчика" type="INT" enum="0,ТСП(Pt)-1000 (1.385);1,ТСП(Pt)-1000 (1.391);2,ТСП(Pt)-1000 (1.375);3,Ni1000 (1.500);4,Ni1000 (1.618);5,Напряжение;6,Сопротивление;7,Дискретный;8,Ток 4-20мА;9,Ток 0-20мА;" val="0"/>
+					<par name="Номинал 0 %" type="FLOAT" enum="" val="0"/>
+					<par name="Номинал 100 %" type="FLOAT" enum="" val="10"/>
+					<call func="ADI_init" at="INIT"/>
+				</params>
+			</block>
+			<block uid="25" x="0" y="225" w="60" h="20" type="ADI" i_type="ADI" name="ADI_0.7" descr="" hint="Аналогово-дискретный вход" head="0">
+				<out_pin uid="26" x="0" y="225" w="60" h="20" name="ADI_0.7" type="FLOAT" bold="-1" digits="0" has_enum="0" enum="" inmenu="0" group="" place="8" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="0" lnk_text="" lnk_showtext="0" lnk_showline="-1"/>
+				<params name="Аналогово-дискретный вход" dll="Standard.dll" static="1" single="0">
+					<output name="Y" type="FLOAT"/>
+					<par name="Тип датчика" type="INT" enum="0,ТСП(Pt)-1000 (1.385);1,ТСП(Pt)-1000 (1.391);2,ТСП(Pt)-1000 (1.375);3,Ni1000 (1.500);4,Ni1000 (1.618);5,Напряжение;6,Сопротивление;7,Дискретный;8,Ток 4-20мА;9,Ток 0-20мА;" val="0"/>
+					<par name="Номинал 0 %" type="FLOAT" enum="" val="0"/>
+					<par name="Номинал 100 %" type="FLOAT" enum="" val="10"/>
+					<call func="ADI_init" at="INIT"/>
+				</params>
+			</block>
+			<block uid="28" x="0" y="260" w="60" h="20" type="ADI" i_type="ADI" name="ADI_0.8" descr="" hint="Аналогово-дискретный вход" head="0">
+				<out_pin uid="29" x="0" y="260" w="60" h="20" name="ADI_0.8" type="FLOAT" bold="-1" digits="0" has_enum="0" enum="" inmenu="0" group="" place="8" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="0" lnk_text="" lnk_showtext="0" lnk_showline="-1"/>
+				<params name="Аналогово-дискретный вход" dll="Standard.dll" static="1" single="0">
+					<output name="Y" type="FLOAT"/>
+					<par name="Тип датчика" type="INT" enum="0,ТСП(Pt)-1000 (1.385);1,ТСП(Pt)-1000 (1.391);2,ТСП(Pt)-1000 (1.375);3,Ni1000 (1.500);4,Ni1000 (1.618);5,Напряжение;6,Сопротивление;7,Дискретный;8,Ток 4-20мА;9,Ток 0-20мА;" val="0"/>
+					<par name="Номинал 0 %" type="FLOAT" enum="" val="0"/>
+					<par name="Номинал 100 %" type="FLOAT" enum="" val="10"/>
+					<call func="ADI_init" at="INIT"/>
+				</params>
+			</block>
+			<block uid="31" x="0" y="295" w="60" h="20" type="ADI" i_type="ADI" name="ADI_0.9" descr="" hint="Аналогово-дискретный вход" head="0">
+				<out_pin uid="32" x="0" y="295" w="60" h="20" name="ADI_0.9" type="FLOAT" bold="-1" digits="0" has_enum="0" enum="" inmenu="0" group="" place="8" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="0" lnk_text="" lnk_showtext="0" lnk_showline="-1"/>
+				<params name="Аналогово-дискретный вход" dll="Standard.dll" static="1" single="0">
+					<output name="Y" type="FLOAT"/>
+					<par name="Тип датчика" type="INT" enum="0,ТСП(Pt)-1000 (1.385);1,ТСП(Pt)-1000 (1.391);2,ТСП(Pt)-1000 (1.375);3,Ni1000 (1.500);4,Ni1000 (1.618);5,Напряжение;6,Сопротивление;7,Дискретный;8,Ток 4-20мА;9,Ток 0-20мА;" val="0"/>
+					<par name="Номинал 0 %" type="FLOAT" enum="" val="0"/>
+					<par name="Номинал 100 %" type="FLOAT" enum="" val="10"/>
+					<call func="ADI_init" at="INIT"/>
+				</params>
+			</block>
+			<block uid="34" x="0" y="330" w="60" h="20" type="ADI" i_type="ADI" name="ADI_0.10" descr="" hint="Аналогово-дискретный вход" head="0">
+				<out_pin uid="35" x="0" y="330" w="60" h="20" name="ADI_0.10" type="FLOAT" bold="-1" digits="0" has_enum="0" enum="" inmenu="0" group="" place="8" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="0" lnk_text="" lnk_showtext="0" lnk_showline="-1"/>
+				<params name="Аналогово-дискретный вход" dll="Standard.dll" static="1" single="0">
+					<output name="Y" type="FLOAT"/>
+					<par name="Тип датчика" type="INT" enum="0,ТСП(Pt)-1000 (1.385);1,ТСП(Pt)-1000 (1.391);2,ТСП(Pt)-1000 (1.375);3,Ni1000 (1.500);4,Ni1000 (1.618);5,Напряжение;6,Сопротивление;7,Дискретный;8,Ток 4-20мА;9,Ток 0-20мА;" val="0"/>
+					<par name="Номинал 0 %" type="FLOAT" enum="" val="0"/>
+					<par name="Номинал 100 %" type="FLOAT" enum="" val="10"/>
+					<call func="ADI_init" at="INIT"/>
+				</params>
+			</block>
+			<block uid="37" x="0" y="365" w="60" h="20" type="ADI" i_type="ADI" name="ADI_0.11" descr="" hint="Аналогово-дискретный вход" head="0">
+				<out_pin uid="38" x="0" y="365" w="60" h="20" name="ADI_0.11" type="FLOAT" bold="-1" digits="0" has_enum="0" enum="" inmenu="0" group="" place="8" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="0" lnk_text="" lnk_showtext="0" lnk_showline="-1"/>
+				<params name="Аналогово-дискретный вход" dll="Standard.dll" static="1" single="0">
+					<output name="Y" type="FLOAT"/>
+					<par name="Тип датчика" type="INT" enum="0,ТСП(Pt)-1000 (1.385);1,ТСП(Pt)-1000 (1.391);2,ТСП(Pt)-1000 (1.375);3,Ni1000 (1.500);4,Ni1000 (1.618);5,Напряжение;6,Сопротивление;7,Дискретный;8,Ток 4-20мА;9,Ток 0-20мА;" val="0"/>
+					<par name="Номинал 0 %" type="FLOAT" enum="" val="0"/>
+					<par name="Номинал 100 %" type="FLOAT" enum="" val="10"/>
+					<call func="ADI_init" at="INIT"/>
+				</params>
+			</block>
+			<block uid="40" x="0" y="400" w="60" h="20" type="ADI" i_type="ADI" name="ADI_0.12" descr="" hint="Аналогово-дискретный вход" head="0">
+				<out_pin uid="41" x="0" y="400" w="60" h="20" name="ADI_0.12" type="FLOAT" bold="-1" digits="0" has_enum="0" enum="" inmenu="0" group="" place="8" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="0" lnk_text="" lnk_showtext="0" lnk_showline="-1"/>
+				<params name="Аналогово-дискретный вход" dll="Standard.dll" static="1" single="0">
+					<output name="Y" type="FLOAT"/>
+					<par name="Тип датчика" type="INT" enum="0,ТСП(Pt)-1000 (1.385);1,ТСП(Pt)-1000 (1.391);2,ТСП(Pt)-1000 (1.375);3,Ni1000 (1.500);4,Ni1000 (1.618);5,Напряжение;6,Сопротивление;7,Дискретный;8,Ток 4-20мА;9,Ток 0-20мА;" val="0"/>
+					<par name="Номинал 0 %" type="FLOAT" enum="" val="0"/>
+					<par name="Номинал 100 %" type="FLOAT" enum="" val="10"/>
+					<call func="ADI_init" at="INIT"/>
+				</params>
+			</block>
+			<block uid="43" x="0" y="435" w="60" h="20" type="ADI" i_type="ADI" name="ADI_0.13" descr="" hint="Аналогово-дискретный вход" head="0">
+				<out_pin uid="44" x="0" y="435" w="60" h="20" name="ADI_0.13" type="FLOAT" bold="-1" digits="0" has_enum="0" enum="" inmenu="0" group="" place="8" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="0" lnk_text="" lnk_showtext="0" lnk_showline="-1"/>
+				<params name="Аналогово-дискретный вход" dll="Standard.dll" static="1" single="0">
+					<output name="Y" type="FLOAT"/>
+					<par name="Тип датчика" type="INT" enum="0,ТСП(Pt)-1000 (1.385);1,ТСП(Pt)-1000 (1.391);2,ТСП(Pt)-1000 (1.375);3,Ni1000 (1.500);4,Ni1000 (1.618);5,Напряжение;6,Сопротивление;7,Дискретный;8,Ток 4-20мА;9,Ток 0-20мА;" val="0"/>
+					<par name="Номинал 0 %" type="FLOAT" enum="" val="0"/>
+					<par name="Номинал 100 %" type="FLOAT" enum="" val="10"/>
+					<call func="ADI_init" at="INIT"/>
+				</params>
+			</block>
+			<block uid="46" x="0" y="470" w="60" h="20" type="ADI" i_type="ADI" name="ADI_0.14" descr="" hint="Аналогово-дискретный вход" head="0">
+				<out_pin uid="47" x="0" y="470" w="60" h="20" name="ADI_0.14" type="FLOAT" bold="-1" digits="0" has_enum="0" enum="" inmenu="0" group="" place="8" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="0" lnk_text="" lnk_showtext="0" lnk_showline="-1"/>
+				<params name="Аналогово-дискретный вход" dll="Standard.dll" static="1" single="0">
+					<output name="Y" type="FLOAT"/>
+					<par name="Тип датчика" type="INT" enum="0,ТСП(Pt)-1000 (1.385);1,ТСП(Pt)-1000 (1.391);2,ТСП(Pt)-1000 (1.375);3,Ni1000 (1.500);4,Ni1000 (1.618);5,Напряжение;6,Сопротивление;7,Дискретный;8,Ток 4-20мА;9,Ток 0-20мА;" val="0"/>
+					<par name="Номинал 0 %" type="FLOAT" enum="" val="0"/>
+					<par name="Номинал 100 %" type="FLOAT" enum="" val="10"/>
+					<call func="ADI_init" at="INIT"/>
+				</params>
+			</block>
+			<block uid="49" x="0" y="505" w="60" h="20" type="AODI" i_type="AODI" name="AODI_0.1" descr="" hint="Дискретный вход/Аналоговый выход" head="0" in="1">
+				<out_pin uid="51" x="0" y="505" w="60" h="20" name="AODI_0.1" type="BOOL" bold="-1" digits="0" has_enum="0" enum="" enable="0" inmenu="0" group="" place="8" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="0" lnk_text="" lnk_showtext="0" lnk_showline="-1"/>
+				<params name="Дискретный вход/Аналоговый выход" dll="Standard.dll" static="1" single="0">
+					<input name="X" type="FLOAT"/>
+					<output name="Y" type="BOOL"/>
+					<par name="Режим" type="INT" enum="0,Дискретный вход;1,Аналоговый выход;" val="1"/>
+					<par name="Значение при 0% (для аналогового выхода)" type="FLOAT" enum="" val="0"/>
+					<par name="Значение при 100%  (для аналогового выхода)" type="FLOAT" enum="" val="10"/>
+					<call func="AODI_init" at="INIT"/>
+				</params>
+			</block>
+			<block uid="53" x="965" y="15" w="59" h="20" type="AODI" i_type="AODI" name="AODI_0.1" descr="" hint="Дискретный вход/Аналоговый выход" head="0">
+				<in_pin uid="54" x="965" y="15" w="59" h="20" name="AODI_0.1" type="FLOAT" bold="-1" digits="0" has_enum="0" enum="" kind="0" cval="0" group="" place="" mname="" min="0" max="0" def="0" hide="0"/>
+				<params name="Дискретный вход/Аналоговый выход" dll="Standard.dll" static="1" single="0">
+					<input name="X" type="FLOAT"/>
+					<output name="Y" type="BOOL"/>
+					<par name="Режим" type="INT" enum="0,Дискретный вход;1,Аналоговый выход;" val="1"/>
+					<par name="Значение при 0% (для аналогового выхода)" type="FLOAT" enum="" val="0"/>
+					<par name="Значение при 100%  (для аналогового выхода)" type="FLOAT" enum="" val="10"/>
+					<call func="AODI_init" at="INIT"/>
+				</params>
+			</block>
+			<block uid="57" x="0" y="540" w="60" h="20" type="AODI" i_type="AODI" name="AODI_0.2" descr="" hint="Дискретный вход/Аналоговый выход" head="0" in="1">
+				<out_pin uid="59" x="0" y="540" w="60" h="20" name="AODI_0.2" type="BOOL" bold="-1" digits="0" has_enum="0" enum="" enable="0" inmenu="0" group="" place="8" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="0" lnk_text="" lnk_showtext="0" lnk_showline="-1"/>
+				<params name="Дискретный вход/Аналоговый выход" dll="Standard.dll" static="1" single="0">
+					<input name="X" type="FLOAT"/>
+					<output name="Y" type="BOOL"/>
+					<par name="Режим" type="INT" enum="0,Дискретный вход;1,Аналоговый выход;" val="1"/>
+					<par name="Значение при 0% (для аналогового выхода)" type="FLOAT" enum="" val="0"/>
+					<par name="Значение при 100%  (для аналогового выхода)" type="FLOAT" enum="" val="10"/>
+					<call func="AODI_init" at="INIT"/>
+				</params>
+			</block>
+			<block uid="61" x="965" y="50" w="59" h="20" type="AODI" i_type="AODI" name="AODI_0.2" descr="" hint="Дискретный вход/Аналоговый выход" head="0">
+				<in_pin uid="62" x="965" y="50" w="59" h="20" name="AODI_0.2" type="FLOAT" bold="-1" digits="0" has_enum="0" enum="" kind="0" cval="0" group="" place="" mname="" min="0" max="0" def="0" hide="0"/>
+				<params name="Дискретный вход/Аналоговый выход" dll="Standard.dll" static="1" single="0">
+					<input name="X" type="FLOAT"/>
+					<output name="Y" type="BOOL"/>
+					<par name="Режим" type="INT" enum="0,Дискретный вход;1,Аналоговый выход;" val="1"/>
+					<par name="Значение при 0% (для аналогового выхода)" type="FLOAT" enum="" val="0"/>
+					<par name="Значение при 100%  (для аналогового выхода)" type="FLOAT" enum="" val="10"/>
+					<call func="AODI_init" at="INIT"/>
+				</params>
+			</block>
+			<block uid="65" x="0" y="575" w="60" h="20" type="AODI" i_type="AODI" name="AODI_0.3" descr="" hint="Дискретный вход/Аналоговый выход" head="0" in="1">
+				<out_pin uid="67" x="0" y="575" w="60" h="20" name="AODI_0.3" type="BOOL" bold="-1" digits="0" has_enum="0" enum="" enable="0" inmenu="0" group="" place="8" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="0" lnk_text="" lnk_showtext="0" lnk_showline="-1"/>
+				<params name="Дискретный вход/Аналоговый выход" dll="Standard.dll" static="1" single="0">
+					<input name="X" type="FLOAT"/>
+					<output name="Y" type="BOOL"/>
+					<par name="Режим" type="INT" enum="0,Дискретный вход;1,Аналоговый выход;" val="1"/>
+					<par name="Значение при 0% (для аналогового выхода)" type="FLOAT" enum="" val="0"/>
+					<par name="Значение при 100%  (для аналогового выхода)" type="FLOAT" enum="" val="10"/>
+					<call func="AODI_init" at="INIT"/>
+				</params>
+			</block>
+			<block uid="69" x="965" y="85" w="59" h="20" type="AODI" i_type="AODI" name="AODI_0.3" descr="" hint="Дискретный вход/Аналоговый выход" head="0">
+				<in_pin uid="70" x="965" y="85" w="59" h="20" name="AODI_0.3" type="FLOAT" bold="-1" digits="0" has_enum="0" enum="" kind="0" cval="0" group="" place="" mname="" min="0" max="0" def="0" hide="0"/>
+				<params name="Дискретный вход/Аналоговый выход" dll="Standard.dll" static="1" single="0">
+					<input name="X" type="FLOAT"/>
+					<output name="Y" type="BOOL"/>
+					<par name="Режим" type="INT" enum="0,Дискретный вход;1,Аналоговый выход;" val="1"/>
+					<par name="Значение при 0% (для аналогового выхода)" type="FLOAT" enum="" val="0"/>
+					<par name="Значение при 100%  (для аналогового выхода)" type="FLOAT" enum="" val="10"/>
+					<call func="AODI_init" at="INIT"/>
+				</params>
+			</block>
+			<block uid="73" x="0" y="610" w="60" h="20" type="AODI" i_type="AODI" name="AODI_0.4" descr="" hint="Дискретный вход/Аналоговый выход" head="0" in="1">
+				<out_pin uid="75" x="0" y="610" w="60" h="20" name="AODI_0.4" type="BOOL" bold="-1" digits="0" has_enum="0" enum="" enable="0" inmenu="0" group="" place="8" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="0" lnk_text="" lnk_showtext="0" lnk_showline="-1"/>
+				<params name="Дискретный вход/Аналоговый выход" dll="Standard.dll" static="1" single="0">
+					<input name="X" type="FLOAT"/>
+					<output name="Y" type="BOOL"/>
+					<par name="Режим" type="INT" enum="0,Дискретный вход;1,Аналоговый выход;" val="1"/>
+					<par name="Значение при 0% (для аналогового выхода)" type="FLOAT" enum="" val="0"/>
+					<par name="Значение при 100%  (для аналогового выхода)" type="FLOAT" enum="" val="10"/>
+					<call func="AODI_init" at="INIT"/>
+				</params>
+			</block>
+			<block uid="77" x="965" y="120" w="59" h="20" type="AODI" i_type="AODI" name="AODI_0.4" descr="" hint="Дискретный вход/Аналоговый выход" head="0">
+				<in_pin uid="78" x="965" y="120" w="59" h="20" name="AODI_0.4" type="FLOAT" bold="-1" digits="0" has_enum="0" enum="" kind="0" cval="0" group="" place="" mname="" min="0" max="0" def="0" hide="0"/>
+				<params name="Дискретный вход/Аналоговый выход" dll="Standard.dll" static="1" single="0">
+					<input name="X" type="FLOAT"/>
+					<output name="Y" type="BOOL"/>
+					<par name="Режим" type="INT" enum="0,Дискретный вход;1,Аналоговый выход;" val="1"/>
+					<par name="Значение при 0% (для аналогового выхода)" type="FLOAT" enum="" val="0"/>
+					<par name="Значение при 100%  (для аналогового выхода)" type="FLOAT" enum="" val="10"/>
+					<call func="AODI_init" at="INIT"/>
+				</params>
+			</block>
+			<block uid="81" x="0" y="645" w="60" h="20" type="AODI" i_type="AODI" name="AODI_0.5" descr="" hint="Дискретный вход/Аналоговый выход" head="0" in="1">
+				<out_pin uid="83" x="0" y="645" w="60" h="20" name="AODI_0.5" type="BOOL" bold="-1" digits="0" has_enum="0" enum="" enable="0" inmenu="0" group="" place="8" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="0" lnk_text="" lnk_showtext="0" lnk_showline="-1"/>
+				<params name="Дискретный вход/Аналоговый выход" dll="Standard.dll" static="1" single="0">
+					<input name="X" type="FLOAT"/>
+					<output name="Y" type="BOOL"/>
+					<par name="Режим" type="INT" enum="0,Дискретный вход;1,Аналоговый выход;" val="1"/>
+					<par name="Значение при 0% (для аналогового выхода)" type="FLOAT" enum="" val="0"/>
+					<par name="Значение при 100%  (для аналогового выхода)" type="FLOAT" enum="" val="10"/>
+					<call func="AODI_init" at="INIT"/>
+				</params>
+			</block>
+			<block uid="85" x="965" y="155" w="59" h="20" type="AODI" i_type="AODI" name="AODI_0.5" descr="" hint="Дискретный вход/Аналоговый выход" head="0">
+				<in_pin uid="86" x="965" y="155" w="59" h="20" name="AODI_0.5" type="FLOAT" bold="-1" digits="0" has_enum="0" enum="" kind="0" cval="0" group="" place="" mname="" min="0" max="0" def="0" hide="0"/>
+				<params name="Дискретный вход/Аналоговый выход" dll="Standard.dll" static="1" single="0">
+					<input name="X" type="FLOAT"/>
+					<output name="Y" type="BOOL"/>
+					<par name="Режим" type="INT" enum="0,Дискретный вход;1,Аналоговый выход;" val="1"/>
+					<par name="Значение при 0% (для аналогового выхода)" type="FLOAT" enum="" val="0"/>
+					<par name="Значение при 100%  (для аналогового выхода)" type="FLOAT" enum="" val="10"/>
+					<call func="AODI_init" at="INIT"/>
+				</params>
+			</block>
+			<block uid="89" x="0" y="680" w="60" h="20" type="AODI" i_type="AODI" name="AODI_0.6" descr="" hint="Дискретный вход/Аналоговый выход" head="0" in="1">
+				<out_pin uid="91" x="0" y="680" w="60" h="20" name="AODI_0.6" type="BOOL" bold="-1" digits="0" has_enum="0" enum="" enable="0" inmenu="0" group="" place="8" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="0" lnk_text="" lnk_showtext="0" lnk_showline="-1"/>
+				<params name="Дискретный вход/Аналоговый выход" dll="Standard.dll" static="1" single="0">
+					<input name="X" type="FLOAT"/>
+					<output name="Y" type="BOOL"/>
+					<par name="Режим" type="INT" enum="0,Дискретный вход;1,Аналоговый выход;" val="1"/>
+					<par name="Значение при 0% (для аналогового выхода)" type="FLOAT" enum="" val="0"/>
+					<par name="Значение при 100%  (для аналогового выхода)" type="FLOAT" enum="" val="10"/>
+					<call func="AODI_init" at="INIT"/>
+				</params>
+			</block>
+			<block uid="93" x="965" y="190" w="59" h="20" type="AODI" i_type="AODI" name="AODI_0.6" descr="" hint="Дискретный вход/Аналоговый выход" head="0">
+				<in_pin uid="94" x="965" y="190" w="59" h="20" name="AODI_0.6" type="FLOAT" bold="-1" digits="0" has_enum="0" enum="" kind="0" cval="0" group="" place="" mname="" min="0" max="0" def="0" hide="0"/>
+				<params name="Дискретный вход/Аналоговый выход" dll="Standard.dll" static="1" single="0">
+					<input name="X" type="FLOAT"/>
+					<output name="Y" type="BOOL"/>
+					<par name="Режим" type="INT" enum="0,Дискретный вход;1,Аналоговый выход;" val="1"/>
+					<par name="Значение при 0% (для аналогового выхода)" type="FLOAT" enum="" val="0"/>
+					<par name="Значение при 100%  (для аналогового выхода)" type="FLOAT" enum="" val="10"/>
+					<call func="AODI_init" at="INIT"/>
+				</params>
+			</block>
+			<block uid="97" x="965" y="225" w="59" h="20" type="DO" i_type="DO" name="DO_0.1" descr="" hint="Дискретный выход" head="0">
+				<in_pin uid="98" x="965" y="225" w="59" h="20" name="DO_0.1" type="BOOL" bold="-1" digits="0" has_enum="0" enum="" kind="0" cval="0" group="" place="" mname="" min="0" max="0" def="0" hide="0"/>
+				<params name="Дискретный выход" dll="Standard.dll" static="1" single="0">
+					<input name="X" type="BOOL"/>
+				</params>
+			</block>
+			<block uid="100" x="965" y="260" w="59" h="20" type="DO" i_type="DO" name="DO_0.2" descr="" hint="Дискретный выход" head="0">
+				<in_pin uid="101" x="965" y="260" w="59" h="20" name="DO_0.2" type="BOOL" bold="-1" digits="0" has_enum="0" enum="" kind="0" cval="0" group="" place="" mname="" min="0" max="0" def="0" hide="0"/>
+				<params name="Дискретный выход" dll="Standard.dll" static="1" single="0">
+					<input name="X" type="BOOL"/>
+				</params>
+			</block>
+			<block uid="103" x="965" y="295" w="59" h="20" type="DO" i_type="DO" name="DO_0.3" descr="" hint="Дискретный выход" head="0">
+				<in_pin uid="104" x="965" y="295" w="59" h="20" name="DO_0.3" type="BOOL" bold="-1" digits="0" has_enum="0" enum="" kind="0" cval="0" group="" place="" mname="" min="0" max="0" def="0" hide="0"/>
+				<params name="Дискретный выход" dll="Standard.dll" static="1" single="0">
+					<input name="X" type="BOOL"/>
+				</params>
+			</block>
+			<block uid="106" x="965" y="330" w="59" h="20" type="DO" i_type="DO" name="DO_0.4" descr="" hint="Дискретный выход" head="0">
+				<in_pin uid="107" x="965" y="330" w="59" h="20" name="DO_0.4" type="BOOL" bold="-1" digits="0" has_enum="0" enum="" kind="0" cval="0" group="" place="" mname="" min="0" max="0" def="0" hide="0"/>
+				<params name="Дискретный выход" dll="Standard.dll" static="1" single="0">
+					<input name="X" type="BOOL"/>
+				</params>
+			</block>
+			<block uid="109" x="965" y="365" w="59" h="20" type="DO" i_type="DO" name="DO_0.5" descr="" hint="Дискретный выход" head="0">
+				<in_pin uid="110" x="965" y="365" w="59" h="20" name="DO_0.5" type="BOOL" bold="-1" digits="0" has_enum="0" enum="" kind="0" cval="0" group="" place="" mname="" min="0" max="0" def="0" hide="0"/>
+				<params name="Дискретный выход" dll="Standard.dll" static="1" single="0">
+					<input name="X" type="BOOL"/>
+				</params>
+			</block>
+			<block uid="112" x="965" y="400" w="59" h="20" type="DO" i_type="DO" name="DO_0.6" descr="" hint="Дискретный выход" head="0">
+				<in_pin uid="113" x="965" y="400" w="59" h="20" name="DO_0.6" type="BOOL" bold="-1" digits="0" has_enum="0" enum="" kind="0" cval="0" group="" place="" mname="" min="0" max="0" def="0" hide="0"/>
+				<params name="Дискретный выход" dll="Standard.dll" static="1" single="0">
+					<input name="X" type="BOOL"/>
+				</params>
+			</block>
+			<block uid="115" x="965" y="435" w="59" h="20" type="DO" i_type="DO" name="DO_0.7" descr="" hint="Дискретный выход" head="0">
+				<in_pin uid="116" x="965" y="435" w="59" h="20" name="DO_0.7" type="BOOL" bold="-1" digits="0" has_enum="0" enum="" kind="0" cval="0" group="" place="" mname="" min="0" max="0" def="0" hide="0"/>
+				<params name="Дискретный выход" dll="Standard.dll" static="1" single="0">
+					<input name="X" type="BOOL"/>
+				</params>
+			</block>
+			<block uid="118" x="965" y="470" w="59" h="20" type="DO" i_type="DO" name="DO_0.8" descr="" hint="Дискретный выход" head="0">
+				<in_pin uid="119" x="965" y="470" w="59" h="20" name="DO_0.8" type="BOOL" bold="-1" digits="0" has_enum="0" enum="" kind="0" cval="0" group="" place="" mname="" min="0" max="0" def="0" hide="0"/>
+				<params name="Дискретный выход" dll="Standard.dll" static="1" single="0">
+					<input name="X" type="BOOL"/>
+				</params>
+			</block>
+			<block uid="121" x="965" y="505" w="59" h="20" type="DO" i_type="DO" name="DO_0.9" descr="" hint="Дискретный выход" head="0">
+				<in_pin uid="122" x="965" y="505" w="59" h="20" name="DO_0.9" type="BOOL" bold="-1" digits="0" has_enum="0" enum="" kind="0" cval="0" group="" place="" mname="" min="0" max="0" def="0" hide="0"/>
+				<params name="Дискретный выход" dll="Standard.dll" static="1" single="0">
+					<input name="X" type="BOOL"/>
+				</params>
+			</block>
+			<block uid="124" x="965" y="540" w="59" h="20" type="DO" i_type="DO" name="DO_0.10" descr="" hint="Дискретный выход" head="0">
+				<in_pin uid="125" x="965" y="540" w="59" h="20" name="DO_0.10" type="BOOL" bold="-1" digits="0" has_enum="0" enum="" kind="0" cval="0" group="" place="" mname="" min="0" max="0" def="0" hide="0"/>
+				<params name="Дискретный выход" dll="Standard.dll" static="1" single="0">
+					<input name="X" type="BOOL"/>
+				</params>
+			</block>
+			<block uid="127" x="325" y="119" w="100" h="209" type="MODBUS-TCP Slave" i_type="MODBUSTCPSLAVE3" name="MODBUS-TCP Slave" descr="" hint="MODBUS-TCP Slave(Server)" head="28">
+				<in_pin uid="128" x="325" y="150" w="50" h="16" name="HR[1]" type="INT" bold="0" digits="0" has_enum="0" enum="" kind="0" cval="0" group="" place="" mname="" min="0" max="0" def="0" hide="0"/>
+				<in_pin uid="176" x="325" y="170" w="50" h="16" name="HR[2]" type="INT" bold="0" digits="0" has_enum="0" enum="" kind="0" cval="0" group="" place="" mname="" min="0" max="0" def="0" hide="0"/>
+				<in_pin uid="177" x="325" y="190" w="50" h="16" name="HR[3]" type="INT" bold="0" digits="0" has_enum="0" enum="" kind="0" cval="0" group="" place="" mname="" min="0" max="0" def="0" hide="0"/>
+				<in_pin uid="320" x="325" y="210" w="50" h="16" name="HR[4]" type="INT" bold="0" digits="0" has_enum="0" enum="" kind="0" cval="0" group="" place="" mname="" min="0" max="0" def="0" hide="0"/>
+				<in_pin uid="129" x="325" y="230" w="50" h="16" name="IR[1]" type="INT" bold="0" digits="0" has_enum="0" enum="" kind="1" cval="0" group="" place="" mname="" min="0" max="0" def="0" hide="0"/>
+				<in_pin uid="130" x="325" y="250" w="50" h="16" name="IC[1]" type="INT" bold="0" digits="0" has_enum="0" enum="" kind="1" cval="0" group="" place="" mname="" min="0" max="0" def="0" hide="0"/>
+				<in_pin uid="131" x="325" y="270" w="50" h="16" name="DISABLE" type="BOOL" bold="0" digits="0" has_enum="0" enum="" kind="1" cval="0" group="" place="" mname="" min="0" max="0" def="0" hide="0"/>
+				<out_pin uid="132" x="375" y="150" w="50" h="16" name="HR[1]" type="INT" bold="0" digits="0" has_enum="0" enum="" inmenu="0" group="" place="" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="0" lnk_text="" lnk_showtext="0" lnk_showline="-1"/>
+				<out_pin uid="178" x="375" y="170" w="50" h="16" name="HR[2]" type="INT" bold="0" digits="0" has_enum="0" enum="" inmenu="0" group="" place="" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="0" lnk_text="" lnk_showtext="0" lnk_showline="-1"/>
+				<out_pin uid="179" x="375" y="190" w="50" h="16" name="HR[3]" type="INT" bold="0" digits="0" has_enum="0" enum="" inmenu="0" group="" place="" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="0" lnk_text="" lnk_showtext="0" lnk_showline="0"/>
+				<out_pin uid="321" x="375" y="210" w="50" h="16" name="HR[4]" type="INT" bold="0" digits="0" has_enum="0" enum="" inmenu="0" group="" place="" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="" lnk_text="" lnk_showtext="0" lnk_showline="-1"/>
+				<out_pin uid="133" x="375" y="230" w="50" h="16" name="HRi[1]" type="BOOL" bold="0" digits="0" has_enum="0" enum="" inmenu="0" group="" place="" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="0" lnk_text="" lnk_showtext="0" lnk_showline="-1"/>
+				<out_pin uid="180" x="375" y="250" w="50" h="16" name="HRi[2]" type="BOOL" bold="0" digits="0" has_enum="0" enum="" inmenu="0" group="" place="" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="0" lnk_text="" lnk_showtext="0" lnk_showline="-1"/>
+				<out_pin uid="181" x="375" y="270" w="50" h="16" name="HRi[3]" type="BOOL" bold="0" digits="0" has_enum="0" enum="" inmenu="0" group="" place="" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="0" lnk_text="" lnk_showtext="0" lnk_showline="0"/>
+				<out_pin uid="322" x="375" y="290" w="50" h="16" name="HRi[4]" type="BOOL" bold="0" digits="0" has_enum="0" enum="" inmenu="0" group="" place="" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="" lnk_text="" lnk_showtext="0" lnk_showline="-1"/>
+				<out_pin uid="134" x="375" y="310" w="50" h="16" name="HC[1]" type="INT" bold="0" digits="0" has_enum="0" enum="" inmenu="0" group="" place="" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="0" lnk_text="" lnk_showtext="0" lnk_showline="-1"/>
+				<params name="MODBUS-TCP Slave(Server)" dll="ModbusTCPSlave.dll" static="0" single="504">
+					<input name="HR" type="INTARRAY" max_size="255" def_size="#Количество HR"/>
+					<input name="IR" type="INTARRAY" max_size="255" def_size="1"/>
+					<input name="IC" type="INTARRAY" max_size="255" def_size="1"/>
+					<input name="DISABLE" type="BOOL"/>
+					<output name="HR" type="INTARRAY" max_size="255" def_size="#Количество HR"/>
+					<output name="HRi" type="BOOLARRAY" max_size="255" def_size="#Количество HR"/>
+					<output name="HC" type="INTARRAY" max_size="255" def_size="1"/>
+					<par name="Количество HR" type="INT" enum="" val="4"/>
+					<call func="MODBUSTCPSLAVE3_init" at="INIT"/>
+					<call func="MODBUSTCPSLAVE3_close" at="CLOSE"/>
+					<call func="MODBUSTCPSLAVE3_onload" at="ONLOAD"/>
+					<custom ip="192.168.0.228" mask="255.255.255.0" gate="192.168.0.1" omit="0"/>
+				</params>
+			</block>
+			<complex uid="207" x="120" y="34" w="100" h="89" type="Составной блок" i_type="Составной блок" name="Temperature Processor_1" descr="" hint="" head="28">
+				<in_pin uid="214" x="120" y="65" w="50" h="16" name="RawTemp" type="FLOAT" bold="0" digits="0" has_enum="0" enum="" kind="0" cval="0" group="" place="" mname="" min="0" max="0" def="0" hide="0"/>
+				<in_pin uid="242" x="120" y="85" w="50" h="16" name="Filter" type="FLOAT" bold="0" digits="0" has_enum="0" enum="" kind="1" cval="10" group="" place="" mname="" min="0" max="0" def="0" hide="0"/>
+				<in_pin uid="256" x="120" y="105" w="50" h="16" name="RegScale" type="FLOAT" bold="0" digits="0" has_enum="0" enum="" kind="1" cval="0" group="" place="" mname="" min="0" max="0" def="0" hide="0"/>
+				<out_pin uid="244" x="170" y="65" w="50" h="16" name="Temp" type="FLOAT" bold="0" digits="-1" has_enum="0" enum="" inmenu="-1" group="" place="" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="" lnk_text="" lnk_showtext="0" lnk_showline="0"/>
+				<out_pin uid="220" x="170" y="85" w="50" h="16" name="Temp" type="INT" bold="0" digits="0" has_enum="0" enum="" inmenu="0" group="" place="" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="" lnk_text="" lnk_showtext="0" lnk_showline="0"/>
+				<diagram uid="4" width="908" height="425">
+					<gui/>
+					<complex_in uid="215" x="0" y="15" w="60" h="20" name="RawTemp" type="FLOAT" bold="-1" digits="0" has_enum="0" enum="" inmenu="0" group="" place="" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="" lnk_text="" lnk_showtext="0" lnk_showline="0" pin="214"/>
+					<complex_out uid="221" x="848" y="50" w="59" h="20" name="Temp" type="INT" bold="-1" digits="0" has_enum="0" enum="" kind="0" cval="0" group="" place="" mname="" min="0" max="0" def="0" hide="0" pin="220"/>
+					<block uid="135" x="378" y="41" w="100" h="69" type="Умножение" i_type="MULT" name="Умножение_1" descr="" hint="Умножение" head="28">
+						<in_pin uid="136" x="378" y="72" w="50" h="16" name="X[1]" type="FLOAT" bold="0" digits="0" has_enum="0" enum="" kind="0" cval="0" group="" place="" mname="" min="0" max="0" def="0" hide="0"/>
+						<in_pin uid="137" x="378" y="92" w="50" h="16" name="X[2]" type="FLOAT" bold="0" digits="0" has_enum="0" enum="" kind="0" cval="10" group="" place="" mname="" min="0" max="0" def="0" hide="0"/>
+						<out_pin uid="138" x="428" y="72" w="50" h="16" name="Y" type="FLOAT" bold="0" digits="-1" has_enum="0" enum="" inmenu="0" group="" place="" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="0" lnk_text="" lnk_showtext="0" lnk_showline="0"/>
+						<params name="Умножение" dll="Standard.dll" static="0" single="0">
+							<input name="X" type="FLOATARRAY" max_size="32" def_size="2"/>
+							<output name="Y" type="FLOAT"/>
+						</params>
+					</block>
+					<block uid="149" x="201" y="37" w="100" h="69" type="Фильтр" i_type="FILTER" name="Фильтр_1" descr="" hint="Фильтр" head="28">
+						<in_pin uid="150" x="201" y="68" w="50" h="16" name="X" type="FLOAT" bold="0" digits="0" has_enum="0" enum="" kind="0" cval="0" group="" place="" mname="" min="0" max="0" def="0" hide="0"/>
+						<in_pin uid="151" x="201" y="88" w="50" h="16" name="TF" type="FLOAT" bold="0" digits="0" has_enum="0" enum="" kind="0" cval="10" group="" place="" mname="" min="0" max="0" def="0" hide="0"/>
+						<out_pin uid="152" x="251" y="68" w="50" h="16" name="Y" type="FLOAT" bold="0" digits="0" has_enum="0" enum="" inmenu="0" group="" place="" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="0" lnk_text="" lnk_showtext="0" lnk_showline="0"/>
+						<params name="Фильтр" dll="Standard.dll" static="0" single="0">
+							<input name="X" type="FLOAT"/>
+							<input name="TF" type="FLOAT"/>
+							<output name="Y" type="FLOAT"/>
+						</params>
+					</block>
+					<block uid="166" x="549" y="45" w="100" h="49" type="Ан в Цифр" i_type="FI" name="Ан в Цифр_1" descr="" hint="Преобразование Флоат-Инт" head="28">
+						<in_pin uid="167" x="549" y="76" w="50" h="16" name="X" type="FLOAT" bold="0" digits="0" has_enum="0" enum="" kind="0" cval="0" group="" place="" mname="" min="0" max="0" def="0" hide="0"/>
+						<out_pin uid="168" x="599" y="76" w="50" h="16" name="Y" type="INT" bold="0" digits="0" has_enum="0" enum="" inmenu="0" group="" place="" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="0" lnk_text="" lnk_showtext="0" lnk_showline="0"/>
+						<params name="Преобразование Флоат-Инт" dll="Standard.dll" static="0" single="0">
+							<input name="X" type="FLOAT"/>
+							<output name="Y" type="INT"/>
+						</params>
+					</block>
+					<complex_in uid="243" x="0" y="50" w="60" h="20" name="Filter" type="FLOAT" bold="-1" digits="0" has_enum="0" enum="" inmenu="0" group="" place="" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="" lnk_text="" lnk_showtext="0" lnk_showline="0" pin="242"/>
+					<complex_out uid="245" x="848" y="15" w="59" h="20" name="Temp" type="FLOAT" bold="-1" digits="0" has_enum="0" enum="" kind="0" cval="0" group="" place="" mname="" min="0" max="0" def="0" hide="0" pin="244"/>
+					<complex_in uid="257" x="0" y="85" w="60" h="20" name="RegScale" type="FLOAT" bold="-1" digits="0" has_enum="0" enum="" inmenu="0" group="" place="" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="" lnk_text="" lnk_showtext="0" lnk_showline="0" pin="256"/>
+					<link uid="222" x="649" y="60" w="199" h="24" src="168" sink="221">
+						<seg uid="231" x="649" y="84" w="104" h="0"/>
+						<seg uid="232" x="753" y="60" w="0" h="24"/>
+						<seg uid="233" x="753" y="60" w="95" h="0"/>
+					</link>
+					<link uid="216" x="60" y="25" w="141" h="51" src="215" sink="150">
+						<seg uid="228" x="60" y="25" w="75" h="0"/>
+						<seg uid="229" x="135" y="25" w="0" h="51"/>
+						<seg uid="230" x="135" y="76" w="66" h="0"/>
+					</link>
+					<link uid="250" x="60" y="60" w="141" h="36" src="243" sink="151">
+						<seg uid="251" x="60" y="60" w="75" h="0"/>
+						<seg uid="252" x="135" y="60" w="0" h="36"/>
+						<seg uid="253" x="135" y="96" w="66" h="0"/>
+					</link>
+					<link uid="246" x="478" y="25" w="370" h="55" src="138" sink="245">
+						<seg uid="247" x="478" y="80" w="189" h="0"/>
+						<seg uid="248" x="667" y="25" w="0" h="55"/>
+						<seg uid="249" x="667" y="25" w="181" h="0"/>
+					</link>
+					<link uid="162" x="301" y="70" w="77" h="16" src="152" sink="136">
+						<seg uid="163" x="301" y="76" w="55" h="0"/>
+						<seg uid="164" x="356" y="76" w="0" h="4"/>
+						<seg uid="165" x="356" y="80" w="22" h="0"/>
+					</link>
+					<link uid="172" x="478" y="74" w="71" h="16" src="138" sink="167">
+						<seg uid="173" x="478" y="80" w="28" h="0"/>
+						<seg uid="174" x="506" y="80" w="0" h="4"/>
+						<seg uid="175" x="506" y="84" w="43" h="0"/>
+					</link>
+					<link uid="258" x="60" y="95" w="318" h="5" src="257" sink="137">
+						<seg uid="259" x="60" y="95" w="159" h="0"/>
+						<seg uid="260" x="219" y="95" w="0" h="5"/>
+						<seg uid="261" x="219" y="100" w="159" h="0"/>
+					</link>
+				</diagram>
+			</complex>
+			<complex uid="262" x="116" y="151" w="100" h="89" type="Составной блок" i_type="Составной блок" name="Temperature Processor_2" descr="" hint="" head="28">
+				<in_pin uid="263" x="116" y="182" w="50" h="16" name="RawTemp" type="FLOAT" bold="0" digits="0" has_enum="0" enum="" kind="0" cval="0" group="" place="" mname="" min="0" max="0" def="0" hide="0"/>
+				<in_pin uid="264" x="116" y="202" w="50" h="16" name="Filter" type="FLOAT" bold="0" digits="0" has_enum="0" enum="" kind="1" cval="10" group="" place="" mname="" min="0" max="0" def="0" hide="0"/>
+				<in_pin uid="265" x="116" y="222" w="50" h="16" name="RegScale" type="FLOAT" bold="0" digits="0" has_enum="0" enum="" kind="1" cval="0" group="" place="" mname="" min="0" max="0" def="0" hide="0"/>
+				<out_pin uid="266" x="166" y="182" w="50" h="16" name="Temp" type="FLOAT" bold="0" digits="-1" has_enum="0" enum="" inmenu="-1" group="" place="" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="0" lnk_text="" lnk_showtext="0" lnk_showline="-1"/>
+				<out_pin uid="267" x="166" y="202" w="50" h="16" name="Temp" type="INT" bold="0" digits="0" has_enum="0" enum="" inmenu="0" group="" place="" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="0" lnk_text="" lnk_showtext="0" lnk_showline="0"/>
+				<diagram uid="5" width="908" height="425">
+					<gui/>
+					<complex_in uid="268" x="0" y="15" w="60" h="20" name="RawTemp" type="FLOAT" bold="-1" digits="0" has_enum="0" enum="" inmenu="0" group="" place="" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="0" lnk_text="" lnk_showtext="0" lnk_showline="0" pin="263"/>
+					<complex_out uid="269" x="848" y="50" w="59" h="20" name="Temp" type="INT" bold="-1" digits="0" has_enum="0" enum="" kind="0" cval="0" group="" place="" mname="" min="0" max="0" def="0" hide="0" pin="267"/>
+					<block uid="270" x="378" y="41" w="100" h="69" type="Умножение" i_type="MULT" name="Умножение_1" descr="" hint="Умножение" head="28">
+						<in_pin uid="271" x="378" y="72" w="50" h="16" name="X[1]" type="FLOAT" bold="0" digits="0" has_enum="0" enum="" kind="0" cval="0" group="" place="" mname="" min="0" max="0" def="0" hide="0"/>
+						<in_pin uid="272" x="378" y="92" w="50" h="16" name="X[2]" type="FLOAT" bold="0" digits="0" has_enum="0" enum="" kind="0" cval="10" group="" place="" mname="" min="0" max="0" def="0" hide="0"/>
+						<out_pin uid="273" x="428" y="72" w="50" h="16" name="Y" type="FLOAT" bold="0" digits="-1" has_enum="0" enum="" inmenu="0" group="" place="" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="0" lnk_text="" lnk_showtext="0" lnk_showline="0"/>
+						<params name="Умножение" dll="Standard.dll" static="0" single="0">
+							<input name="X" type="FLOATARRAY" max_size="32" def_size="2"/>
+							<output name="Y" type="FLOAT"/>
+						</params>
+					</block>
+					<block uid="274" x="201" y="37" w="100" h="69" type="Фильтр" i_type="FILTER" name="Фильтр_1" descr="" hint="Фильтр" head="28">
+						<in_pin uid="275" x="201" y="68" w="50" h="16" name="X" type="FLOAT" bold="0" digits="0" has_enum="0" enum="" kind="0" cval="0" group="" place="" mname="" min="0" max="0" def="0" hide="0"/>
+						<in_pin uid="276" x="201" y="88" w="50" h="16" name="TF" type="FLOAT" bold="0" digits="0" has_enum="0" enum="" kind="0" cval="10" group="" place="" mname="" min="0" max="0" def="0" hide="0"/>
+						<out_pin uid="277" x="251" y="68" w="50" h="16" name="Y" type="FLOAT" bold="0" digits="0" has_enum="0" enum="" inmenu="0" group="" place="" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="0" lnk_text="" lnk_showtext="0" lnk_showline="0"/>
+						<params name="Фильтр" dll="Standard.dll" static="0" single="0">
+							<input name="X" type="FLOAT"/>
+							<input name="TF" type="FLOAT"/>
+							<output name="Y" type="FLOAT"/>
+						</params>
+					</block>
+					<block uid="278" x="555" y="55" w="100" h="49" type="Ан в Цифр" i_type="FI" name="Ан в Цифр_1" descr="" hint="Преобразование Флоат-Инт" head="28">
+						<in_pin uid="279" x="555" y="86" w="50" h="16" name="X" type="FLOAT" bold="0" digits="0" has_enum="0" enum="" kind="0" cval="0" group="" place="" mname="" min="0" max="0" def="0" hide="0"/>
+						<out_pin uid="280" x="605" y="86" w="50" h="16" name="Y" type="INT" bold="0" digits="0" has_enum="0" enum="" inmenu="0" group="" place="" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="0" lnk_text="" lnk_showtext="0" lnk_showline="0"/>
+						<params name="Преобразование Флоат-Инт" dll="Standard.dll" static="0" single="0">
+							<input name="X" type="FLOAT"/>
+							<output name="Y" type="INT"/>
+						</params>
+					</block>
+					<complex_in uid="281" x="0" y="50" w="60" h="20" name="Filter" type="FLOAT" bold="-1" digits="0" has_enum="0" enum="" inmenu="0" group="" place="" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="0" lnk_text="" lnk_showtext="0" lnk_showline="0" pin="264"/>
+					<complex_out uid="282" x="848" y="15" w="59" h="20" name="Temp" type="FLOAT" bold="-1" digits="0" has_enum="0" enum="" kind="0" cval="0" group="" place="" mname="" min="0" max="0" def="0" hide="0" pin="266"/>
+					<complex_in uid="283" x="0" y="85" w="60" h="20" name="RegScale" type="FLOAT" bold="-1" digits="0" has_enum="0" enum="" inmenu="0" group="" place="" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="0" lnk_text="" lnk_showtext="0" lnk_showline="0" pin="265"/>
+					<link uid="284" x="655" y="54" w="193" h="46" src="280" sink="269">
+						<seg uid="285" x="655" y="94" w="98" h="0"/>
+						<seg uid="286" x="753" y="60" w="0" h="34"/>
+						<seg uid="287" x="753" y="60" w="95" h="0"/>
+					</link>
+					<link uid="288" x="60" y="19" w="141" h="63" src="268" sink="275">
+						<seg uid="289" x="60" y="25" w="75" h="0"/>
+						<seg uid="290" x="135" y="25" w="0" h="51"/>
+						<seg uid="291" x="135" y="76" w="66" h="0"/>
+					</link>
+					<link uid="292" x="60" y="54" w="141" h="48" src="281" sink="276">
+						<seg uid="293" x="60" y="60" w="75" h="0"/>
+						<seg uid="294" x="135" y="60" w="0" h="36"/>
+						<seg uid="295" x="135" y="96" w="66" h="0"/>
+					</link>
+					<link uid="296" x="478" y="19" w="370" h="67" src="273" sink="282">
+						<seg uid="297" x="478" y="80" w="189" h="0"/>
+						<seg uid="298" x="667" y="25" w="0" h="55"/>
+						<seg uid="299" x="667" y="25" w="181" h="0"/>
+					</link>
+					<link uid="300" x="301" y="70" w="77" h="16" src="277" sink="271">
+						<seg uid="301" x="301" y="76" w="55" h="0"/>
+						<seg uid="302" x="356" y="76" w="0" h="4"/>
+						<seg uid="303" x="356" y="80" w="22" h="0"/>
+					</link>
+					<link uid="304" x="478" y="74" w="77" h="26" src="273" sink="279">
+						<seg uid="305" x="478" y="80" w="28" h="0"/>
+						<seg uid="306" x="506" y="80" w="0" h="14"/>
+						<seg uid="307" x="506" y="94" w="49" h="0"/>
+					</link>
+					<link uid="308" x="60" y="89" w="318" h="17" src="283" sink="272">
+						<seg uid="309" x="60" y="95" w="159" h="0"/>
+						<seg uid="310" x="219" y="95" w="0" h="5"/>
+						<seg uid="311" x="219" y="100" w="159" h="0"/>
+					</link>
+				</diagram>
+			</complex>
+			<complex uid="363" x="115" y="272" w="120" h="161" type="Составной блок" i_type="Составной блок" name="Temperature Control_1" descr="" hint="" head="40">
+				<in_pin uid="370" x="115" y="315" w="60" h="16" name="Temp" type="FLOAT" bold="0" digits="0" has_enum="0" enum="" kind="0" cval="0" group="" place="" mname="" min="0" max="0" def="0" hide="0"/>
+				<in_pin uid="372" x="115" y="335" w="60" h="16" name="SetTempR" type="INT" bold="0" digits="0" has_enum="0" enum="" kind="0" cval="0" group="" place="" mname="" min="0" max="0" def="0" hide="0"/>
+				<in_pin uid="374" x="115" y="355" w="60" h="16" name="SetTempW" type="BOOL" bold="0" digits="0" has_enum="0" enum="" kind="0" cval="0" group="" place="" mname="" min="0" max="0" def="0" hide="0"/>
+				<in_pin uid="376" x="115" y="375" w="60" h="16" name="RegScale" type="FLOAT" bold="0" digits="0" has_enum="0" enum="" kind="1" cval="10" group="" place="" mname="" min="0" max="0" def="0" hide="0"/>
+				<in_pin uid="378" x="115" y="395" w="60" h="16" name="DeadZone" type="FLOAT" bold="0" digits="0" has_enum="0" enum="" kind="1" cval="1" group="" place="" mname="" min="0" max="0" def="0" hide="0"/>
+				<in_pin uid="380" x="115" y="415" w="60" h="16" name="Valve_NC/NO" type="BOOL" bold="0" digits="0" has_enum="0" enum="" kind="1" cval="1" group="" place="" mname="" min="0" max="0" def="0" hide="0"/>
+				<out_pin uid="382" x="175" y="315" w="60" h="16" name="ValveS" type="BOOL" bold="0" digits="0" has_enum="0" enum="" inmenu="0" group="" place="" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="" lnk_text="" lnk_showtext="0" lnk_showline="0"/>
+				<out_pin uid="448" x="175" y="335" w="60" h="16" name="ValveR" type="INT" bold="0" digits="0" has_enum="0" enum="" inmenu="0" group="" place="" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="" lnk_text="" lnk_showtext="0" lnk_showline="0"/>
+				<out_pin uid="438" x="175" y="355" w="60" h="16" name="SetTempR" type="INT" bold="0" digits="0" has_enum="0" enum="" inmenu="0" group="" place="" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="" lnk_text="" lnk_showtext="0" lnk_showline="0"/>
+				<out_pin uid="478" x="175" y="375" w="60" h="16" name="SetTemp" type="FLOAT" bold="0" digits="-1" has_enum="0" enum="" inmenu="-1" group="" place="" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="" lnk_text="" lnk_showtext="0" lnk_showline="-1"/>
+				<out_pin uid="484" x="175" y="395" w="60" h="16" name="ValvePos" type="BOOL" bold="0" digits="0" has_enum="0" enum="" inmenu="-1" group="" place="" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="" lnk_text="" lnk_showtext="0" lnk_showline="-1"/>
+				<diagram uid="6" width="1284" height="550">
+					<gui/>
+					<block uid="139" x="423" y="225" w="100" h="69" type="Деление" i_type="DIV" name="Деление_1" descr="" hint="Деление" head="28">
+						<in_pin uid="140" x="423" y="256" w="50" h="16" name="X1" type="FLOAT" bold="0" digits="0" has_enum="0" enum="" kind="0" cval="0" group="" place="" mname="" min="0" max="0" def="0" hide="0"/>
+						<in_pin uid="141" x="423" y="276" w="50" h="16" name="X2" type="FLOAT" bold="0" digits="0" has_enum="0" enum="" kind="0" cval="0" group="" place="" mname="" min="0" max="0" def="0" hide="0"/>
+						<out_pin uid="142" x="473" y="256" w="50" h="16" name="Y" type="FLOAT" bold="0" digits="0" has_enum="0" enum="" inmenu="0" group="" place="" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="0" lnk_text="" lnk_showtext="0" lnk_showline="0"/>
+						<params name="Деление" dll="Standard.dll" static="0" single="0">
+							<input name="X1" type="FLOAT"/>
+							<input name="X2" type="FLOAT"/>
+							<output name="Y" type="FLOAT"/>
+						</params>
+					</block>
+					<block uid="143" x="573" y="84" w="100" h="109" type="Компаратор" i_type="COMPAR" name="Компаратор_1" descr="" hint="Компаратор обычный" head="28">
+						<in_pin uid="144" x="573" y="115" w="50" h="16" name="X" type="FLOAT" bold="0" digits="0" has_enum="0" enum="" kind="0" cval="0" group="" place="" mname="" min="0" max="0" def="0" hide="0"/>
+						<in_pin uid="145" x="573" y="135" w="50" h="16" name="XCMP" type="FLOAT" bold="0" digits="0" has_enum="0" enum="" kind="0" cval="0" group="" place="" mname="" min="0" max="0" def="0" hide="0"/>
+						<in_pin uid="146" x="573" y="155" w="50" h="16" name="HPLS" type="FLOAT" bold="0" digits="0" has_enum="0" enum="" kind="0" cval="0" group="" place="" mname="" min="0" max="0" def="0" hide="0"/>
+						<in_pin uid="147" x="573" y="175" w="50" h="16" name="HMNS" type="FLOAT" bold="0" digits="0" has_enum="0" enum="" kind="0" cval="0" group="" place="" mname="" min="0" max="0" def="0" hide="0"/>
+						<out_pin uid="148" x="623" y="115" w="50" h="16" name="Y" type="BOOL" bold="0" digits="0" has_enum="0" enum="" inmenu="0" group="" place="" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="0" lnk_text="" lnk_showtext="0" lnk_showline="0"/>
+						<params name="Компаратор обычный" dll="Standard.dll" static="0" single="0">
+							<input name="X" type="FLOAT"/>
+							<input name="XCMP" type="FLOAT"/>
+							<input name="HPLS" type="FLOAT"/>
+							<input name="HMNS" type="FLOAT"/>
+							<output name="Y" type="BOOL"/>
+						</params>
+					</block>
+					<block uid="153" x="301" y="104" w="100" h="89" type="Задатчик Цф MODBUS" i_type="TASKMODBUSD" name="Задатчик Цф MODBUS_1" descr="" hint="Задатчик цифрового значения по ModBus" head="28">
+						<in_pin uid="154" x="301" y="135" w="50" h="16" name="Name" type="INT" bold="0" digits="0" has_enum="0" enum="" kind="2" in_param_name="M:153.154" cval="0" group="" place="" mname="" min="0" max="0" def="200" hide="0"/>
+						<in_pin uid="155" x="301" y="155" w="50" h="16" name="HR" type="INT" bold="0" digits="0" has_enum="0" enum="" kind="0" cval="0" group="" place="" mname="" min="0" max="0" def="0" hide="0"/>
+						<in_pin uid="156" x="301" y="175" w="50" h="16" name="HRi" type="BOOL" bold="0" digits="0" has_enum="0" enum="" kind="0" cval="0" group="" place="" mname="" min="0" max="0" def="0" hide="0"/>
+						<out_pin uid="157" x="351" y="135" w="50" h="16" name="Out" type="INT" bold="0" digits="0" has_enum="0" enum="" inmenu="0" group="" place="" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="0" lnk_text="" lnk_showtext="0" lnk_showline="0"/>
+						<params name="Задатчик цифрового значения по ModBus" dll="Standard.dll" static="0" single="0">
+							<input name="Name" type="INT"/>
+							<input name="HR" type="INT"/>
+							<input name="HRi" type="BOOL"/>
+							<output name="Out" type="INT"/>
+							<global name="TASKMODBUSD_STATE" type="BOOL"/>
+						</params>
+					</block>
+					<block uid="169" x="165" y="228" w="100" h="49" type="Цифр в Ан" i_type="IF2" name="Цифр в Ан_1" descr="" hint="Преобразование Инт-Флоат" head="28">
+						<in_pin uid="170" x="165" y="259" w="50" h="16" name="X" type="INT" bold="0" digits="0" has_enum="0" enum="" kind="0" cval="0" group="" place="" mname="" min="0" max="0" def="0" hide="0"/>
+						<out_pin uid="171" x="215" y="259" w="50" h="16" name="Y" type="FLOAT" bold="0" digits="0" has_enum="0" enum="" inmenu="0" group="" place="" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="0" lnk_text="" lnk_showtext="0" lnk_showline="0"/>
+						<params name="Преобразование Инт-Флоат" dll="Standard.dll" static="0" single="0">
+							<input name="X" type="INT"/>
+							<output name="Y" type="FLOAT"/>
+							<par name="Тип входа" type="BOOL" enum="1,Число со знаком;0,Число без знака;" val="0"/>
+						</params>
+					</block>
+					<block uid="323" x="711" y="184" w="100" h="49" type="НЕ" i_type="NOT" name="НЕ_1" descr="" hint="Логическое НЕ" head="28">
+						<in_pin uid="324" x="711" y="215" w="50" h="16" name="X" type="BOOL" bold="0" digits="0" has_enum="0" enum="" kind="0" cval="0" group="" place="" mname="" min="0" max="0" def="0" hide="0"/>
+						<out_pin uid="325" x="761" y="215" w="50" h="16" name="Y" type="BOOL" bold="0" digits="0" has_enum="0" enum="" inmenu="0" group="" place="" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="" lnk_text="" lnk_showtext="0" lnk_showline="0"/>
+						<params name="Логическое НЕ" dll="Standard.dll" static="0" single="0">
+							<input name="X" type="BOOL"/>
+							<output name="Y" type="BOOL"/>
+						</params>
+					</block>
+					<block uid="326" x="883" y="84" w="100" h="89" type="Ключ 2-Х поз Дискр" i_type="CONDB" name="Ключ 2-Х поз Дискр_1" descr="" hint="Двухпозиционное переключение для Логических" head="28">
+						<in_pin uid="327" x="883" y="115" w="50" h="16" name="X1" type="BOOL" bold="0" digits="0" has_enum="0" enum="" kind="0" cval="0" group="" place="" mname="" min="0" max="0" def="0" hide="0"/>
+						<in_pin uid="328" x="883" y="135" w="50" h="16" name="X2" type="BOOL" bold="0" digits="0" has_enum="0" enum="" kind="0" cval="0" group="" place="" mname="" min="0" max="0" def="0" hide="0"/>
+						<in_pin uid="329" x="883" y="155" w="50" h="16" name="Q" type="BOOL" bold="0" digits="0" has_enum="0" enum="" kind="0" cval="0" group="" place="" mname="" min="0" max="0" def="0" hide="0"/>
+						<out_pin uid="330" x="933" y="115" w="50" h="16" name="Y" type="BOOL" bold="0" digits="0" has_enum="0" enum="" inmenu="0" group="" place="" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="" lnk_text="" lnk_showtext="0" lnk_showline="0"/>
+						<params name="Двухпозиционное переключение для Логических" dll="Standard.dll" static="0" single="0">
+							<input name="X1" type="BOOL"/>
+							<input name="X2" type="BOOL"/>
+							<input name="Q" type="BOOL"/>
+							<output name="Y" type="BOOL"/>
+						</params>
+					</block>
+					<complex_in uid="371" x="0" y="15" w="60" h="20" name="Temp" type="FLOAT" bold="-1" digits="0" has_enum="0" enum="" inmenu="0" group="" place="" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="" lnk_text="" lnk_showtext="0" lnk_showline="0" pin="370"/>
+					<complex_in uid="373" x="0" y="50" w="60" h="20" name="SetTempR" type="INT" bold="-1" digits="0" has_enum="0" enum="" inmenu="0" group="" place="" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="" lnk_text="" lnk_showtext="0" lnk_showline="0" pin="372"/>
+					<complex_in uid="375" x="0" y="85" w="60" h="20" name="SetTempW" type="BOOL" bold="-1" digits="0" has_enum="0" enum="" inmenu="0" group="" place="" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="" lnk_text="" lnk_showtext="0" lnk_showline="0" pin="374"/>
+					<complex_in uid="377" x="0" y="120" w="60" h="20" name="RegScale" type="FLOAT" bold="-1" digits="0" has_enum="0" enum="" inmenu="0" group="" place="" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="" lnk_text="" lnk_showtext="0" lnk_showline="0" pin="376"/>
+					<complex_in uid="379" x="0" y="155" w="60" h="20" name="DeadZone" type="FLOAT" bold="-1" digits="0" has_enum="0" enum="" inmenu="0" group="" place="" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="" lnk_text="" lnk_showtext="0" lnk_showline="0" pin="378"/>
+					<complex_in uid="381" x="0" y="190" w="60" h="20" name="Valve_NC/NO" type="BOOL" bold="-1" digits="0" has_enum="0" enum="" inmenu="0" group="" place="" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="" lnk_text="" lnk_showtext="0" lnk_showline="0" pin="380"/>
+					<complex_out uid="383" x="1224" y="15" w="59" h="20" name="ValveS" type="BOOL" bold="-1" digits="0" has_enum="0" enum="" kind="0" cval="0" group="" place="" mname="" min="0" max="0" def="0" hide="0" pin="382"/>
+					<complex_out uid="439" x="1224" y="85" w="59" h="20" name="SetTempR" type="INT" bold="-1" digits="0" has_enum="0" enum="" kind="0" cval="0" group="" place="" mname="" min="0" max="0" def="0" hide="0" pin="438"/>
+					<complex_out uid="449" x="1224" y="50" w="59" h="20" name="ValveR" type="INT" bold="-1" digits="0" has_enum="0" enum="" kind="0" cval="0" group="" place="" mname="" min="0" max="0" def="0" hide="0" pin="448"/>
+					<block uid="453" x="1071" y="111" w="100" h="69" type="Сумма" i_type="SUMI" name="Сумма_1" descr="" hint="Сумировать Инт" head="28">
+						<in_pin uid="454" x="1071" y="142" w="50" h="16" name="X1" type="INT" bold="0" digits="0" has_enum="0" enum="" kind="0" cval="0" group="" place="" mname="" min="0" max="0" def="0" hide="0"/>
+						<in_pin uid="455" x="1071" y="162" w="50" h="16" name="X2" type="INT" bold="0" digits="0" has_enum="0" enum="" kind="1" cval="1" group="" place="" mname="" min="0" max="0" def="0" hide="0"/>
+						<out_pin uid="456" x="1121" y="142" w="50" h="16" name="Y" type="INT" bold="0" digits="0" has_enum="0" enum="" inmenu="0" group="" place="" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="" lnk_text="" lnk_showtext="0" lnk_showline="0"/>
+						<params name="Сумировать Инт" dll="Standard.dll" static="0" single="0">
+							<input name="X1" type="INT"/>
+							<input name="X2" type="INT"/>
+							<output name="Y" type="INT"/>
+						</params>
+					</block>
+					<block uid="457" x="959" y="190" w="100" h="49" type="Дискр в Цифр" i_type="BI" name="Дискр в Цифр_1" descr="" hint="Преобразование БУЛ-ИНТ" head="28">
+						<in_pin uid="458" x="959" y="221" w="50" h="16" name="Q" type="BOOL" bold="0" digits="0" has_enum="0" enum="" kind="0" cval="0" group="" place="" mname="" min="0" max="0" def="0" hide="0"/>
+						<out_pin uid="459" x="1009" y="221" w="50" h="16" name="Y" type="INT" bold="0" digits="0" has_enum="0" enum="" inmenu="0" group="" place="" mname="" inarc="0" aname="" alarm_name="" is_alarm="0" delta="" lnk_text="" lnk_showtext="0" lnk_showline="0"/>
+						<params name="Преобразование БУЛ-ИНТ" dll="Standard.dll" static="0" single="0">
+							<input name="Q" type="BOOL"/>
+							<output name="Y" type="INT"/>
+						</params>
+					</block>
+					<complex_out uid="479" x="1224" y="120" w="59" h="20" name="SetTemp" type="FLOAT" bold="-1" digits="0" has_enum="0" enum="" kind="0" cval="0" group="" place="" mname="" min="0" max="0" def="0" hide="0" pin="478"/>
+					<complex_out uid="485" x="1224" y="155" w="59" h="20" name="ValvePos" type="BOOL" bold="-1" digits="0" has_enum="0" enum="" kind="0" cval="0" group="" place="" mname="" min="0" max="0" def="0" hide="0" pin="484"/>
+					<link uid="404" x="60" y="157" w="513" h="14" src="379" sink="146">
+						<seg uid="405" x="60" y="165" w="242" h="0"/>
+						<seg uid="406" x="302" y="163" w="0" h="2"/>
+						<seg uid="407" x="302" y="163" w="271" h="0"/>
+					</link>
+					<link uid="460" x="929" y="117" w="84" h="118" src="330" sink="458">
+						<seg uid="461" x="983" y="123" w="10" h="0"/>
+						<seg uid="462" x="993" y="123" w="0" h="139"/>
+						<seg uid="463" x="613" y="262" w="380" h="0"/>
+						<seg uid="464" x="613" y="229" w="0" h="33"/>
+						<seg uid="465" x="613" y="229" w="346" h="0"/>
+					</link>
+					<link uid="331" x="673" y="117" w="210" h="12" src="148" sink="327">
+						<seg uid="332" x="673" y="123" w="73" h="0"/>
+						<seg uid="333" x="746" y="123" w="0" h="0"/>
+						<seg uid="334" x="746" y="123" w="137" h="0"/>
+					</link>
+					<link uid="357" x="135" y="137" w="296" h="136" src="157" sink="170">
+						<seg uid="358" x="401" y="143" w="12" h="0"/>
+						<seg uid="359" x="413" y="143" w="0" h="20"/>
+						<seg uid="360" x="263" y="163" w="150" h="0"/>
+						<seg uid="361" x="263" y="163" w="0" h="104"/>
+						<seg uid="362" x="165" y="267" w="98" h="0"/>
+					</link>
+					<link uid="480" x="523" y="124" w="701" h="146" src="142" sink="479">
+						<seg uid="481" x="523" y="264" w="350" h="0"/>
+						<seg uid="482" x="873" y="130" w="0" h="134"/>
+						<seg uid="483" x="873" y="130" w="351" h="0"/>
+					</link>
+					<link uid="440" x="401" y="89" w="823" h="60" src="157" sink="439">
+						<seg uid="441" x="401" y="143" w="348" h="0"/>
+						<seg uid="442" x="749" y="95" w="0" h="48"/>
+						<seg uid="443" x="749" y="95" w="475" h="0"/>
+					</link>
+					<link uid="388" x="60" y="157" w="823" h="49" src="381" sink="329">
+						<seg uid="389" x="60" y="200" w="373" h="0"/>
+						<seg uid="390" x="433" y="163" w="0" h="37"/>
+						<seg uid="391" x="433" y="163" w="450" h="0"/>
+					</link>
+					<link uid="396" x="60" y="54" w="241" h="115" src="373" sink="155">
+						<seg uid="397" x="60" y="60" w="120" h="0"/>
+						<seg uid="398" x="180" y="60" w="0" h="103"/>
+						<seg uid="399" x="180" y="163" w="121" h="0"/>
+					</link>
+					<link uid="400" x="60" y="19" w="513" h="110" src="371" sink="144">
+						<seg uid="401" x="60" y="25" w="242" h="0"/>
+						<seg uid="402" x="302" y="25" w="0" h="98"/>
+						<seg uid="403" x="302" y="123" w="271" h="0"/>
+					</link>
+					<link uid="351" x="523" y="137" w="50" h="133" src="142" sink="145">
+						<seg uid="352" x="523" y="264" w="37" h="0"/>
+						<seg uid="353" x="560" y="203" w="0" h="61"/>
+						<seg uid="354" x="452" y="203" w="108" h="0"/>
+						<seg uid="355" x="452" y="143" w="0" h="60"/>
+						<seg uid="356" x="452" y="143" w="121" h="0"/>
+					</link>
+					<link uid="412" x="60" y="124" w="363" h="166" src="377" sink="141">
+						<seg uid="413" x="60" y="130" w="161" h="0"/>
+						<seg uid="414" x="221" y="130" w="0" h="154"/>
+						<seg uid="415" x="221" y="284" w="202" h="0"/>
+					</link>
+					<link uid="335" x="673" y="117" w="38" h="112" src="148" sink="324">
+						<seg uid="336" x="673" y="123" w="2" h="0"/>
+						<seg uid="337" x="675" y="123" w="0" h="100"/>
+						<seg uid="338" x="675" y="223" w="36" h="0"/>
+					</link>
+					<link uid="339" x="811" y="137" w="72" h="92" src="325" sink="328">
+						<seg uid="340" x="811" y="223" w="16" h="0"/>
+						<seg uid="341" x="827" y="143" w="0" h="80"/>
+						<seg uid="342" x="827" y="143" w="56" h="0"/>
+					</link>
+					<link uid="466" x="1041" y="144" w="48" h="91" src="459" sink="454">
+						<seg uid="467" x="1059" y="229" w="28" h="0"/>
+						<seg uid="468" x="1087" y="150" w="0" h="79"/>
+						<seg uid="469" x="1071" y="150" w="16" h="0"/>
+					</link>
+					<link uid="470" x="1171" y="54" w="53" h="102" src="456" sink="449">
+						<seg uid="471" x="1171" y="150" w="38" h="0"/>
+						<seg uid="472" x="1209" y="60" w="0" h="90"/>
+						<seg uid="473" x="1209" y="60" w="15" h="0"/>
+					</link>
+					<link uid="384" x="983" y="19" w="241" h="110" src="330" sink="383">
+						<seg uid="385" x="983" y="123" w="19" h="0"/>
+						<seg uid="386" x="1002" y="25" w="0" h="98"/>
+						<seg uid="387" x="1002" y="25" w="222" h="0"/>
+					</link>
+					<link uid="392" x="60" y="89" w="241" h="100" src="375" sink="156">
+						<seg uid="393" x="60" y="95" w="120" h="0"/>
+						<seg uid="394" x="180" y="95" w="0" h="88"/>
+						<seg uid="395" x="180" y="183" w="121" h="0"/>
+					</link>
+					<link uid="408" x="60" y="159" w="513" h="30" src="379" sink="147">
+						<seg uid="409" x="60" y="165" w="242" h="0"/>
+						<seg uid="410" x="302" y="165" w="0" h="18"/>
+						<seg uid="411" x="302" y="183" w="271" h="0"/>
+					</link>
+					<link uid="347" x="265" y="258" w="158" h="15" src="171" sink="140">
+						<seg uid="348" x="265" y="267" w="146" h="0"/>
+						<seg uid="349" x="411" y="264" w="0" h="3"/>
+						<seg uid="350" x="411" y="264" w="12" h="0"/>
+					</link>
+					<link uid="490" x="811" y="159" w="413" h="70" src="325" sink="485">
+						<seg uid="491" x="811" y="223" w="206" h="0"/>
+						<seg uid="492" x="1017" y="165" w="0" h="58"/>
+						<seg uid="493" x="1017" y="165" w="207" h="0"/>
+					</link>
+				</diagram>
+			</complex>
+			<link uid="158" x="60" y="19" w="60" h="60" src="8" sink="214">
+				<seg uid="239" x="60" y="25" w="121" h="0"/>
+				<seg uid="240" x="181" y="25" w="0" h="48"/>
+				<seg uid="241" x="120" y="73" w="61" h="0"/>
+			</link>
+			<link uid="316" x="216" y="172" w="109" h="44" src="267" sink="176">
+				<seg uid="317" x="216" y="210" w="75" h="0"/>
+				<seg uid="318" x="291" y="178" w="0" h="32"/>
+				<seg uid="319" x="291" y="178" w="34" h="0"/>
+			</link>
+			<link uid="312" x="60" y="54" w="56" h="142" src="11" sink="263">
+				<seg uid="313" x="60" y="60" w="49" h="0"/>
+				<seg uid="314" x="109" y="60" w="0" h="130"/>
+				<seg uid="315" x="109" y="190" w="7" h="0"/>
+			</link>
+			<link uid="201" x="220" y="87" w="105" h="77" src="220" sink="128">
+				<seg uid="234" x="220" y="93" w="214" h="0"/>
+				<seg uid="235" x="434" y="17" w="0" h="76"/>
+				<seg uid="236" x="293" y="17" w="141" h="0"/>
+				<seg uid="237" x="293" y="17" w="0" h="141"/>
+				<seg uid="238" x="293" y="158" w="32" h="0"/>
+			</link>
+			<link uid="416" x="85" y="67" w="165" h="262" src="244" sink="370">
+				<seg uid="417" x="220" y="73" w="47" h="0"/>
+				<seg uid="418" x="267" y="73" w="0" h="120"/>
+				<seg uid="419" x="159" y="193" w="108" h="0"/>
+				<seg uid="420" x="159" y="193" w="0" h="130"/>
+				<seg uid="421" x="115" y="323" w="44" h="0"/>
+			</link>
+			<link uid="422" x="235" y="229" w="730" h="100" src="382" sink="98">
+				<seg uid="423" x="235" y="323" w="373" h="0"/>
+				<seg uid="424" x="608" y="235" w="0" h="88"/>
+				<seg uid="425" x="608" y="235" w="357" h="0"/>
+			</link>
+			<link uid="426" x="85" y="192" w="370" h="157" src="179" sink="372">
+				<seg uid="427" x="425" y="198" w="428" h="0"/>
+				<seg uid="428" x="853" y="191" w="0" h="7"/>
+				<seg uid="429" x="141" y="191" w="712" h="0"/>
+				<seg uid="430" x="141" y="191" w="0" h="152"/>
+				<seg uid="431" x="115" y="343" w="26" h="0"/>
+			</link>
+			<link uid="432" x="85" y="272" w="370" h="97" src="181" sink="374">
+				<seg uid="433" x="425" y="278" w="428" h="0"/>
+				<seg uid="434" x="853" y="278" w="0" h="156"/>
+				<seg uid="435" x="141" y="434" w="712" h="0"/>
+				<seg uid="436" x="141" y="363" w="0" h="71"/>
+				<seg uid="437" x="115" y="363" w="26" h="0"/>
+			</link>
+			<link uid="444" x="235" y="192" w="90" h="177" src="438" sink="177">
+				<seg uid="445" x="235" y="363" w="262" h="0"/>
+				<seg uid="446" x="497" y="198" w="0" h="165"/>
+				<seg uid="447" x="325" y="198" w="172" h="0"/>
+			</link>
+			<link uid="474" x="235" y="212" w="90" h="137" src="448" sink="320">
+				<seg uid="475" x="235" y="343" w="25" h="0"/>
+				<seg uid="476" x="260" y="218" w="0" h="125"/>
+				<seg uid="477" x="260" y="218" w="65" h="0"/>
+			</link>
+		</diagram>
+		<controller_params ip="0.0.0.0" mask="0.0.0.0" gate="0.0.0.0" AI_count="0" ADI_count="14" AO_count="0" DI_count="0" DO_count="10" AODI_count="6" max_archive="100" max_email="100" max_code="524160" gui="1" ext_fonts="1" display_width="320" display_height="240" name="MaxyCon Flexy-S2(v.3.xx)" pwd_addr="$00000000" type="$00000080" group_places="1,1;" arc_sd="0" forbidden="BUTTONCM;BUTTON_WHS3_2014;ALARM2;LEDSCM;LEDS_WHS3_2014;LEDSAH;LEDSS20">
+			<module name="M200" AI_count="0" ADI_count="8" AO_count="0" AODI_count="3" DI_count="0" DO_count="3" power="12" type="130" num="0"/>
+			<module name="M210" AI_count="0" ADI_count="12" AO_count="0" AODI_count="0" DI_count="0" DO_count="8" power="12" type="131" num="0"/>
+			<module name="M100" AI_count="0" ADI_count="11" AO_count="0" AODI_count="0" DI_count="0" DO_count="0" power="12" type="129" num="0"/>
+			<module name="M110" AI_count="0" ADI_count="10" AO_count="0" AODI_count="0" DI_count="0" DO_count="0" power="12" type="132" num="0"/>
+		</controller_params>
+		<attached_modules/>
+	</controller>
+	<variables/>
+	<passwords>
+		<pwd access="1" pwd="1111"/>
+		<pwd access="2" pwd="2222"/>
+		<pwd access="3" pwd="3333"/>
+		<pwd access="4" pwd="4444"/>
+		<pwd access="5" pwd="5555"/>
+		<pwd access="6" pwd="6666"/>
+		<pwd access="7" pwd="7777"/>
+		<pwd access="8" pwd="8888"/>
+		<pwd access="9" pwd="9999"/>
+	</passwords>
+	<fonts>
+		<fnt name="Tahoma bold 11" monotype="0" data="121220FF00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000003000003000003000003000003000003000003000003000000000003000003000000000000000000000000000000000000000003300003300003300003300000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000410000410001FF8001FF8000820000820003FF0003FF0001040001040001040000000000000000000000000000000000000000200000200000FC0001A60003260003200001E000003C00002600032600032C0001F80000200000200000000000000000000000000000000001E04003308003308003310003313C03326601E46600046600086600086600103C00000000000000000000000000000000000000000000F00001980001980001980000F00001E600033600031E00030C00018E0000FB0000000000000000000000000000000000000003000003000003000003000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000600000C00001800001800003000003000003000003000003000003000003000001800001800000C00000600000000000000000000003000001800000C00000C00000600000600000600000600000600000600000600000C00000C00001800003000000000000000000000000600002640001680000F00001680002640000600000000000000000000000000000000000000000000000000000000000000000000000000000000000200000200000200000200003FE0000200000200000200000200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001C00001800001800001800003000003000000000000000000000000000000000000000000000000000000000003E00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000003000003000003000000000000000000000000000000000000000000100000100000200000200000200000400000400000800000800001000001000001000002000002000000000000000000000000000000000000F800018C00030600030600030600030600030600030600030600018C0000F80000000000000000000000000000000000000000000000C00003C00000C00000C00000C00000C00000C00000C00000C00000C00003F00000000000000000000000000000000000000000000001F800030C00030600000600000600000C0000180000700000C00001800003FE0000000000000000000000000000000000000000000001F800030C00030600000600000C00007800000C00000600030600030C0001F800000000000000000000000000000000000000000000000C00001C00002C00004C00008C00010C00020C0003FE00000C00000C00000C0000000000000000000000000000000000000000000001FE0001800001800001800001F800000C00000600000600030600030C0001F800000000000000000000000000000000000000000000007C0000C00001800003000003F800030C00030600030600030600018C0000F80000000000000000000000000000000000000000000003FE00000C00000C0000180000180000300000300000600000600000C00000C00000000000000000000000000000000000000000000000F800018C00030600030600018C0000F800018C00030600030600018C0000F80000000000000000000000000000000000000000000000F800018C0003060003060003060001860000FE00000600000C0000180001F00000000000000000000000000000000000000000000000000000000000000003000003000003000000000000000003000003000003000000000000000000000000000000000000000000000000000000000000000001800001800001800000000000000001C00001800001800001800003000003000000000000000000000000000000000000000000060000180000600001800002000001800000600000180000060000000000000000000000000000000000000000000000000000000000000003FE0000000000000000000003FE0000000000000000000000000000000000000000000000000000000000000000000000000003000000C000003000000C00000200000C0000300000C00003000000000000000000000000000000000000000000000001F000031800030C00000C00001800003000006000006000000000006000006000000000000000000000000000000000000000000000003E0000C180010040011F40023320026320026320026320023320011DC001000000C000003E00000000000000000000000000000000003800003800006C00006C00006C0000C60000C60000FE0001830001830001830000000000000000000000000000000000000000000003F000031800030C00030C0003180003F800030C00030600030600030C0003F800000000000000000000000000000000000000000000007C0001C60001860003000003000003000003000003000001860001C600007C0000000000000000000000000000000000000000000003F800030E00030600030300030300030300030300030300030600030E0003F80000000000000000000000000000000000000000000003FC0003000003000003000003000003FC0003000003000003000003000003FC0000000000000000000000000000000000000000000003FC0003000003000003000003000003FC00030000030000030000030000030000000000000000000000000000000000000000000000007E0001C300018300030000030000031F0003030003030001830001C300007E0000000000000000000000000000000000000000000003030003030003030003030003030003FF0003030003030003030003030003030000000000000000000000000000000000000000000003F00000C00000C00000C00000C00000C00000C00000C00000C00000C00003F00000000000000000000000000000000000000000000001F80000180000180000180000180000180000180000180000180000300003E000000000000000000000000000000000000000000000030600030C0003180003300003600003C000036000033000031800030C0003060000000000000000000000000000000000000000000003000003000003000003000003000003000003000003000003000003000003FC000000000000000000000000000000000000000000000300C00381C00381C002C2C002C2C00264C00238C00238C00210C00200C00200C000000000000000000000000000000000000000000003008003808003C08002E080027080023880021C80020E80020780020380020180000000000000000000000000000000000000000000007C0001C70001830003018003018003018003018003018001830001C700007C0000000000000000000000000000000000000000000003F800030C00030600030600030600030C0003F800030000030000030000030000000000000000000000000000000000000000000000007C0001C70001830003018003018003018003018003018001830001C700007C00001800000C0000078000000000000000000000000003F800030C00030C00030C00030C0003180003F000031800030C0003060003030000000000000000000000000000000000000000000000FC0001860003060003000003E00001FC00001E00000600030600030C0001F80000000000000000000000000000000000000000000003FC0000600000600000600000600000600000600000600000600000600000600000000000000000000000000000000000000000000003030003030003030003030003030003030003030003030003030001860000FC0000000000000000000000000000000000000000000001830001830001830000C60000C60000C600006C00006C00006C00003800003800000000000000000000000000000000000000000000030C30030C30030C30031E30019E60019E6001B36001B36000E1C000E1C000E1C000000000000000000000000000000000000000000001830001830000C600006C00003800003800003800006C0000C60001830001830000000000000000000000000000000000000000000001818001818000C30000C300006600003C00003C0000180000180000180000180000000000000000000000000000000000000000000003FC00000C0000180000300000300000600000C00000C00001800003000003FC0000000000000000000000000000000000000003E00003000003000003000003000003000003000003000003000003000003000003000003000003000003E00000000000000000000002000002000001000001000001000000800000800000400000400000200000200000200000100000100000000000000000000000000003E00000600000600000600000600000600000600000600000600000600000600000600000600000600003E00000000000000000000000000000300000480000840001020002010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000003FF0000000000000000000000000000000003000001800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000F800010C00000C0001FC00030C00030C00030C0001FC00000000000000000000000000000000000000030000030000030000030000037000039800030C00030C00030C00030C0003180003F00000000000000000000000000000000000000000000000000000000000000000F00001880003000003000003000003000001880000F000000000000000000000000000000000000000000C00000C00000C00000C0000FC00018C00030C00030C00030C00030C00019C0000EC0000000000000000000000000000000000000000000000000000000000000000F800018C00030C0003FC0003000003000001840000F80000000000000000000000000000000000000000F00001800001800001800003E00001800001800001800001800001800001800001800000000000000000000000000000000000000000000000000000000000000000FC00018C00030C00030C00030C00030C00019C0000EC00000C0001180000F000000000000000000000030000030000030000030000037800038C00030C00030C00030C00030C00030C00030C0000000000000000000000000000000000000000000003000003000000000003000003000003000003000003000003000003000003000000000000000000000000000000000000000000000000600000600000000001E00000600000600000600000600000600000600000600000600000600003C00000000000000000000003000003000003000003000003180003300003600003C000036000033000031800030C00000000000000000000000000000000000000030000030000030000030000030000030000030000030000030000030000030000030000000000000000000000000000000000000000000000000000000000000000037380039CC00318C00318C00318C00318C00318C00318C0000000000000000000000000000000000000000000000000000000000000037800038C00030C00030C00030C00030C00030C00030C0000000000000000000000000000000000000000000000000000000000000000F000019800030C00030C00030C00030C0001980000F000000000000000000000000000000000000000000000000000000000000000037000039800030C00030C00030C00030C0003180003F00003000003000003000000000000000000000000000000000000000000000000FC00018C00030C00030C00030C00030C00019C0000EC00000C00000C00000C0000000000000000000000000000000000000000000003700003F00003000003000003000003000003000003000000000000000000000000000000000000000000000000000000000000000001F00003080003000003F00001F80000180002180001F00000000000000000000000000000000000000000000000000001800001800003E00001800001800001800001800001800001800000E000000000000000000000000000000000000000000000000000000000000000030C00030C00030C00030C00030C00030C00031C0001EC0000000000000000000000000000000000000000000000000000000000000001860001860001860000CC0000CC000078000078000030000000000000000000000000000000000000000000000000000000000000000318C00318C001BD8001BD8001A58000E70000E70000C30000000000000000000000000000000000000000000000000000000000000001860001860000CC0000780000780000CC0001860001860000000000000000000000000000000000000000000000000000000000000001860001860001860000CC0000CC0000780000780000300000300000300000600000000000000000000000000000000000000000000003F80000180000300000600000C00001800003000003F800000000000000000000000000000000000000003C0000600000600000600000600000600000C00003800000C000006000006000006000006000006000003C0000000000000000000003000003000003000003000003000003000003000003000003000003000003000003000003000003000003000000000000000000000003C000006000006000006000006000006000003000001C0000300000600000600000600000600000600003C00000000000000000000000000000000000000000000000000000E08001F080033980021F00020E0000000000000000000000000000000000000000000000000000000003F80003180003180003180003180003180003180003180003180003180003F80000000000000000000000000000000000000000000003FC00006000006000006000007E00006300006180006180006180006300006E0000000000000000000000000000300000600000000003F80003000003000003000003000003000003000003000003000003000003000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001C00001800001800003000000000000000000000000000000000000600000C00000000003F00003000003000003000003000003000003000003000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001DC000198000198000330000000000000000000000000000000000000000000000000000000000000000000000000000000000318C00318C00318C000000000000000000000000000000000000000600000600000600003FC0000600000600000600000600000600000600000600000000000000000000000000000000000000000000000600000600000600003FC0000600000600000600003FC00006000006000006000000000000000000000000000000000000000000000000000003E0000630000C10001800003FC0001800003F80001800000C100006300003E0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000FE0000C60000C60000C60000C7F000C61800C60C00C60C00C60C0186180307F000000000000000000000000000000000000000000000000000000000000000400000C00001800003000001800000C00000400000000000000000000000000000000000000000000000000003060003060003060003060003FFF003061803060C03060C03060C0306180307F0000000000000000000000000001800003000000000030600030E0003180003180003300003E000033000031800030C0003060003030000000000000000000000000000000000000000000003FC00006000006000006000007E0000630000618000618000618000618000618000000000000000000000000000000000000000000003030003030003030003030003030003030003030003030003030003030003FF0000300000300000300000000000000000000001800003E00001800001800001BC0001C600018600018600018600018600018600018600000600000C0000380000000000000000000003800001800001800000C00000000000000000000000000000000000000000000000000000000000000000000000000000000000000001C00001800001800003000000000000000000000000000000000000000000000000000000000000000000000000000000000000000003B80001980001980000CC0000000000000000000000000000000000000000000000000000000000000000000000000000000000000001DC0001980001980003300000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000E00001F00003F80003F80003F80001F00000E00000000000000000000000000000000000000000000000000000000000000000000000000000000003FF0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000003FFF000000000000000000000000000000000000000000000000000000000000000000001F00003E00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000003908001198001168001168001108000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000FC0000CC0000CC0000CFE000CC3000CC30018C30030FE000000000000000000000000000000000000000000000000000000000000002000003000001800000C00001800003000002000000000000000000000000000000000000000000000000000000000000000000000003180003180003180003FFC0031860031860031860031FC0000000000000000000000000000000000000000000003000006000000000030C0003180003300003E000033000031800031800030C0000000000000000000000000000000000000001800003E00001800001800001BC0001C600018600018600018600018600018600018600000000000000000000000000000000000000000000000000000000000000030C00030C00030C00030C00030C00030C00030C0003FC0000600000600000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001040001040000F800000000030600030600018C00018C0000D80000D80000700000700000300000600001C00000000000000000000000000000000000000000840000840000780000000001860001860001860000CC0000CC0000780000780000300000300000300000600000000000000000000000000001F80000180000180000180000180000180000180000180000180000300003E00000000000000000000000000000000000000000000000000000000002040001680000900001080001080000900001680002040000000000000000000000000000000000180000180000180003F80003000003000003000003000003000003000003000003000003000003000000000000000000000000000000000000000003000003000003000003000003000003000000000000000000000003000003000003000003000003000003000000000000000000000000000000F80001840003000003000001F800018C00030600030600018C0000FC00000600000600010C0000F80000000000D80000D80000000003FC0003000003000003000003000003FC0003000003000003000003000003FC00000000000000000000000000000000000000000000003E0000C180010040011C40023220026020026020026020023220011C4001004000C180003E00000000000000000000000000000000007C0001C60001860003000003000003F80003000003000001860001C600007C0000000000000000000000000000000000000000000000000000000000000000440000CC0001980003300001980000CC0000440000000000000000000000000000000000000000000000000000000000000000000000000000000003FE0000020000020000020000020000020000000000000000000000000000000000000000000000000000000000000000000000000003E000000000000000000000000000000000000000000000000000000000000000000000000000003E0000C180010040013C40023620023620023C2002362002362001334001004000C180003E0000000000000003300003300000000003F00000C00000C00000C00000C00000C00000C00000C00000C00000C00003F00000000000000000000000000000000000000000000001E00002100002100002100002100001E00000000000000000000000000000000000000000000000000000000000000000000000000000000000200000200000200000200003FE0000200000200000200000200003FE0000000000000000000000000000000000000000000003F00000C00000C00000C00000C00000C00000C00000C00000C00000C00003F00000000000000000000000000000000000000000000003000003000000000003000003000003000003000003000003000003000003000000000000000000000000000000000000000000000000180000180000180003F800030000030000030000030000030000030000030000000000000000000000000000000000000000000000000000000000000000030C00030C00030C00030C00030C00030C00031C0003EC0003000003000003000000000000000000000000000000FE0001F20003F20003F20003F20001F20000F20000120000120000120000120000120000120000120000000000000000000000000000000000000000000003000003000003000000000000000000000000000000000000000000000000000000000000000000000000000000D80000D80000000000F800018C00030C0003FC0003000003000001840000F80000000000000000000000000000000000000000000003013E03816303C16302E163027163023963021D3E020F0002073E02030002010000000000000000000000000000000000000000000000000000000000000000F00001880003000003F00003000003000001880000F00000000000000000000000000000000000000000000000000000000000000002200003300001980000CC0001980003300002200000000000000000000000000000000000000000000000000000600000600000000001E00000600000600000600000600000600000600000600000600000600003C00000000000000000000000000000FC0001860003060003000003E00001FC00001E00000600030600030C0001F80000000000000000000000000000000000000000000000000000000000000001F00003080003000003F00001F80000180002180001F00000000000000000000000000000000000000000000003300003300000000000C00000C00000C00000C00000C00000C00000C00000C000000000000000000000000000000000000000000000003800003800006C00006C00006C0000C60000C60000FE0001830001830001830000000000000000000000000000000000000000000003FC0003000003000003000003F800030C00030600030600030600030C0003F80000000000000000000000000000000000000000000003F000031800030C00030C0003180003F800030C00030600030600030C0003F80000000000000000000000000000000000000000000003F800030000030000030000030000030000030000030000030000030000030000000000000000000000000000000000000000000000007F0000630000630000630000630000C30000C30000C30000C30001830003FF8003018003018003018000000000000000000000000003FC0003000003000003000003000003FC0003000003000003000003000003FC0000000000000000000000000000000000000000000001861801C63800C630006660006660007FE000666000C63000C63001861803060C00000000000000000000000000000000000000000001F800030C00030600000600000C0000F800000C00000600030600030C0001F800000000000000000000000000000000000000000000020180020380020780020E80021C8002388002708002E08003C080038080030080000000000000000000008200008200007C00000000020180020380020780020E80021C8002388002708002E08003C080038080030080000000000000000000000000000000000000000000030600030E0003180003180003300003E000033000031800030C0003060003030000000000000000000000000000000000000000000000FF8000C18000C18000C18000C18000C18000C18000C18000C1800181800301800000000000000000000000000000000000000000000300C00381C00381C002C2C002C2C00264C00238C00238C00210C00200C00200C000000000000000000000000000000000000000000003030003030003030003030003030003FF00030300030300030300030300030300000000000000000000000000000000000000000000007C0001C70001830003018003018003018003018003018001830001C700007C0000000000000000000000000000000000000000000003FF0003030003030003030003030003030003030003030003030003030003030000000000000000000000000000000000000000000003F800030C00030600030600030600030C0003F800030000030000030000030000000000000000000000000000000000000000000000007C0001C60001860003000003000003000003000003000001860001C600007C0000000000000000000000000000000000000000000003FC00006000006000006000006000006000006000006000006000006000006000000000000000000000000000000000000000000000030600030600018C00018C0000D80000D80000700000700000300000600001C000000000000000000000000000000000000000000000001800007E0001DB800199800318C00318C00318C001998001DB80007E0000180000000000000000000000000000000000000000000001830001830000C600006C00003800003800003800006C0000C60001830001830000000000000000000000000000000000000000000003030003030003030003030003030003030003030003030003030003030003FF8000018000018000018000000000000000000000000003030003030003030003030003030001830000FF00000300000300000300000300000000000000000000000000000000000000000000030C30030C30030C30030C30030C30030C30030C30030C30030C30030C3003FFF0000000000000000000000000000000000000000000030C30030C30030C30030C30030C30030C30030C30030C30030C30030C3003FFF800001800001800001800000000000000000000000003E000006000006000006000007E00006300006180006180006180006300007E0000000000000000000000000000000000000000000003006003006003006003006003FC6003066003036003036003036003066003FC6000000000000000000000000000000000000000000003000003000003000003000003F800030C00030600030600030600030C0003F80000000000000000000000000000000000000000000001F000031C00030C0000060000060000FE00000600000600030C00031C0001F0000000000000000000000000000000000000000000000303E0030E38030C1803180C03180C03F80C03180C03180C030C18030E380303E0000000000000000000000000000000000000000000007F0000C30001830001830001830000C300007F0000630000C30001830003030000000000000000000000000000000000000000000000000000000000000000F800010C00000C0001FC00030C00030C00030C0001FC0000000000000000000000000000000000000000780000C000018000030000037000039800030C00030C00030C00030C0001980000F00000000000000000000000000000000000000000000000000000000000000003F800030C00030C0003F800030C00030C00030C0003F80000000000000000000000000000000000000000000000000000000000000003F00003000003000003000003000003000003000003000000000000000000000000000000000000000000000000000000000000000000FE0000C60000C60000C60000C60001860001860003FF0003030003030000000000000000000000000000000000000000000000000000F800018C00030C0003FC0003000003000001840000F8000000000000000000000000000000000000000000000000000000000000000318C001998000DB0000FF0000DB000199800199800318C000000000000000000000000000000000000000000000000000000000000001F00002180000180000F00000180000180002180001F000000000000000000000000000000000000000000000000000000000000000020C00021C0002340002640002C40003840003040002040000000000000000000000000000000000000001080001080000F000000000020C00021C0002340002640002C400038400030400020400000000000000000000000000000000000000000000000000000000000000030C0003180003300003E000033000031800031800030C0000000000000000000000000000000000000000000000000000000000000000FE0000C60000C60000C60000C60000C60001860003060000000000000000000000000000000000000000000000000000000000000003030003870003CF00034B00037B00033300030300030300000000000000000000000000000000000000000000000000000000000000030C00030C00030C0003FC00030C00030C00030C00030C0000000000000000000000000000000000000000000000000000000000000000F000019800030C00030C00030C00030C0001980000F00000000000000000000000000000000000000000000000000000000000000003FC00030C00030C00030C00030C00030C00030C00030C00000000000000000000000000000000000000000000000000000000000000037000039800030C00030C00030C00030C0003180003F00003000003000003000000000000000000000000000000000000000000000000F00001880003000003000003000003000001880000F00000000000000000000000000000000000000000000000000000000000000003FC0000600000600000600000600000600000600000600000000000000000000000000000000000000000000000000000000000000001860001860001860000CC0000CC0000780000780000300000300000300000600000000000000000000000180000180000180000180000FF000199800318C00318C00318C00318C001998000FF0000180000180000180000000000000000000000000000000000000000000001860001860000CC0000780000780000CC00018600018600000000000000000000000000000000000000000000000000000000000000030C00030C00030C00030C00030C00030C00030C0003FE00000600000600000000000000000000000000000000000000000000000000030C00030C00030C00030C00030C0001FC00000C00000C000000000000000000000000000000000000000000000000000000000000000318C00318C00318C00318C00318C00318C00318C003FFC00000000000000000000000000000000000000000000000000000000000000318C00318C00318C00318C00318C00318C00318C003FFE000006000006000000000000000000000000000000000000000000000000003C00000C00000C00000FC0000C60000C60000C60000FC000000000000000000000000000000000000000000000000000000000000000300C00300C00300C003F8C0030CC0030CC0030CC003F8C000000000000000000000000000000000000000000000000000000000000003000003000003000003F800030C00030C00030C0003F80000000000000000000000000000000000000000000000000000000000000001E00002300000180001F80000180000180002300001E000000000000000000000000000000000000000000000000000000000000000030780030CC003186003F860031860031860030CC003078000000000000000000000000000000000000000000000000000000000000000FC00018C00018C00018C0000FC0000CC00018C00030C00000000000000000000"/>
+		<fnt name="Tahoma 11" monotype="0" data="101220FF00000000000000000000000000000000000000000000000000000000000000000000000000000000000000008000800080008000800080008000800000008000800000000000000000000000000090009000900090000000000000000000000000000000000000000000000000000000000000000900090012007F80120012002400FF00240048004800000000000000000000000000100010007800940090009000700018001400140094007800100010001000000000000000000070408880888089008900727002880488088808881070000000000000000000000000000038004400440044002900710089008500820083007C800000000000000000000000008000800080008000000000000000000000000000000000000000000000000000000000001000200040004000800080008000800080008000800040004000200010000000000000008000400020002000100010001000100010001000100020002000400080000000000000001000920054003800540092001000000000000000000000000000000000000000000000000000000000000800080008000800FF8008000800080008000000000000000000000000000000000000000000000000000000000000000000400040004000800080000000000000000000000000000000000000000000F0000000000000000000000000000000000000000000000000000000000000000000000000000000000080008000000000000000000000000000040008000800080010001000100020002000200040004000400080000000000000000000000038004400820082008200820082008200820044003800000000000000000000000000000020002000E0002000200020002000200020002000F80000000000000000000000000000007000880004000400040008001000200040008000FC00000000000000000000000000000078008400020002000400380004000200020084007800000000000000000000000000000004000C001400240044008400FE0004000400040004000000000000000000000000000000FE00800080008000F80004000200020002008400780000000000000000000000000000001C00600040008000F8008400820082008200440038000000000000000000000000000000FE00020004000400080008001000100020002000400000000000000000000000000000003800440082008200440038004400820082004400380000000000000000000000000000003800440082008200820042003E00020004000C00700000000000000000000000000000000000000000008000800000000000000000008000800000000000000000000000000000000000000000004000400000000000000000004000400040008000800000000000000000000000010006001800600080006000180006000100000000000000000000000000000000000000000000000000FF0000000000FF0000000000000000000000000000000000000000000000800060001800060001000600180060008000000000000000000000000000000000007800840004000400080010002000200000002000200000000000000000000000000000000F80304040204790889090909090909090904FE0400030000F800000000000000000000018001800240024002400240042007E004200810081000000000000000000000000000000FC00820082008200FC0082008100810081008200FC0000000000000000000000000000001E006100400080008000800080008000400061001E000000000000000000000000000000FC00830081008080808080808080808081008300FC000000000000000000000000000000FE00800080008000FE0080008000800080008000FE000000000000000000000000000000FE00800080008000FE0080008000800080008000800000000000000000000000000000001F006080400080008000878080808080408060801F0000000000000000000000000000008080808080808080FF808080808080808080808080800000000000000000000000000000E000400040004000400040004000400040004000E00000000000000000000000000000007800080008000800080008000800080008000800F00000000000000000000000000000008200840088009000A000E0009000880084008200810000000000000000000000000000008000800080008000800080008000800080008000FC000000000000000000000000000000C060A0A0A0A0912091208A208A20842080208020802000000000000000000000000000008080C080A0809080908088808480828082808180808000000000000000000000000000001E006180408080408040804080408040408061801E000000000000000000000000000000F80084008200820082008400F800800080008000800000000000000000000000000000001E006180408080408040804080408040408061801E000400040003C00000000000000000F80084008400840084008800F000880084008200810000000000000000000000000000003C0042008000800040003800040002000200840078000000000000000000000000000000FF800800080008000800080008000800080008000800000000000000000000000000000080808080808080808080808080808080808041003E00000000000000000000000000000081008100420042004200240024002400180018001800000000000000000000000000000082088508451045104510489028A028A028A0306010400000000000000000000000000000810042004200240018001800180024004200420081000000000000000000000000000000808041002200220014000800080008000800080008000000000000000000000000000000FE00020004000800080010002000200040008000FE00000000000000000000000000F0008000800080008000800080008000800080008000800080008000F000000000000000800080004000400020002000200010001000100008000800080004000000000000000000F0001000100010001000100010001000100010001000100010001000F0000000000000000000080014002200410080800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000FF00000000000000000040004000200000000000000000000000000000000000000000000000000000000000000000000000000000003C00420002003E004200820086007A000000000000000000000000008000800080008000B800C40082008200820082008400F80000000000000000000000000000000000000000003800440080008000800080004400380000000000000000000000000002000200020002003E004200820082008200820046003A000000000000000000000000000000000000000000380044008200FE008000800042003C000000000000000000000000003800400040004000F000400040004000400040004000400000000000000000000000000000000000000000003E004200820082008200820046003A000200440038000000000000008000800080008000BC00C20082008200820082008200820000000000000000000000000000008000000000008000800080008000800080008000800000000000000000000000000000001000000000007000100010001000100010001000100010001000E000000000000000800080008000800088009000A000C000A0009000880084000000000000000000000000008000800080008000800080008000800080008000800080000000000000000000000000000000000000000000B9C0C6208420842084208420842084200000000000000000000000000000000000000000BC00C2008200820082008200820082000000000000000000000000000000000000000000380044008200820082008200440038000000000000000000000000000000000000000000B800C40082008200820082008400F80080008000800000000000000000000000000000003E004200820082008200820046003A000200020002000000000000000000000000000000B000C0008000800080008000800080000000000000000000000000000000000000000000780084008000600018000400840078000000000000000000000000000000000040004000F8004000400040004000400040003800000000000000000000000000000000000000000082008200820082008200820086007A000000000000000000000000000000000000000000820082004400440028002800100010000000000000000000000000000000000000000000888088809480550055006300220022000000000000000000000000000000000000000000820044002800100010002800440082000000000000000000000000000000000000000000820082004400440028002800100010001000200020000000000000000000000000000000FC00040008001000200040008000FC000000000000000000000000001C00200020002000200020002000C0002000200020002000200020001C00000000000000800080008000800080008000800080008000800080008000800080008000000000000000E0001000100010001000100010000C00100010001000100010001000E0000000000000000000000000000000000070808880848083000000000000000000000000000000000000000000FC00840084008400840084008400840084008400FC000000000000000000000000000000FF001000100010001F001080104010401040108017000000000000000800080010000000FE0080008000800080008000800080008000800080000000000000000000000000000000000000000000000000000000000000000000400040004000800000000000000000001000100020000000F8008000800080008000800080008000000000000000000000000000000000000000000000000000000000000000000048004800480090000000000000000000000000000000000000000000000000000000000088808880000000000000000000000000100010001000FE0010001000100010001000100010000000000000000000000000000000100010001000FE00100010001000FE00100010001000000000000000000000000000000000000E00110020004000FE004000FE004000200011000E0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000003F0021002100210021F02108210421042104410881F000000000000000000000000000000000000000001000200040008000400020001000000000000000000000000000000000008200820082008200FFF08208820482048204820883F0000000000000080008001000000086008800880088009000E000900088008400820081000000000000000000000000000000FF001000100010001F0010801040104010401040104000000000000000000000000000008080808080808080808080808080808080808080FF8008000800000000000000000040004000F80040005E006100410041004100410041004100010002001C00000000000000400040004000200000000000000000000000000000000000000000000000000000000000400040004000800000000000000000000000000000000000000000000000000000000000480048004800240000000000000000000000000000000000000000000000000000000000480048004800900000000000000000000000000000000000000000000000000000000000000000000000000000007000F800F800F8007000000000000000000000000000000000000000000000000000000000000000FF0000000000000000000000000000000000000000000000000000000000000000000000FFFC00000000000000000000000000000000000000006800B00000000000000000000000000000000000000000000000000000000000000000000000FA10233022D022D0221000000000000000000000000000000000000000000000000000000000000000003E002200220023C022202220422083C00000000000000000000000000000000000000000800040002000100020004000800000000000000000000000000000000000000000000000840084008400FFC084208420842087C000000000000000000000000010001000200000008C009000A000E000900088008400820000000000000000000000000040004000F80040005E00610041004100410041004100410000000000000000000000000000000000000000008200820082008200820082008200FE00100010000000000000000000000000000000000000000000000000000000000000000000000000000000000021001E0000004080408021002100120012000C000C0004000800300000000000000000000000000044004400380000008200820044004400280028001000100010002000200000000000000000007800080008000800080008000800080008000800F000000000000000000000000000000000000000000082007C004400440044007C00820000000000000000000000020002000200FE0080008000800080008000800080008000800080000000000000000000000000008000800080008000800080000000000000008000800080008000800080000000000000000000780084008000800060009800840084006400180004000400840078000000000024000000FE00800080008000FE0080008000800080008000FE0000000000000000000000000000000F80306040104710888890089008900888884710401030600F80000000000000000000001E00610040008000FE00800080008000400061001E00000000000000000000000000000000000000000012002400480090004800240012000000000000000000000000000000000000000000000000000000FF80008000800080008000000000000000000000000000000000000000000000000000000000F000000000000000000000000000000000000000000000000F80306040104F10888888888F08890888884850401030600F80000000000000A0000000E000400040004000400040004000400040004000E00000000000000000000000000000007800840084008400840078000000000000000000000000000000000000000000000000000800080008000800FF80080008000800FF80000000000000000000000000000000000000E000400040004000400040004000400040004000E0000000000000000000000000000000800000000000800080008000800080008000800080000000000000000000000000000000080008000800F80080008000800080008000800080000000000000000000000000000000000000000000810081008100810081008100C300BD0080008000800000000000000000007E00F200F200F200F200F200720012001200120012001200120012000000000000000000000000000000800080000000000000000000000000000000000000000000000000000000000024000000380044008200FE008000800042003C000000000000000000000000000000811CC122A141A14191418922891C85008500833E81000000000000000000000000000000000000000000380044008000F800800080004400380000000000000000000000000000000000000000009000480024001200240048009000000000000000000000000000000000001000000000007000100010001000100010001000100010001000E00000000000000000003C00420080008000400038000400020002008400780000000000000000000000000000000000000000007800840080006000180004008400780000000000000000000000000000000000A000000040004000400040004000400040004000000000000000000000000000000018001800240024002400240042007E004200810081000000000000000000000000000000FE00800080008000FC0082008100810081008200FC000000000000000000000000000000FC00820082008200FC0082008100810081008200FC000000000000000000000000000000FE00800080008000800080008000800080008000800000000000000000000000000000003F00210021002100210021004100410041004100FF808080808000000000000000000000FE00800080008000FE0080008000800080008000FE000000000000000000000000000000C2182220222012400A800F8012401240222042108208000000000000000000000000000078008400020002000400380004000200020084007800000000000000000000000000000080808180828084808480888090809080A080C0808080000000000000000021001E00000080808180828084808480888090809080A080C0808080000000000000000000000000000086008800880088009000E0009000880084008200810000000000000000000000000000003F8020802080208020802080208020804080408080800000000000000000000000000000C060A0A0A0A0912091208A208A20842080208020802000000000000000000000000000008080808080808080FF8080808080808080808080808000000000000000000000000000001E006180408080408040804080408040408061801E000000000000000000000000000000FF8080808080808080808080808080808080808080800000000000000000000000000000F80084008200820082008400F800800080008000800000000000000000000000000000001E006100400080008000800080008000400061001E000000000000000000000000000000FF80080008000800080008000800080008000800080000000000000000000000000000004080408021002100120012000C000C00040008003000000000000000000000000000000008003E0049008880888088808880888049003E00080000000000000000000000000000008100420042002400180018001800240042004200810000000000000000000000000000008100810081008100810081008100810081008100FF8000800080000000000000000000008080808080808080808040803F80008000800080008000000000000000000000000000008208820882088208820882088208820882088208FFF800000000000000000000000000008208820882088208820882088208820882088208FFFC0004000400000000000000000000F0001000100010001E00110010801080108011001E0000000000000000000000000000008020802080208020FE20812080A080A080A08120FE2000000000000000000000000000008000800080008000FC0082008100810081008200FC00000000000000000000000000000078008600020001007F00010001000100020086007800000000000000000000000000000083C08C3088109008F00890089008900888108C3083C000000000000000000000000000001F00210041004100410021001F00110021004100810000000000000000000000000000000000000000003C00420002003E004200820086007A000000000000000000000000001C00600040008000B800C4008200820082008200440038000000000000000000000000000000000000000000FC0082008200FC00820082008200FC000000000000000000000000000000000000000000F800800080008000800080008000800000000000000000000000000000000000000000003C00240024002400440044004400FE008200820000000000000000000000000000000000380044008200FE008000800042003C000000000000000000000000000000000000000000C460248015001F0024802480444084200000000000000000000000000000000000000000780084000400380004000400840078000000000000000000000000000000000000000000820086008A0092009200A200C20082000000000000000000000000004400440038000000820086008A0092009200A200C200820000000000000000000000000000000000000000008C009000A000E000900088008400820000000000000000000000000000000000000000003E0022002200220022002200420082000000000000000000000000000000000000000000C180C180A280948094808880808080800000000000000000000000000000000000000000820082008200FE0082008200820082000000000000000000000000000000000000000000380044008200820082008200440038000000000000000000000000000000000000000000FE0082008200820082008200820082000000000000000000000000000000000000000000B800C40082008200820082008400F8008000800080000000000000000000000000000000380044008000800080008000440038000000000000000000000000000000000000000000FE00100010001000100010001000100000000000000000000000000000000000000000008200820044004400280028001000100010002000200000000000000004000400040004003F804440842084208420842044403F8004000400040000000000000000000000000000008200440028001000100028004400820000000000000000000000000000000000000000008200820082008200820082008200FF00010001000000000000000000000000000000000084008400840084007C0004000400040000000000000000000000000000000000000000008420842084208420842084208420FFE000000000000000000000000000000000000000008420842084208420842084208420FFF00010001000000000000000000000000000000000E000200020003E002100210021003E000000000000000000000000000000000000000000808080808080FC80828082808280FC800000000000000000000000000000000000000000800080008000FC00820082008200FC0000000000000000000000000000000000000000007000880004007C0004000400880070000000000000000000000000000000000000000000870088809040F040904090408880870000000000000000000000000000000000000000003E004200420042003E00220042008200000000000000"/>
+		<fnt name="Tahoma 11 цифры" monotype="1" data="0A0B2039000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000003E000000000000000000000000000000000000000000000000000000300030003000000000000000000000000000000000000000000000000F8018C0306030603060306030603060306018C00F800C003C000C000C000C000C000C000C000C000C003F001F8030C030600060006000C0018007000C0018003FE01F8030C03060006000C0078000C00060306030C01F8000C001C002C004C008C010C020C03FE000C000C000C01FE01800180018001F8000C000600060306030C01F8007C00C00180030003F8030C030603060306018C00F803FE000C000C00180018003000300060006000C000C000F8018C03060306018C00F8018C03060306018C00F800F8018C030603060306018600FE0006000C001801F0"/>
+		<fnt name="Tahoma буквы 2" monotype="1" data="0D1220FF0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000180018001800180018001800180018000000180018000000000000000000000000001980198019801980000000000000000000000000000000000000000000000000000000000000020802080FFC0FFC041004101FF81FF80820082008200000000000000000000000000100010007E00D30193019000F0001E00130193019600FC0010001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000007800CC00CC00CC007800F3019B018F018600C7007D8000000000000000000000000180018001800180000000000000000000000000000000000000000000000000000000000030006000C000C0018001800180018001800180018000C000C000600030000000000000018000C00060006000300030003000300030003000300060006000C001800000000000000030013200B4007800B4013200300000000000000000000000000000000000000000000000000000001000100010001001FF0010001000100010000000000000000000000000000000000000000000000000000000000000000000E000C000C000C00180018000000000000000000000000000000000000001F0000000000000000000000000000000000000000000000000000000000000000000000000000000000180018001800000000000000000000000000008000800100010001000200020004000400080008000800100010000000000000000000000007C00C6018301830183018301830183018300C6007C0000000000000000000000000000006001E00060006000600060006000600060006001F8000000000000000000000000000000FC01860183000300030006000C0038006000C001FF000000000000000000000000000000FC0186018300030006003C000600030183018600FC00000000000000000000000000000006000E0016002600460086010601FF000600060006000000000000000000000000000000FF00C000C000C000FC0006000300030183018600FC0000000000000000000000000000003E006000C0018001FC018601830183018300C6007C000000000000000000000000000001FF00060006000C000C0018001800300030006000600000000000000000000000000000007C00C60183018300C6007C00C60183018300C6007C0000000000000000000000000000007C00C601830183018300C3007F00030006000C00F8000000000000000000000000000000000000000001800180018000000000018001800180000000000000000000000000000000000000000000C000C000C00000000000E000C000C000C0018001800000000000000000000000000003000C003000C0010000C00030000C0003000000000000000000000000000000000000000001FF00000000000001FF000000000000000000000000000000000000000000000000018000600018000600010006001800600180000000000000000000000000000000F8018C01860006000C0018003000300000003000300000000000000000000000000000001F0060C080208FA1199131913191319119908EE0800060001F00000000000000000000001C001C00360036003600630063007F00C180C180C1800000000000000000000000000001F8018C01860186018C01FC018601830183018601FC0000000000000000000000000000003E00E300C30180018001800180018000C300E3003E000000000000000000000000000001FC01870183018181818181818181818183018701FC000000000000000000000000000001FE018001800180018001FE018001800180018001FE000000000000000000000000000001FE018001800180018001FE018001800180018001800000000000000000000000000000003F00E180C181800180018F8181818180C180E1803F00000000000000000000000000000181818181818181818181FF81818181818181818181800000000000000000000000000001F800600060006000600060006000600060006001F8000000000000000000000000000000FC000C000C000C000C000C000C000C000C001801F0000000000000000000000000000001830186018C019801B001E001B00198018C018601830000000000000000000000000000018001800180018001800180018001800180018001FE0000000000000000000000000000018061C0E1C0E16161616132611C611C6108610061006000000000000000000000000000018041C041E041704138411C410E41074103C101C100C000000000000000000000000000003E00E380C18180C180C180C180C180C0C180E3803E000000000000000000000000000001FC0186018301830183018601FC01800180018001800000000000000000000000000000003E00E380C18180C180C180C180C180C0C180E3803E000C00060003C00000000000000001FC0186018601860186018C01F8018C0186018301818000000000000000000000000000007E00C30183018001F000FE000F00030183018600FC000000000000000000000000000001FE0030003000300030003000300030003000300030000000000000000000000000000001818181818181818181818181818181818180C3007E000000000000000000000000000000C180C180C1806300630063003600360036001C001C000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000C180C180630036001C001C001C0036006300C180C1800000000000000000000000000000C0C0C0C06180618033001E001E000C000C000C000C000000000000000000000000000001FE0006000C0018001800300060006000C0018001FE00000000000000000000000001F0018001800180018001800180018001800180018001800180018001F000000000000001000100008000800080004000400020002000100010001000080008000000000000000001F0003000300030003000300030003000300030003000300030003001F0000000000000000000180024004200810100800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001FF80000000000000000000018000C00000000000000000000000000000000000000000000000000000000000000000000000000000007C0086000600FE01860186018600FE000000000000000000000000018001800180018001B801CC0186018601860186018C01F80000000000000000000000000000000000000000007800C4018001800180018000C400780000000000000000000000000006000600060006007E00C6018601860186018600CE00760000000000000000000000000000000000000000007C00C6018601FE0180018000C2007C000000000000000000000000007800C000C000C001F000C000C000C000C000C000C000C00000000000000000000000000000000000000000007E00C6018601860186018600CE00760006008C0078000000000000018001800180018001BC01C6018601860186018601860186000000000000000000000000000001800180000001800180018001800180018001800180000000000000000000000000000000300030000000F000300030003000300030003000300030003001E00000000000000180018001800180018C019801B001E001B00198018C0186000000000000000000000000018001800180018001800180018001800180018001800180000000000000000000000000000000000000000001B9C1CE618C618C618C618C618C618C600000000000000000000000000000000000000001BC01C60186018601860186018601860000000000000000000000000000000000000000007800CC018601860186018600CC0078000000000000000000000000000000000000000001B801CC0186018601860186018C01F80180018001800000000000000000000000000000007E00C6018601860186018600CE0076000600060006000000000000000000000000000001B801F8018001800180018001800180000000000000000000000000000000000000000000F80184018001F800FC000C010C00F80000000000000000000000000000000000C000C001F000C000C000C000C000C000C000700000000000000000000000000000000000000000018601860186018601860186018E00F6000000000000000000000000000000000000000000C300C300C300660066003C003C00180000000000000000000000000000000000000000018C618C60DEC0DEC0D2C07380738061800000000000000000000000000000000000000000C300C30066003C003C006600C300C3000000000000000000000000000000000000000000C300C300C300660066003C003C0018001800180030000000000000000000000000000001FC000C00180030006000C0018001FC000000000000000000000000001E00300030003000300030006001C0006000300030003000300030001E00000000000001800180018001800180018001800180018001800180018001800180018000000000000001E0003000300030003000300018000E00180030003000300030003001E000000000000000000000000000000000007040F8419CC10F810700000000000000000000000000000000000001FFC1004100410041004100410041004100410041FFC00000000000000000000000000001FE003000300030003F00318030C030C030C0318037000000000000000000180030000001FC0180018001800180018001800180018001800180000000000000000000000000000000000000000000000000000000000000000000E000C000C001800000000000000000000000300060000001F80180018001800180018001800180000000000000000000000000000000000000000000000000000000000000000000EE00CC00CC01980000000000000000000000000000000000000000000000000000018C618C618C60000000000000000000000000300030003001FE0030003000300030003000300030000000000000000000000000000000300030003001FE00300030003001FE00300030003000000000000000000000000000000000001F0031806080C001FE00C001FC00C000608031801F00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000020006000C0018000C00060002000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000C0018000001830187018C018C019801F00198018C018601830181800000000000000000000000000001FE003000300030003F00318030C030C030C030C030C000000000000000000000000000018181818181818181818181818181818181818181FF80180018001800000000000000C001F000C000C000DE00E300C300C300C300C300C300C300030006001C00000000000001C000C000C000600000000000000000000000000000000000000000000000000000000000E000C000C001800000000000000000000000000000000000000000000000000000000001DC00CC00CC00660000000000000000000000000000000000000000000000000000000000EE00CC00CC0198000000000000000000000000000000000000000000000000000000000000000000000000007000F801FC01FC01FC00F80070000000000000000000000000000000000000000000000000000001FF80000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001FFC1004100410041004100410041004100410041FFC00000000000000000000000000001C8408CC08B408B408840000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100018000C0006000C00180010000000000000000000000000000000000000000000000018C018C018C01FFE18C318C318C318FE0000000000000000000000000000018003000000186018C019801F00198018C018C018600000000000000000000000000C001F000C000C000DE00E300C300C300C300C300C300C30000000000000000000000000000000000000000018601860186018601860186018601FE00300030000000000000000000000000000000000000000000000000000000000000000000000000000000820082007C00000183018300C600C6006C006C003800380018003000E000000000000000000000000000420042003C000000C300C300C300660066003C003C0018001800180030000000000000000000FC000C000C000C000C000C000C000C000C001801F0000000000000000000000000000000000000010200B4004800840084004800B4010200000000000000000000000C000C000C01FC01800180018001800180018001800180018001800000000000000000000000000180018001800180018001800000000000000180018001800180018001800000000000000000007C00C20180018000FC00C60183018300C6007E000300030086007C0000006C006C000001FE018001800180018001FE018001800180018001FE0000000000000000000000000000001F0060C080208E21191130113011301119108E20802060C01F00000000000000000000003E00E300C30180018001FC0180018000C300E3003E00000000000000000000000000000000000000000022006600CC019800CC00660022000000000000000000000000000000000000000000000000000001FF0001000100010001000100000000000000000000000000000000000000000000000001F0000000000000000000000000000000000000000000000000001F0060C080209E211B111B111E111B111B1099A0802060C01F0000000001980198000001F800600060006000600060006000600060006001F8000000000000000000000000000000F0010801080108010800F00000000000000000000000000000000000000000000000000000001000100010001001FF001000100010001001FF000000000000000000000000000001F800600060006000600060006000600060006001F80000000000000000000000000000018001800000018001800180018001800180018001800000000000000000000000000000000C000C000C01FC01800180018001800180018001800000000000000000000000000000000000000000018601860186018601860186018E01F60180018001800000000000000000007F00F901F901F901F900F9007900090009000900090009000900090000000000000000000000000000018001800180000000000000000000000000000000000000000000000000006C006C0000007C00C6018601FE0180018000C2007C0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000007800C4018001F80180018000C4007800000000000000000000000000000000000000000110019800CC006600CC019801100000000000000000000000000000000000300030000000F000300030003000300030003000300030003001E00000000000000000007E00C30183018001F000FE000F00030183018600FC000000000000000000000000000000000000000000F80184018001F800FC000C010C00F80000000000000000000000000000019801980000006000600060006000600060006000600000000000000000000000000000001C001C00360036003600630063007F00C180C180C1800000000000000000000000000001FE01800180018001FC0186018301830183018601FC000000000000000000000000000001F8018C01860186018C01FC018601830183018601FC000000000000000000000000000001FC01800180018001800180018001800180018001800000000000000000000000000000003F8031803180318031806180618061806180C181FFC180C180C180C00000000000000001FE018001800180018001FE018001800180018001FE000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000FC0186018300030006007C000600030183018600FC00000000000000000000000000000100C101C103C107410E411C4138417041E041C0418040000000000000410041003E00000100C101C103C107410E411C4138417041E041C04180400000000000000000000000000001830187018C018C019801F00198018C0186018301818000000000000000000000000000007FC060C060C060C060C060C060C060C060C0C0C180C000000000000000000000000000018061C0E1C0E16161616132611C611C61086100610060000000000000000000000000000181818181818181818181FF818181818181818181818000000000000000000000000000003E00E380C18180C180C180C180C180C0C180E3803E000000000000000000000000000001FF8181818181818181818181818181818181818181800000000000000000000000000001FC0186018301830183018601FC01800180018001800000000000000000000000000000003E00E300C30180018001800180018000C300E3003E000000000000000000000000000001FE003000300030003000300030003000300030003000000000000000000000000000000183018300C600C6006C006C003800380018003000E00000000000000000000000000000000C003F00EDC0CCC18C618C618C60CCC0EDC03F000C000000000000000000000000000000C180C180630036001C001C001C0036006300C180C18000000000000000000000000000018181818181818181818181818181818181818181FFC000C000C000C0000000000000000181818181818181818180C1807F8001800180018001800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001F0003000300030003F00318030C030C030C031803F0000000000000000000000000000018031803180318031FE31833181B181B181B18331FE3000000000000000000000000000018001800180018001FC0186018301830183018601FC000000000000000000000000000000F8018E018600030003007F000300030186018E00F80000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000003F806180C180C180C18061803F8031806180C181818000000000000000000000000000000000000000007C0086000600FE01860186018600FE000000000000000000000000003C006000C0018001B801CC018601860186018600CC0078000000000000000000000000000000000000000001FC0186018601FC01860186018601FC000000000000000000000000000000000000000001F801800180018001800180018001800000000000000000000000000000000000000000007F006300630063006300C300C301FF8181818180000000000000000000000000000000007C00C6018601FE0180018000C2007C0000000000000000000000000000000000000000018C60CCC06D807F806D80CCC0CCC18C600000000000000000000000000000000000000000F8010C000C0078000C000C010C00F800000000000000000000000000000000000000000106010E011A0132016201C20182010200000000000000000000000000840084007800000106010E011A0132016201C20182010200000000000000000000000000000000000000000186018C019801F00198018C018C01860000000000000000000000000000000000000000007F0063006300630063006300C301830000000000000000000000000000000000000000018181C381E781A581BD819981818181800000000000000000000000000000000000000001860186018601FE01860186018601860000000000000000000000000000000000000000007800CC018601860186018600CC0078000000000000000000000000000000000000000001FE0186018601860186018601860186000000000000000000000000000000000000000001B801CC0186018601860186018C01F80180018001800000000000000000000000000000007800C4018001800180018000C40078000000000000000000000000000000000000000001FE0030003000300030003000300030000000000000000000000000000000000000000000C300C300C300660066003C003C0018001800180030000000000000000C000C000C000C007F80CCC18C618C618C618C60CCC07F800C000C000C000000000000000000000000000000C300C30066003C003C006600C300C30000000000000000000000000000000000000000018601860186018601860186018601FF00030003000000000000000000000000000000000186018601860186018600FE000600060000000000000000000000000000000000000000018C618C618C618C618C618C618C61FFE000000000000000000000000000000000000000018C618C618C618C618C618C618C61FFF00030003000000000000000000000000000000001E000600060007E006300630063007E000000000000000000000000000000000000000001806180618061FC61866186618661FC600000000000000000000000000000000000000001800180018001FC01860186018601FC000000000000000000000000000000000000000000F00118000C00FC000C000C011800F000000000000000000000000000000000000000000183C186618C31FC318C318C31866183C000000000000000000000000000000000000000007E00C600C600C6007E006600C601860000000000000"/>
+	</fonts>
+</program>
