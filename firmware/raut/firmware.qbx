@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="windows-1251"?>
-<program version="400" editor="1632" descr="" guid="{9E5AB9F7-C9CC-4A5E-B839-734F2A5ED1B0}" uid="1" width="800" height="600" archiveacc="1234" save_debug="1">
+<program version="400" editor="1632" descr="" guid="{27EC6BC1-0A0B-4198-B2A1-BAB37F978341}" uid="1" width="800" height="600" archiveacc="1234" save_debug="1">
 	<arch_setting arch_mode="1" alarms_mode="1" commands_mode="1" setpoints_mode="1"/>
 	<emails>
 		<abonent name="Абонент 1" adress=" "/>
@@ -483,7 +483,7 @@
 					<call func="MODBUSTCPSLAVE3_init" at="INIT"/>
 					<call func="MODBUSTCPSLAVE3_close" at="CLOSE"/>
 					<call func="MODBUSTCPSLAVE3_onload" at="ONLOAD"/>
-					<custom ip="192.168.0.228" mask="255.255.255.0" gate="192.168.0.1" omit="0"/>
+					<custom ip="192.168.1.152" mask="255.255.255.0" gate="192.168.1.1" omit="0"/>
 				</params>
 			</block>
 			<complex uid="207" x="120" y="34" w="100" h="89" type="Составной блок" i_type="Составной блок" name="Temperature Processor_1" descr="" hint="" head="28">
@@ -541,12 +541,12 @@
 						<seg uid="252" x="135" y="60" w="0" h="36"/>
 						<seg uid="253" x="135" y="96" w="66" h="0"/>
 					</link>
-					<link uid="162" x="301" y="70" w="77" h="16" src="152" sink="136">
+					<link uid="162" x="301" y="76" w="77" h="4" src="152" sink="136">
 						<seg uid="163" x="301" y="76" w="55" h="0"/>
 						<seg uid="164" x="356" y="76" w="0" h="4"/>
 						<seg uid="165" x="356" y="80" w="22" h="0"/>
 					</link>
-					<link uid="172" x="478" y="74" w="71" h="16" src="138" sink="167">
+					<link uid="172" x="478" y="80" w="71" h="4" src="138" sink="167">
 						<seg uid="173" x="478" y="80" w="28" h="0"/>
 						<seg uid="174" x="506" y="80" w="0" h="4"/>
 						<seg uid="175" x="506" y="84" w="43" h="0"/>
@@ -618,12 +618,12 @@
 						<seg uid="294" x="135" y="60" w="0" h="36"/>
 						<seg uid="295" x="135" y="96" w="66" h="0"/>
 					</link>
-					<link uid="300" x="301" y="70" w="77" h="16" src="277" sink="271">
+					<link uid="300" x="301" y="76" w="77" h="4" src="277" sink="271">
 						<seg uid="301" x="301" y="76" w="55" h="0"/>
 						<seg uid="302" x="356" y="76" w="0" h="4"/>
 						<seg uid="303" x="356" y="80" w="22" h="0"/>
 					</link>
-					<link uid="304" x="478" y="74" w="77" h="26" src="273" sink="279">
+					<link uid="304" x="478" y="80" w="77" h="14" src="273" sink="279">
 						<seg uid="305" x="478" y="80" w="28" h="0"/>
 						<seg uid="306" x="506" y="80" w="0" h="14"/>
 						<seg uid="307" x="506" y="94" w="49" h="0"/>
@@ -749,108 +749,108 @@
 					</block>
 					<complex_out uid="479" x="1224" y="120" w="59" h="20" name="SetTemp" type="FLOAT" bold="-1" digits="0" has_enum="0" enum="" kind="0" cval="0" group="" place="" mname="" min="0" max="0" def="0" hide="0" pin="478"/>
 					<complex_out uid="485" x="1224" y="155" w="59" h="20" name="ValvePos" type="BOOL" bold="-1" digits="0" has_enum="0" enum="" kind="0" cval="0" group="" place="" mname="" min="0" max="0" def="0" hide="0" pin="484"/>
-					<link uid="404" x="60" y="157" w="513" h="14" src="379" sink="146">
+					<link uid="404" x="60" y="163" w="513" h="2" src="379" sink="146">
 						<seg uid="405" x="60" y="165" w="242" h="0"/>
 						<seg uid="406" x="302" y="163" w="0" h="2"/>
 						<seg uid="407" x="302" y="163" w="271" h="0"/>
 					</link>
-					<link uid="460" x="929" y="117" w="84" h="118" src="330" sink="458">
+					<link uid="460" x="959" y="123" w="24" h="106" src="330" sink="458">
 						<seg uid="461" x="983" y="123" w="10" h="0"/>
 						<seg uid="462" x="993" y="123" w="0" h="139"/>
 						<seg uid="463" x="613" y="262" w="380" h="0"/>
 						<seg uid="464" x="613" y="229" w="0" h="33"/>
 						<seg uid="465" x="613" y="229" w="346" h="0"/>
 					</link>
-					<link uid="331" x="673" y="117" w="210" h="12" src="148" sink="327">
+					<link uid="331" x="673" y="123" w="210" h="0" src="148" sink="327">
 						<seg uid="332" x="673" y="123" w="73" h="0"/>
 						<seg uid="333" x="746" y="123" w="0" h="0"/>
 						<seg uid="334" x="746" y="123" w="137" h="0"/>
 					</link>
-					<link uid="357" x="135" y="137" w="296" h="136" src="157" sink="170">
+					<link uid="357" x="165" y="143" w="236" h="124" src="157" sink="170">
 						<seg uid="358" x="401" y="143" w="12" h="0"/>
 						<seg uid="359" x="413" y="143" w="0" h="20"/>
 						<seg uid="360" x="263" y="163" w="150" h="0"/>
 						<seg uid="361" x="263" y="163" w="0" h="104"/>
 						<seg uid="362" x="165" y="267" w="98" h="0"/>
 					</link>
-					<link uid="480" x="523" y="124" w="701" h="146" src="142" sink="479">
+					<link uid="480" x="523" y="130" w="701" h="134" src="142" sink="479">
 						<seg uid="481" x="523" y="264" w="350" h="0"/>
 						<seg uid="482" x="873" y="130" w="0" h="134"/>
 						<seg uid="483" x="873" y="130" w="351" h="0"/>
 					</link>
-					<link uid="440" x="401" y="89" w="823" h="60" src="157" sink="439">
+					<link uid="440" x="401" y="95" w="823" h="48" src="157" sink="439">
 						<seg uid="441" x="401" y="143" w="348" h="0"/>
 						<seg uid="442" x="749" y="95" w="0" h="48"/>
 						<seg uid="443" x="749" y="95" w="475" h="0"/>
 					</link>
-					<link uid="388" x="60" y="157" w="823" h="49" src="381" sink="329">
+					<link uid="388" x="60" y="163" w="823" h="37" src="381" sink="329">
 						<seg uid="389" x="60" y="200" w="373" h="0"/>
 						<seg uid="390" x="433" y="163" w="0" h="37"/>
 						<seg uid="391" x="433" y="163" w="450" h="0"/>
 					</link>
-					<link uid="396" x="60" y="54" w="241" h="115" src="373" sink="155">
+					<link uid="396" x="60" y="60" w="241" h="103" src="373" sink="155">
 						<seg uid="397" x="60" y="60" w="120" h="0"/>
 						<seg uid="398" x="180" y="60" w="0" h="103"/>
 						<seg uid="399" x="180" y="163" w="121" h="0"/>
 					</link>
-					<link uid="400" x="60" y="19" w="513" h="110" src="371" sink="144">
+					<link uid="400" x="60" y="25" w="513" h="98" src="371" sink="144">
 						<seg uid="401" x="60" y="25" w="242" h="0"/>
 						<seg uid="402" x="302" y="25" w="0" h="98"/>
 						<seg uid="403" x="302" y="123" w="271" h="0"/>
 					</link>
-					<link uid="351" x="523" y="137" w="50" h="133" src="142" sink="145">
+					<link uid="351" x="523" y="143" w="50" h="121" src="142" sink="145">
 						<seg uid="352" x="523" y="264" w="37" h="0"/>
 						<seg uid="353" x="560" y="203" w="0" h="61"/>
 						<seg uid="354" x="452" y="203" w="108" h="0"/>
 						<seg uid="355" x="452" y="143" w="0" h="60"/>
 						<seg uid="356" x="452" y="143" w="121" h="0"/>
 					</link>
-					<link uid="412" x="60" y="124" w="363" h="166" src="377" sink="141">
+					<link uid="412" x="60" y="130" w="363" h="154" src="377" sink="141">
 						<seg uid="413" x="60" y="130" w="161" h="0"/>
 						<seg uid="414" x="221" y="130" w="0" h="154"/>
 						<seg uid="415" x="221" y="284" w="202" h="0"/>
 					</link>
-					<link uid="335" x="673" y="117" w="38" h="112" src="148" sink="324">
+					<link uid="335" x="673" y="123" w="38" h="100" src="148" sink="324">
 						<seg uid="336" x="673" y="123" w="2" h="0"/>
 						<seg uid="337" x="675" y="123" w="0" h="100"/>
 						<seg uid="338" x="675" y="223" w="36" h="0"/>
 					</link>
-					<link uid="339" x="811" y="137" w="72" h="92" src="325" sink="328">
+					<link uid="339" x="811" y="143" w="72" h="80" src="325" sink="328">
 						<seg uid="340" x="811" y="223" w="16" h="0"/>
 						<seg uid="341" x="827" y="143" w="0" h="80"/>
 						<seg uid="342" x="827" y="143" w="56" h="0"/>
 					</link>
-					<link uid="466" x="1041" y="144" w="48" h="91" src="459" sink="454">
+					<link uid="466" x="1059" y="150" w="12" h="79" src="459" sink="454">
 						<seg uid="467" x="1059" y="229" w="28" h="0"/>
 						<seg uid="468" x="1087" y="150" w="0" h="79"/>
 						<seg uid="469" x="1071" y="150" w="16" h="0"/>
 					</link>
-					<link uid="470" x="1171" y="54" w="53" h="102" src="456" sink="449">
+					<link uid="470" x="1171" y="60" w="53" h="90" src="456" sink="449">
 						<seg uid="471" x="1171" y="150" w="38" h="0"/>
 						<seg uid="472" x="1209" y="60" w="0" h="90"/>
 						<seg uid="473" x="1209" y="60" w="15" h="0"/>
 					</link>
-					<link uid="384" x="983" y="19" w="241" h="110" src="330" sink="383">
+					<link uid="384" x="983" y="25" w="241" h="98" src="330" sink="383">
 						<seg uid="385" x="983" y="123" w="19" h="0"/>
 						<seg uid="386" x="1002" y="25" w="0" h="98"/>
 						<seg uid="387" x="1002" y="25" w="222" h="0"/>
 					</link>
-					<link uid="392" x="60" y="89" w="241" h="100" src="375" sink="156">
+					<link uid="392" x="60" y="95" w="241" h="88" src="375" sink="156">
 						<seg uid="393" x="60" y="95" w="120" h="0"/>
 						<seg uid="394" x="180" y="95" w="0" h="88"/>
 						<seg uid="395" x="180" y="183" w="121" h="0"/>
 					</link>
-					<link uid="408" x="60" y="159" w="513" h="30" src="379" sink="147">
+					<link uid="408" x="60" y="165" w="513" h="18" src="379" sink="147">
 						<seg uid="409" x="60" y="165" w="242" h="0"/>
 						<seg uid="410" x="302" y="165" w="0" h="18"/>
 						<seg uid="411" x="302" y="183" w="271" h="0"/>
 					</link>
-					<link uid="347" x="265" y="258" w="158" h="15" src="171" sink="140">
+					<link uid="347" x="265" y="264" w="158" h="3" src="171" sink="140">
 						<seg uid="348" x="265" y="267" w="146" h="0"/>
 						<seg uid="349" x="411" y="264" w="0" h="3"/>
 						<seg uid="350" x="411" y="264" w="12" h="0"/>
 					</link>
-					<link uid="506" x="811" y="159" w="413" h="70" src="325" sink="485">
+					<link uid="506" x="811" y="165" w="413" h="58" src="325" sink="485">
 						<seg uid="507" x="811" y="223" w="206" h="0"/>
 						<seg uid="508" x="1017" y="165" w="0" h="58"/>
 						<seg uid="509" x="1017" y="165" w="207" h="0"/>
