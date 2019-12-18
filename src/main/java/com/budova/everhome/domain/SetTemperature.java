@@ -8,7 +8,7 @@ import java.time.LocalDateTime;
 @Table(indexes = {
         @Index(name = "idx_parameter_id_time", columnList = "parameter_id,time")
 })
-public class Temperature {
+public class SetTemperature {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
@@ -17,16 +17,16 @@ public class Temperature {
     private LocalDateTime time;
     private Float value;
 
-    public Temperature() { }
+    public SetTemperature() { }
 
-    public Temperature(Long id, Parameter param, LocalDateTime time, Float value) {
+    public SetTemperature(Long id, Parameter param, LocalDateTime time, Float value) {
         this.id = id;
         this.param = param;
         this.time = time;
         this.value = value;
     }
 
-    public Temperature(Parameter param, LocalDateTime time, Float value) {
+    public SetTemperature(Parameter param, LocalDateTime time, Float value) {
         this.param = param;
         this.time = time;
         this.value = value;
@@ -64,17 +64,17 @@ public class Temperature {
         this.value = value;
     }
 
-    public static boolean isModuled(Temperature v1, Temperature v2, float module, int seconds) {
+    public static boolean isModuled(SetTemperature v1, SetTemperature v2, float module, int seconds) {
         return Math.abs(v1.value - v2.value) > module || Duration.between(v1.time, v2.time).getSeconds() > seconds;
     }
 
-    public static boolean isModuled(Temperature v1, Temperature v2) {
+    public static boolean isModuled(SetTemperature v1, SetTemperature v2) {
         return isModuled(v1, v2, 0.5F, 300);
     }
 
     @Override
     public String toString() {
-        return "Temperature{" +
+        return "SetTemperature{" +
                 "id=" + id +
                 ", param=" + param +
                 ", time=" + time +

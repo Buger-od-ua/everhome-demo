@@ -3,6 +3,7 @@
 <head>
     <title>Everhome</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" href="/css/main.css">
     <script src="/webjars/sockjs-client/1.0.2/sockjs.min.js"></script>
     <script src="/webjars/stomp-websocket/2.3.3/stomp.min.js"></script>
     <script src="/webjars/jquery/3.1.0/jquery.min.js"></script>
@@ -16,6 +17,15 @@
         Please enable Javascript and reload this page!
     </h2>
 </noscript>
-<p id="temperature">{{temperature}}</p>
+
+<p id="temperature1">{{temperature1}}</p>
+<p id="temperature2">{{temperature2}}</p>
+<div class="row">
+    <p id="set_temperature">{{set_temperature}}</p>
+    <button id="inc">+</button>
+    <button id="dec">-</button>
+</div>
+<p id="valve">{{valve}}</p>
+
 </body>
 </html>
