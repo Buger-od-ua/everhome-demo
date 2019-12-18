@@ -36,4 +36,12 @@ public class SetTemperatureDto {
     public void setValue(Float value) {
         this.value = value;
     }
+
+    @Override
+    public String toString() {
+        return "SetTemperatureDto{" +
+                "time=" + time +
+                ", value=" + value +
+                '}';
+    }
 }

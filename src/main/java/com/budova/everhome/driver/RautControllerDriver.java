@@ -15,6 +15,8 @@ import com.intelligt.modbus.jlibmodbus.master.ModbusMaster;
 import com.intelligt.modbus.jlibmodbus.master.ModbusMasterFactory;
 import com.intelligt.modbus.jlibmodbus.tcp.TcpParameters;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.messaging.handler.annotation.MessageMapping;
+import org.springframework.messaging.handler.annotation.SendTo;
 import org.springframework.messaging.simp.SimpMessagingTemplate;
 import org.springframework.scheduling.annotation.EnableScheduling;
 import org.springframework.scheduling.annotation.Scheduled;
@@ -57,7 +59,7 @@ public class RautControllerDriver {
         master.setResponseTimeout(3000);
     }
 
-    @Scheduled(fixedDelay = 1000L)
+    @Scheduled(fixedDelay = 10000L)
     public void poll() {
         try {
             if (!master.isConnected()) {
@@ -106,4 +108,25 @@ public class RautControllerDriver {
         }
     }
 
+    @MessageMapping("/setTemperature/inc")
+    @SendTo("/topic/set_temperature")
+    public SetTemperatureDto incSetTemperature(SetTemperatureDto stDto) throws Exception {
+        stDto.setTime(LocalDateTime.now());
+        stDto.setValue(stDto.getValue() + 1.0F);
+        master.writeSingleRegister(1, 2, (int) stDto.getValue().floatValue() * 10);
+        SetTemperature st = new SetTemperature(Parameter.SET_TEMPERATURE, LocalDateTime.now(), stDto.getValue());
+        setTemperatureRepo.save(st);
+        return stDto;
+    }
+
+    @MessageMapping("/setTemperature/dec")
+    @SendTo("/topic/set_temperature")
+    public SetTemperatureDto decSetTemperature(SetTemperatureDto stDto) throws Exception {
+        stDto.setTime(LocalDateTime.now());
+        stDto.setValue(stDto.getValue() - 1.0F);
+        master.writeSingleRegister(1, 2, (int) stDto.getValue().floatValue() * 10);
+        SetTemperature st = new SetTemperature(Parameter.SET_TEMPERATURE, stDto.getTime(), stDto.getValue());
+        setTemperatureRepo.save(st);
+        return stDto;
+    }
 }

@@ -23,6 +23,7 @@ public class HomeController {
     private ValvePosRepo valvePosRepo;
     @Autowired
     private SetTemperatureRepo setTemperatureRepo;
+
     @GetMapping("/home")
     public String home(Model model) {
         Temperature t1 = tempRepo.findFirstByParamIsOrderByTimeDesc(Parameter.TEMPERATURE_S1);

@@ -27,20 +27,36 @@ function connect() {
 }
 
 function updateTemperature1(value) {
-    $("#temperature1").val(value);
+    $("#temperature1").text(value);
 }
 function updateTemperature2(value) {
-    $("#temperature2").val(value);
+    $("#temperature2").text(value);
 }
 function updateSetTemperature(value) {
-    $("#set_temperature").val(value);
+    $("#set_temperature").text(value);
 }
 function updateValve(value) {
-    $("#valve").val(value);
+    $("#valve").text(value);
+}
+
+function setTemperature(value, dir) {
+    stompClient.send("/app/setTemperature/" + dir, {},
+        JSON.stringify(
+            {
+                value: parseFloat($("#set_temperature").text())
+            }
+        )
+    );
 }
 
 $(function () {
-    $(document).ready(() =>{
+    $(document).ready(() => {
         connect();
+    });
+    $("#inc").click(() => {
+        setTemperature($("#set_temperature").val(), "inc");
+    });
+    $("#dec").click(() => {
+        setTemperature($("#set_temperature").val(), "dec");
     });
 });
