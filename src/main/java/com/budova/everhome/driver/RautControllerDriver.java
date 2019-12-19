@@ -1,9 +1,6 @@
 package com.budova.everhome.driver;
 
-import com.budova.everhome.domain.Parameter;
-import com.budova.everhome.domain.SetTemperature;
-import com.budova.everhome.domain.Temperature;
-import com.budova.everhome.domain.ValvePos;
+import com.budova.everhome.domain.*;
 import com.budova.everhome.dto.SetTemperatureDto;
 import com.budova.everhome.dto.TemperatureDto;
 import com.budova.everhome.dto.ValvePosDto;
@@ -11,6 +8,9 @@ import com.budova.everhome.repos.SetTemperatureRepo;
 import com.budova.everhome.repos.TemperatureRepo;
 import com.budova.everhome.repos.ValvePosRepo;
 import com.intelligt.modbus.jlibmodbus.Modbus;
+import com.intelligt.modbus.jlibmodbus.exception.ModbusIOException;
+import com.intelligt.modbus.jlibmodbus.exception.ModbusNumberException;
+import com.intelligt.modbus.jlibmodbus.exception.ModbusProtocolException;
 import com.intelligt.modbus.jlibmodbus.master.ModbusMaster;
 import com.intelligt.modbus.jlibmodbus.master.ModbusMasterFactory;
 import com.intelligt.modbus.jlibmodbus.tcp.TcpParameters;
@@ -40,7 +40,7 @@ public class RautControllerDriver {
     @Autowired
     private SimpMessagingTemplate template;
 
-    private final static String CONTROLLER_IP = "192.168.0.228";
+    private final static String CONTROLLER_IP = "192.168.1.152";
 
     private final TcpParameters tcpParameters;
     private final ModbusMaster master;
@@ -59,7 +59,7 @@ public class RautControllerDriver {
         master.setResponseTimeout(3000);
     }
 
-    @Scheduled(fixedDelay = 10000L)
+    @Scheduled(fixedDelay = 1000L)
     public void poll() {
         try {
             if (!master.isConnected()) {
@@ -103,7 +103,7 @@ public class RautControllerDriver {
             if (prevV == null || ValvePos.isModuled(v, prevV)) {
                 valvePosRepo.save(v);
             }
-        } catch (Exception e) {
+        } catch (ModbusProtocolException | ModbusNumberException | ModbusIOException e) {
             e.printStackTrace();
         }
     }

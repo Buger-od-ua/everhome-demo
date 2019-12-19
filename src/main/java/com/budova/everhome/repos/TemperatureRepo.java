@@ -6,6 +6,6 @@ import org.springframework.data.repository.CrudRepository;
 
 public interface TemperatureRepo extends CrudRepository<Temperature, Long> {
 
-    public Temperature findFirstByParamIsOrderByTimeDesc(Parameter param);
+    Temperature findFirstByParamIsOrderByTimeDesc(Parameter param);
 
 }

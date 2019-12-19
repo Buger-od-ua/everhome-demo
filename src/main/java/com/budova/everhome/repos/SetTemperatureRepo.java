@@ -6,6 +6,6 @@ import org.springframework.data.repository.CrudRepository;
 
 public interface SetTemperatureRepo extends CrudRepository<SetTemperature, Long> {
 
-    public SetTemperature findFirstByParamIsOrderByTimeDesc(Parameter param);
+    SetTemperature findFirstByParamIsOrderByTimeDesc(Parameter param);
 
 }
