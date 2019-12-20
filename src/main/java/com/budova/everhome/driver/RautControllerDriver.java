@@ -1,9 +1,11 @@
 package com.budova.everhome.driver;
 
 import com.budova.everhome.domain.*;
+import com.budova.everhome.dto.ConnectionDto;
 import com.budova.everhome.dto.SetTemperatureDto;
 import com.budova.everhome.dto.TemperatureDto;
 import com.budova.everhome.dto.ValvePosDto;
+import com.budova.everhome.repos.ConnectionRepo;
 import com.budova.everhome.repos.SetTemperatureRepo;
 import com.budova.everhome.repos.TemperatureRepo;
 import com.budova.everhome.repos.ValvePosRepo;
@@ -36,6 +38,8 @@ public class RautControllerDriver {
     private ValvePosRepo valvePosRepo;
     @Autowired
     private SetTemperatureRepo setTemperatureRepo;
+    @Autowired
+    private ConnectionRepo connectionRepo;
 
     @Autowired
     private SimpMessagingTemplate template;
@@ -56,17 +60,27 @@ public class RautControllerDriver {
         }
         Modbus.setAutoIncrementTransactionId(true);
         master = ModbusMasterFactory.createModbusMasterTCP(tcpParameters);
-        master.setResponseTimeout(3000);
+        master.setResponseTimeout(1000);
     }
 
-    @Scheduled(fixedDelay = 1000L)
+    @Scheduled(fixedDelay = 100L)
     public void poll() {
+        LocalDateTime now = LocalDateTime.now();
         try {
+
             if (!master.isConnected()) {
                 master.connect();
             }
+
             int[] regs = master.readHoldingRegisters(1, 0, 4);
-            LocalDateTime now = LocalDateTime.now();
+
+            Connection c = new Connection(Parameter.RAUT_CONNECTION, now, true);
+            ConnectionDto cDto = new ConnectionDto(c);
+            template.convertAndSend("/topic/connection", cDto);
+            Connection prevC = connectionRepo.findFirstByParamIsOrderByTimeDesc(Parameter.RAUT_CONNECTION);
+            if(prevC == null || Connection.isModuled(prevC, c)) {
+                connectionRepo.save(c);
+            }
 
             float t1Val = (float) regs[0] / 10;
             Temperature t1 = new Temperature(Parameter.TEMPERATURE_S1, now, t1Val);
@@ -104,8 +118,14 @@ public class RautControllerDriver {
                 valvePosRepo.save(v);
             }
         } catch (ModbusProtocolException | ModbusNumberException | ModbusIOException e) {
-            e.printStackTrace();
-        }
+            Connection c = new Connection(Parameter.RAUT_CONNECTION, now, false);
+            ConnectionDto cDto = new ConnectionDto(c);
+            template.convertAndSend("/topic/connection", cDto);
+            Connection prevC = connectionRepo.findFirstByParamIsOrderByTimeDesc(Parameter.RAUT_CONNECTION);
+            if(prevC == null || Connection.isModuled(prevC, c)) {
+                connectionRepo.save(c);
+            }
+            System.err.println(e);        }
     }
 
     @MessageMapping("/setTemperature/inc")

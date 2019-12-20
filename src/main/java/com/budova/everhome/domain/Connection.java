@@ -32,6 +32,14 @@ public class Connection {
         this.value = value;
     }
 
+    public void setValue(Boolean value) {
+        this.value = value;
+    }
+
+    public static boolean isModuled(Connection v1, Connection v2) {
+        return v1.value != v2.value;
+    }
+
     public Long getId() {
         return id;
     }
@@ -58,14 +66,6 @@ public class Connection {
 
     public Boolean getValue() {
         return value;
-    }
-
-    public void setValue(Boolean value) {
-        this.value = value;
-    }
-
-    public static boolean isModuled(Connection v1, Connection v2) {
-        return v1.value != v2.value;
     }
 
     @Override
