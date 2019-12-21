@@ -1,0 +1,46 @@
+version: '3.7'
+
+services:
+  db:
+    container_name: db
+    image: mysql:8.0.18
+    environment:
+      MYSQL_DATABASE: everhome
+      MYSQL_USER: everhome_spring
+      MYSQL_PASSWORD: everhome_spring
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_ROOT_HOST: '%'
+    ports:
+      - "33306:3306"
+    expose:
+      - "3306"
+    restart: always
+    volumes:
+      - db-data:/var/lib/mysql
+    networks:
+      - backend
+
+  everhome:
+    container_name: everhome
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+    expose:
+      - "8080"
+    environment:
+      SPRING_DATASOURCE_URL=jdbc:mysql://db:3306/everhome?serverTimezone=Europe/Kiev:
+    restart: always
+    command: mvn clean spring-boot:run
+    depends_on:
+      - db
+    networks:
+      - backend
+
+volumes:
+  db-data:
+
+networks:
+  backend:
+    driver: bridge

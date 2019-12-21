@@ -44,7 +44,7 @@ public class RautControllerDriver {
     @Autowired
     private SimpMessagingTemplate template;
 
-    private final static String CONTROLLER_IP = "192.168.1.152";
+    private final static String CONTROLLER_IP = "192.168.1.151";
 
     private final TcpParameters tcpParameters;
     private final ModbusMaster master;
