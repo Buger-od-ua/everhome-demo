@@ -6,6 +6,6 @@ import org.springframework.data.repository.CrudRepository;
 
 public interface ValvePosRepo extends CrudRepository<ValvePos, Long> {
 
-    public ValvePos findFirstByParamIsOrderByTimeDesc(Parameter param);
+    ValvePos findFirstByParamIsOrderByTimeDesc(Parameter param);
 
 }

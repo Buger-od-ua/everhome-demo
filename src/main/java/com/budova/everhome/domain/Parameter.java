@@ -9,7 +9,8 @@ public enum Parameter {
     TEMPERATURE_S1(1),
     TEMPERATURE_S2(2),
     SET_TEMPERATURE(3),
-    VALVE_POSITION(4);
+    VALVE_POSITION(4),
+    RAUT_CONNECTION(5);
 
     private Integer id;
     private String name;

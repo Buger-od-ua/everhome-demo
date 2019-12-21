@@ -23,6 +23,10 @@ function connect() {
             var valve = JSON.parse(v.body);
             updateValve(valve.value);
         });
+        stompClient.subscribe('/topic/connection', v => {
+            var valve = JSON.parse(v.body);
+            updateConnection(valve.value);
+        });
     });
 }
 
@@ -38,6 +42,10 @@ function updateSetTemperature(value) {
 function updateValve(value) {
     $("#valve").text(value);
 }
+function updateConnection(value) {
+    $("#connection").text(value);
+}
+
 
 function setTemperature(value, dir) {
     stompClient.send("/app/setTemperature/" + dir, {},

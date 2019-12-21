@@ -1,16 +1,18 @@
 package com.budova.everhome.driver;
 
-import com.budova.everhome.domain.Parameter;
-import com.budova.everhome.domain.SetTemperature;
-import com.budova.everhome.domain.Temperature;
-import com.budova.everhome.domain.ValvePos;
+import com.budova.everhome.domain.*;
+import com.budova.everhome.dto.ConnectionDto;
 import com.budova.everhome.dto.SetTemperatureDto;
 import com.budova.everhome.dto.TemperatureDto;
 import com.budova.everhome.dto.ValvePosDto;
+import com.budova.everhome.repos.ConnectionRepo;
 import com.budova.everhome.repos.SetTemperatureRepo;
 import com.budova.everhome.repos.TemperatureRepo;
 import com.budova.everhome.repos.ValvePosRepo;
 import com.intelligt.modbus.jlibmodbus.Modbus;
+import com.intelligt.modbus.jlibmodbus.exception.ModbusIOException;
+import com.intelligt.modbus.jlibmodbus.exception.ModbusNumberException;
+import com.intelligt.modbus.jlibmodbus.exception.ModbusProtocolException;
 import com.intelligt.modbus.jlibmodbus.master.ModbusMaster;
 import com.intelligt.modbus.jlibmodbus.master.ModbusMasterFactory;
 import com.intelligt.modbus.jlibmodbus.tcp.TcpParameters;
@@ -36,11 +38,13 @@ public class RautControllerDriver {
     private ValvePosRepo valvePosRepo;
     @Autowired
     private SetTemperatureRepo setTemperatureRepo;
+    @Autowired
+    private ConnectionRepo connectionRepo;
 
     @Autowired
     private SimpMessagingTemplate template;
 
-    private final static String CONTROLLER_IP = "192.168.0.228";
+    private final static String CONTROLLER_IP = "192.168.1.152";
 
     private final TcpParameters tcpParameters;
     private final ModbusMaster master;
@@ -56,17 +60,27 @@ public class RautControllerDriver {
         }
         Modbus.setAutoIncrementTransactionId(true);
         master = ModbusMasterFactory.createModbusMasterTCP(tcpParameters);
-        master.setResponseTimeout(3000);
+        master.setResponseTimeout(1000);
     }
 
-    @Scheduled(fixedDelay = 10000L)
+    @Scheduled(fixedDelay = 100L)
     public void poll() {
+        LocalDateTime now = LocalDateTime.now();
         try {
+
             if (!master.isConnected()) {
                 master.connect();
             }
+
             int[] regs = master.readHoldingRegisters(1, 0, 4);
-            LocalDateTime now = LocalDateTime.now();
+
+            Connection c = new Connection(Parameter.RAUT_CONNECTION, now, true);
+            ConnectionDto cDto = new ConnectionDto(c);
+            template.convertAndSend("/topic/connection", cDto);
+            Connection prevC = connectionRepo.findFirstByParamIsOrderByTimeDesc(Parameter.RAUT_CONNECTION);
+            if(prevC == null || Connection.isModuled(prevC, c)) {
+                connectionRepo.save(c);
+            }
 
             float t1Val = (float) regs[0] / 10;
             Temperature t1 = new Temperature(Parameter.TEMPERATURE_S1, now, t1Val);
@@ -103,9 +117,15 @@ public class RautControllerDriver {
             if (prevV == null || ValvePos.isModuled(v, prevV)) {
                 valvePosRepo.save(v);
             }
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
+        } catch (ModbusProtocolException | ModbusNumberException | ModbusIOException e) {
+            Connection c = new Connection(Parameter.RAUT_CONNECTION, now, false);
+            ConnectionDto cDto = new ConnectionDto(c);
+            template.convertAndSend("/topic/connection", cDto);
+            Connection prevC = connectionRepo.findFirstByParamIsOrderByTimeDesc(Parameter.RAUT_CONNECTION);
+            if(prevC == null || Connection.isModuled(prevC, c)) {
+                connectionRepo.save(c);
+            }
+            System.err.println(e);        }
     }
 
     @MessageMapping("/setTemperature/inc")
