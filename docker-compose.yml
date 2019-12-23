@@ -22,6 +22,7 @@ services:
 
   everhome:
     container_name: everhome
+    image: everhome
     build:
       context: .
       dockerfile: Dockerfile
@@ -33,6 +34,8 @@ services:
       SPRING_DATASOURCE_URL=jdbc:mysql://db:3306/everhome?serverTimezone=Europe/Kiev:
     restart: always
     command: mvn clean spring-boot:run
+    links:
+      - db
     depends_on:
       - db
     networks:
