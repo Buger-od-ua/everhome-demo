@@ -1,9 +1,9 @@
-version: '3.7'
+version: '3.3'
 
 services:
-  db:
-    container_name: db
-    image: mysql:8.0.18
+  mysql:
+    container_name: mysql
+    image: mysql/mysql-server
     environment:
       MYSQL_DATABASE: everhome
       MYSQL_USER: everhome_spring
@@ -16,9 +16,15 @@ services:
       - "3306"
     restart: always
     volumes:
-      - db-data:/var/lib/mysql
+      - mysql-data:/var/lib/mysql
     networks:
       - backend
+    healthcheck:
+      test: "/usr/bin/mysql --user=everhome_spring --password=everhome_spring --execute \"SHOW SCHEMAS;\""
+      interval: 2s
+      timeout: 20s
+      retries: 10
+
 
   everhome:
     container_name: everhome
@@ -31,18 +37,18 @@ services:
     expose:
       - "8080"
     environment:
-      SPRING_DATASOURCE_URL=jdbc:mysql://db:3306/everhome?serverTimezone=Europe/Kiev:
+      SPRING_DATASOURCE_URL=jdbc:mysql://mysql:3306/everhome?serverTimezone=Europe/Kiev:
     restart: always
     command: mvn clean spring-boot:run
     links:
-      - db
+      - mysql
     depends_on:
-      - db
+      - mysql
     networks:
       - backend
 
 volumes:
-  db-data:
+  mysql-data:
 
 networks:
   backend:
