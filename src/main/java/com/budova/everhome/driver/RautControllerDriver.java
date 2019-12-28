@@ -63,7 +63,7 @@ public class RautControllerDriver {
         master.setResponseTimeout(1000);
     }
 
-    @Scheduled(fixedDelay = 100L)
+    @Scheduled(fixedDelay = 1000L)
     public void poll() {
         LocalDateTime now = LocalDateTime.now();
         try {
