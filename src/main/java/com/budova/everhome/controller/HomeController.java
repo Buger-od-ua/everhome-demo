@@ -6,13 +6,13 @@ import com.budova.everhome.repos.SetTemperatureRepo;
 import com.budova.everhome.repos.TemperatureRepo;
 import com.budova.everhome.repos.ValvePosRepo;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.scheduling.annotation.EnableScheduling;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 
+import java.util.List;
+
 @Controller
-@EnableScheduling
 public class HomeController {
 
     @Autowired
@@ -36,6 +36,12 @@ public class HomeController {
         model.addAttribute("set_temperature", st != null ? st.getValue() : "null");
         model.addAttribute("valve", v != null ? v.getValue() : "null");
         model.addAttribute("connection", c != null ? c.getValue() : "null");
+        List<Temperature> temps = tempRepo.findTop10ByParamIsOrderByTimeDesc(Parameter.TEMPERATURE_S1);
+        StringBuilder sb = new StringBuilder();
+        for (Temperature t : temps) {
+            sb.append(t.toString());
+        }
+        model.addAttribute("temperature3", sb.toString());
         return "home";
     }
 

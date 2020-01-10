@@ -68,3 +68,35 @@ $(function () {
         setTemperature($("#set_temperature").val(), "dec");
     });
 });
+
+$.getScript("https://www.gstatic.com/charts/loader.js", function(){
+    google.charts.load('current', {'packages':['corechart']});
+    google.charts.setOnLoadCallback(drawChart);
+    function drawChart() {
+        var request = new XMLHttpRequest();
+        request.open('GET', '/api/temperature/day', true);
+        request.onload = function() {
+            var data = new google.visualization.DataTable();
+            var rows = [];
+            data.addColumn('datetime', 'Time');
+            data.addColumn('number', 'Value');
+            var record = JSON.parse(this.response)
+            record.forEach(v => {
+                console.log(v);
+                rows.push([new Date(v.time+'Z'), v.value]);
+            });
+            data.addRows(rows);
+            var options = {
+              title: 'Temperature',
+              curveType: 'function',
+              legend: { position: 'bottom' }
+            };
+            var chart = new google.visualization.LineChart(document.getElementById('chart'));
+            chart.draw(data, options);
+            console.log(JSON.stringify(rows));
+            console.log(rows);
+            console.log(data);
+        }
+        request.send();
+    }
+});
